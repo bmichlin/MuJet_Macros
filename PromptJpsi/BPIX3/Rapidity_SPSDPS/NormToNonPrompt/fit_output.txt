@@ -1,0 +1,108 @@
+   ------------------------------------------------------------
+  | Welcome to ROOT 6.02/05                http://root.cern.ch |
+  |                               (c) 1995-2014, The ROOT Team |
+  | Built for linuxx8664gcc                                    |
+  | From tag , 9 February 2015                                 |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
+   ------------------------------------------------------------
+
+
+Processing bam_fitdY.C...
+ **********
+ **    1 **SET PRINT           0
+ **********
+ **********
+ **    2 **SET NOGRAD
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 frac0        5.00000e-01  1.00000e-02     no limits
+     2 frac1        5.00000e-01  1.00000e-02    0.00000e+00  1.00000e+00
+ **********
+ **    3 **SET ERR         0.5
+ **********
+ **********
+ **    4 **SET PRINT           0
+ **********
+ **********
+ **    5 **SET STR           1
+ **********
+ **********
+ **    6 **MIGRAD        1220        0.01
+ **********
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+ FCN=2.03319 FROM MIGRAD    STATUS=CONVERGED      61 CALLS          62 TOTAL
+                     EDM=5.20762e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  frac0        1.06419e+00   5.12365e-01   5.79013e-04  -1.40842e-03
+   2  frac1        1.01774e-12   5.97944e-02   5.42170e-04** at limit **
+                               ERR DEF= 0.5
+Warning in <TFractionFitter::FindPrediction>: Did not find solution for t_i in 100000 iterations
+fit status: 0
+Info in <TCanvas::Print>: png file Rapidity_fit.png has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: Rapidity_fit.C has been generated
+Info in <TCanvas::Print>: pdf file Rapidity_fit.pdf has been created

@@ -1,0 +1,596 @@
+   ------------------------------------------------------------
+  | Welcome to ROOT 6.02/05                http://root.cern.ch |
+  |                               (c) 1995-2014, The ROOT Team |
+  | Built for linuxx8664gcc                                    |
+  | From tag , 9 February 2015                                 |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
+   ------------------------------------------------------------
+
+
+Processing PerEvent.C+...
+Info in <TUnixSystem::ACLiC>: creating shared library /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/AddScaleFactors/StartingAgain/./PerEvent_C.so
+In file included from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/AddScaleFactors/StartingAgain/./PerEvent.C:34:0,
+                 from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/AddScaleFactors/StartingAgain/PerEvent_C_ACLiC_dict.cxx:41:
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/LatexHelpers.h: In function 'void printFileNames(const std::vector<std::vector<std::basic_string<char> > >&)':
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/LatexHelpers.h:118:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < vec.size(); i++){
+                     ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/LatexHelpers.h:119:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int j = 0; j < vec[i].size(); j++){
+                       ^
+Begin adding SF branches
+Vector initialized
+Text file read
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_000_E
+ Events          149500
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       48209   reff 0.322468
+ 2GenMu8                        47173   reff  0.97851
+ 3GenMu8                        31463   reff  0.666971
+ 4GenMu8                        21140   reff  0.6719
+ 4GenMu8 Lxy/Lz                 21140   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       47954  reff  0.320763
+ 2RecMu8                        46238  reff  0.964216
+ 3RecMu8                        30821  reff  0.666573
+ 4RecMu8                        19208  reff  0.623211
+ ================ EVENT variables ================= 
+ Events with VtxOK              19208    reff  1
+ Events with 2 muonjets         18729     reff  0.975062
+ Events with 2 Dimuons          18725    reff  0.999786
+ Events with 2DimVtxOK          18633    reff  0.995087
+ Events with 2DimHitPix         18606     reff  0.998551
+ Events with 2DimDzOK           18589   reff   0.999086
+ Events with 2DimMassOK         18547  reff   0.997741
+ Events with 2DimIsoOK          14942   reff   0.805629
+
+ Events with 2DimHLT            14455   reff   0.967407
+ ratio reco/gen                 0.683775 +/-  0.00319818
+ 2DimHLT Events SF (nominal)    13974.8   reff   0.935267
+ ratio reco/gen with SF to reco 0.661057 +/-  0.00325559
+ 2DimHLT Events SF Low          13974.8   reff   0.935267
+ ratio reco/gen with SFLow      0.661057 +/-  0.00325559
+ 2DimHLT Events SF High         13974.8   reff   0.935267
+ ratio reco/gen with SFHigh     0.661057 +/-  0.00325559
+
+Number of Event Difference abs(2DimHLT - 2DimHLT_SF): 480.246
+Percent difference (diff/2DimHLT * 100)             : 3.32235
+
+Difference in ratio abs(ratio-ratio_SF)             : 0.0227174
+Percent difference in ratio (diff/ratio)*100        : 3.32235
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_100_E
+ Events          148750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       48032   reff 0.322904
+ 2GenMu8                        46959   reff  0.977661
+ 3GenMu8                        31251   reff  0.665495
+ 4GenMu8                        20870   reff  0.667819
+ 4GenMu8 Lxy/Lz                 4235   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       44082  reff  0.29635
+ 2RecMu8                        40118  reff  0.910077
+ 3RecMu8                        24800  reff  0.618176
+ 4RecMu8                        12019  reff  0.484637
+ ================ EVENT variables ================= 
+ Events with VtxOK              12019    reff  1
+ Events with 2 muonjets         9303     reff  0.774024
+ Events with 2 Dimuons          9300    reff  0.999678
+ Events with 2DimVtxOK          9215    reff  0.99086
+ Events with 2DimHitPix         3683     reff  0.399674
+ Events with 2DimDzOK           3623   reff   0.983709
+ Events with 2DimMassOK         3611  reff   0.996688
+ Events with 2DimIsoOK          2912   reff   0.806425
+
+ Events with 2DimHLT            2742   reff   0.941621
+ ratio reco/gen                 0.647462 +/-  0.00734148
+ 2DimHLT Events SF (nominal)    2646.29   reff   0.908752
+ ratio reco/gen with SF to reco 0.624861 +/-  0.0074398
+ 2DimHLT Events SF Low          2646.29   reff   0.908752
+ ratio reco/gen with SFLow      0.624861 +/-  0.0074398
+ 2DimHLT Events SF High         2646.29   reff   0.908752
+ ratio reco/gen with SFHigh     0.624861 +/-  0.0074398
+
+Number of Event Difference abs(2DimHLT - 2DimHLT_SF): 95.7144
+Percent difference (diff/2DimHLT * 100)             : 3.49068
+
+Difference in ratio abs(ratio-ratio_SF)             : 0.0226008
+Percent difference in ratio (diff/ratio)*100        : 3.49068
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_500_E
+ Events          144250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       46554   reff 0.322731
+ 2GenMu8                        45550   reff  0.978434
+ 3GenMu8                        30403   reff  0.667464
+ 4GenMu8                        20414   reff  0.671447
+ 4GenMu8 Lxy/Lz                 246   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       23384  reff  0.162107
+ 2RecMu8                        18092  reff  0.773691
+ 3RecMu8                        6912  reff  0.382047
+ 4RecMu8                        2331  reff  0.33724
+ ================ EVENT variables ================= 
+ Events with VtxOK              2331    reff  1
+ Events with 2 muonjets         1507     reff  0.646504
+ Events with 2 Dimuons          1507    reff  1
+ Events with 2DimVtxOK          1500    reff  0.995355
+ Events with 2DimHitPix         235     reff  0.156667
+ Events with 2DimDzOK           219   reff   0.931915
+ Events with 2DimMassOK         216  reff   0.986301
+ Events with 2DimIsoOK          176   reff   0.814815
+
+ Events with 2DimHLT            165   reff   0.9375
+ ratio reco/gen                 0.670732 +/-  0.0299628
+ 2DimHLT Events SF (nominal)    158.794   reff   0.902238
+ ratio reco/gen with SF to reco 0.645504 +/-  0.0304991
+ 2DimHLT Events SF Low          158.794   reff   0.902238
+ ratio reco/gen with SFLow      0.645504 +/-  0.0304991
+ 2DimHLT Events SF High         158.794   reff   0.902238
+ ratio reco/gen with SFHigh     0.645504 +/-  0.0304991
+
+Number of Event Difference abs(2DimHLT - 2DimHLT_SF): 6.20604
+Percent difference (diff/2DimHLT * 100)             : 3.76124
+
+Difference in ratio abs(ratio-ratio_SF)             : 0.0252278
+Percent difference in ratio (diff/ratio)*100        : 3.76124
+Error in <TFile::cd>: Unknown directory cutFlowAnalyzerPXBL3PXFL2
+Error in <TFile::cd>: Unknown directory cutFlowAnalyzerPXBL3PXFL2
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_5000_
+ Events          1262000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       405817   reff 0.321567
+ 2GenMu8                        396899   reff  0.978025
+ 3GenMu8                        264804   reff  0.667182
+ 4GenMu8                        177878   reff  0.671735
+ 4GenMu8 Lxy/Lz                 23   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       34504  reff  0.0273407
+ 2RecMu8                        18762  reff  0.543763
+ 3RecMu8                        1641  reff  0.087464
+ 4RecMu8                        362  reff  0.220597
+ ================ EVENT variables ================= 
+ Events with VtxOK              362    reff  1
+ Events with 2 muonjets         214     reff  0.59116
+ Events with 2 Dimuons          214    reff  1
+ Events with 2DimVtxOK          213    reff  0.995327
+ Events with 2DimHitPix         24     reff  0.112676
+ Events with 2DimDzOK           24   reff   1
+ Events with 2DimMassOK         24  reff   1
+ Events with 2DimIsoOK          17   reff   0.708333
+
+ Events with 2DimHLT            14   reff   0.823529
+ ratio reco/gen                 0.608696 +/-  0.101764
+ 2DimHLT Events SF (nominal)    13.4561   reff   0.791535
+ ratio reco/gen with SF to reco 0.585047 +/-  0.102738
+ 2DimHLT Events SF Low          13.4561   reff   0.791535
+ ratio reco/gen with SFLow      0.585047 +/-  0.102738
+ 2DimHLT Events SF High         13.4561   reff   0.791535
+ ratio reco/gen with SFHigh     0.585047 +/-  0.102738
+
+Number of Event Difference abs(2DimHLT - 2DimHLT_SF): 0.543912
+Percent difference (diff/2DimHLT * 100)             : 3.88509
+
+Difference in ratio abs(ratio-ratio_SF)             : 0.0236483
+Percent difference in ratio (diff/ratio)*100        : 3.88509
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_10000
+ Events          1360000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       437708   reff 0.321844
+ 2GenMu8                        428099   reff  0.978047
+ 3GenMu8                        286109   reff  0.668324
+ 4GenMu8                        192551   reff  0.672999
+ 4GenMu8 Lxy/Lz                 7   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       20906  reff  0.0153721
+ 2RecMu8                        10381  reff  0.496556
+ 3RecMu8                        518  reff  0.0498989
+ 4RecMu8                        105  reff  0.202703
+ ================ EVENT variables ================= 
+ Events with VtxOK              105    reff  1
+ Events with 2 muonjets         56     reff  0.533333
+ Events with 2 Dimuons          56    reff  1
+ Events with 2DimVtxOK          56    reff  1
+ Events with 2DimHitPix         7     reff  0.125
+ Events with 2DimDzOK           7   reff   1
+ Events with 2DimMassOK         7  reff   1
+ Events with 2DimIsoOK          5   reff   0.714286
+
+ Events with 2DimHLT            5   reff   1
+ ratio reco/gen                 0.714286 +/-  0.170747
+ 2DimHLT Events SF (nominal)    4.8313   reff   0.966259
+ ratio reco/gen with SF to reco 0.690185 +/-  0.174777
+ 2DimHLT Events SF Low          4.8313   reff   0.966259
+ ratio reco/gen with SFLow      0.690185 +/-  0.174777
+ 2DimHLT Events SF High         4.8313   reff   0.966259
+ ratio reco/gen with SFHigh     0.690185 +/-  0.174777
+
+Number of Event Difference abs(2DimHLT - 2DimHLT_SF): 0.168705
+Percent difference (diff/2DimHLT * 100)             : 3.3741
+
+Difference in ratio abs(ratio-ratio_SF)             : 0.0241007
+Percent difference in ratio (diff/ratio)*100        : 3.3741
+
+ Sample: DarkSUSY_mH_125_mGammaD_2000_cT_000_1
+ Events          76800
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       27361   reff 0.356263
+ 2GenMu8                        24810   reff  0.906765
+ 3GenMu8                        16569   reff  0.667836
+ 4GenMu8                        6699   reff  0.404309
+ 4GenMu8 Lxy/Lz                 6699   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       27343  reff  0.356029
+ 2RecMu8                        24725  reff  0.904253
+ 3RecMu8                        16432  reff  0.66459
+ 4RecMu8                        6609  reff  0.402203
+ ================ EVENT variables ================= 
+ Events with VtxOK              6609    reff  1
+ Events with 2 muonjets         6061     reff  0.917083
+ Events with 2 Dimuons          6060    reff  0.999835
+ Events with 2DimVtxOK          6060    reff  1
+ Events with 2DimHitPix         6060     reff  1
+ Events with 2DimDzOK           6059   reff   0.999835
+ Events with 2DimMassOK         5907  reff   0.974913
+ Events with 2DimIsoOK          4734   reff   0.801422
+
+ Events with 2DimHLT            4637   reff   0.97951
+ ratio reco/gen                 0.692193 +/-  0.00563959
+ 2DimHLT Events SF (nominal)    4489.46   reff   0.948344
+ ratio reco/gen with SF to reco 0.670169 +/-  0.00574424
+ 2DimHLT Events SF Low          4489.46   reff   0.948344
+ ratio reco/gen with SFLow      0.670169 +/-  0.00574424
+ 2DimHLT Events SF High         4489.46   reff   0.948344
+ ratio reco/gen with SFHigh     0.670169 +/-  0.00574424
+
+Number of Event Difference abs(2DimHLT - 2DimHLT_SF): 147.538
+Percent difference (diff/2DimHLT * 100)             : 3.18176
+
+Difference in ratio abs(ratio-ratio_SF)             : 0.0220239
+Percent difference in ratio (diff/ratio)*100        : 3.18176
+
+ Sample: DarkSUSY_mH_125_mGammaD_2000_cT_050_1
+ Events          78400
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       28127   reff 0.358763
+ 2GenMu8                        25514   reff  0.9071
+ 3GenMu8                        17101   reff  0.670259
+ 4GenMu8                        6972   reff  0.407695
+ 4GenMu8 Lxy/Lz                 6903   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       28079  reff  0.358151
+ 2RecMu8                        25364  reff  0.903309
+ 3RecMu8                        16861  reff  0.664761
+ 4RecMu8                        6774  reff  0.401756
+ ================ EVENT variables ================= 
+ Events with VtxOK              6774    reff  1
+ Events with 2 muonjets         6187     reff  0.913345
+ Events with 2 Dimuons          6185    reff  0.999677
+ Events with 2DimVtxOK          6185    reff  1
+ Events with 2DimHitPix         6151     reff  0.994503
+ Events with 2DimDzOK           6150   reff   0.999837
+ Events with 2DimMassOK         5990  reff   0.973984
+ Events with 2DimIsoOK          4800   reff   0.801336
+
+ Events with 2DimHLT            4686   reff   0.97625
+ ratio reco/gen                 0.678835 +/-  0.00561988
+ 2DimHLT Events SF (nominal)    4537.09   reff   0.945228
+ ratio reco/gen with SF to reco 0.657264 +/-  0.00571256
+ 2DimHLT Events SF Low          4537.09   reff   0.945228
+ ratio reco/gen with SFLow      0.657264 +/-  0.00571256
+ 2DimHLT Events SF High         4537.09   reff   0.945228
+ ratio reco/gen with SFHigh     0.657264 +/-  0.00571256
+
+Number of Event Difference abs(2DimHLT - 2DimHLT_SF): 148.907
+Percent difference (diff/2DimHLT * 100)             : 3.17769
+
+Difference in ratio abs(ratio-ratio_SF)             : 0.0215713
+Percent difference in ratio (diff/ratio)*100        : 3.17769
+
+ Sample: DarkSUSY_mH_125_mGammaD_2000_cT_100_1
+ Events          78400
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       28302   reff 0.360995
+ 2GenMu8                        25697   reff  0.907957
+ 3GenMu8                        17189   reff  0.668911
+ 4GenMu8                        6924   reff  0.402816
+ 4GenMu8 Lxy/Lz                 6512   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       28195  reff  0.35963
+ 2RecMu8                        25417  reff  0.901472
+ 3RecMu8                        16815  reff  0.661565
+ 4RecMu8                        6591  reff  0.391971
+ ================ EVENT variables ================= 
+ Events with VtxOK              6591    reff  1
+ Events with 2 muonjets         6034     reff  0.915491
+ Events with 2 Dimuons          6033    reff  0.999834
+ Events with 2DimVtxOK          6033    reff  1
+ Events with 2DimHitPix         5781     reff  0.95823
+ Events with 2DimDzOK           5774   reff   0.998789
+ Events with 2DimMassOK         5634  reff   0.975753
+ Events with 2DimIsoOK          4542   reff   0.806177
+
+ Events with 2DimHLT            4412   reff   0.971378
+ ratio reco/gen                 0.677518 +/-  0.00579236
+ 2DimHLT Events SF (nominal)    4269.88   reff   0.940089
+ ratio reco/gen with SF to reco 0.655695 +/-  0.00588797
+ 2DimHLT Events SF Low          4269.88   reff   0.940089
+ ratio reco/gen with SFLow      0.655695 +/-  0.00588797
+ 2DimHLT Events SF High         4269.88   reff   0.940089
+ ratio reco/gen with SFHigh     0.655695 +/-  0.00588797
+
+Number of Event Difference abs(2DimHLT - 2DimHLT_SF): 142.116
+Percent difference (diff/2DimHLT * 100)             : 3.22113
+
+Difference in ratio abs(ratio-ratio_SF)             : 0.0218237
+Percent difference in ratio (diff/ratio)*100        : 3.22113
+
+ Sample: DarkSUSY_mH_125_mGammaD_2000_cT_500_1
+ Events          78400
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       28245   reff 0.360268
+ 2GenMu8                        25658   reff  0.908409
+ 3GenMu8                        17116   reff  0.667082
+ 4GenMu8                        6984   reff  0.408039
+ 4GenMu8 Lxy/Lz                 2392   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       27425  reff  0.349809
+ 2RecMu8                        24186  reff  0.881896
+ 3RecMu8                        15198  reff  0.62838
+ 4RecMu8                        5336  reff  0.351099
+ ================ EVENT variables ================= 
+ Events with VtxOK              5336    reff  1
+ Events with 2 muonjets         4604     reff  0.862819
+ Events with 2 Dimuons          4599    reff  0.998914
+ Events with 2DimVtxOK          4598    reff  0.999783
+ Events with 2DimHitPix         2126     reff  0.462375
+ Events with 2DimDzOK           2103   reff   0.989182
+ Events with 2DimMassOK         2050  reff   0.974798
+ Events with 2DimIsoOK          1654   reff   0.806829
+
+ Events with 2DimHLT            1589   reff   0.960701
+ ratio reco/gen                 0.664298 +/-  0.00965557
+ 2DimHLT Events SF (nominal)    1536.18   reff   0.928766
+ ratio reco/gen with SF to reco 0.642216 +/-  0.009801
+ 2DimHLT Events SF Low          1536.18   reff   0.928766
+ ratio reco/gen with SFLow      0.642216 +/-  0.009801
+ 2DimHLT Events SF High         1536.18   reff   0.928766
+ ratio reco/gen with SFHigh     0.642216 +/-  0.009801
+
+Number of Event Difference abs(2DimHLT - 2DimHLT_SF): 52.8203
+Percent difference (diff/2DimHLT * 100)             : 3.32412
+
+Difference in ratio abs(ratio-ratio_SF)             : 0.0220821
+Percent difference in ratio (diff/ratio)*100        : 3.32412
+
+ Sample: DarkSUSY_mH_125_mGammaD_2000_cT_2000_
+ Events          438250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       156792   reff 0.357768
+ 2GenMu8                        142739   reff  0.910372
+ 3GenMu8                        95793   reff  0.671106
+ 4GenMu8                        39157   reff  0.408767
+ 4GenMu8 Lxy/Lz                 1691   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       117093  reff  0.267183
+ 2RecMu8                        91489  reff  0.781336
+ 3RecMu8                        44867  reff  0.490409
+ 4RecMu8                        12290  reff  0.273921
+ ================ EVENT variables ================= 
+ Events with VtxOK              12290    reff  1
+ Events with 2 muonjets         9490     reff  0.772172
+ Events with 2 Dimuons          9489    reff  0.999895
+ Events with 2DimVtxOK          9485    reff  0.999578
+ Events with 2DimHitPix         1639     reff  0.172799
+ Events with 2DimDzOK           1581   reff   0.964613
+ Events with 2DimMassOK         1526  reff   0.965212
+ Events with 2DimIsoOK          1223   reff   0.801442
+
+ Events with 2DimHLT            1165   reff   0.952576
+ ratio reco/gen                 0.688941 +/-  0.0112575
+ 2DimHLT Events SF (nominal)    1124.27   reff   0.919274
+ ratio reco/gen with SF to reco 0.664856 +/-  0.0114791
+ 2DimHLT Events SF Low          1124.27   reff   0.919274
+ ratio reco/gen with SFLow      0.664856 +/-  0.0114791
+ 2DimHLT Events SF High         1124.27   reff   0.919274
+ ratio reco/gen with SFHigh     0.664856 +/-  0.0114791
+
+Number of Event Difference abs(2DimHLT - 2DimHLT_SF): 40.7277
+Percent difference (diff/2DimHLT * 100)             : 3.49594
+
+Difference in ratio abs(ratio-ratio_SF)             : 0.024085
+Percent difference in ratio (diff/ratio)*100        : 3.49594
+
+ Sample: DarkSUSY_mH_125_mGammaD_2000_cT_10000
+ Events          1063000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       357466   reff 0.33628
+ 2GenMu8                        324634   reff  0.908154
+ 3GenMu8                        217670   reff  0.670509
+ 4GenMu8                        88318   reff  0.405743
+ 4GenMu8 Lxy/Lz                 174   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       101878  reff  0.0958401
+ 2RecMu8                        56612  reff  0.555684
+ 3RecMu8                        13446  reff  0.237511
+ 4RecMu8                        2665  reff  0.1982
+ ================ EVENT variables ================= 
+ Events with VtxOK              2665    reff  1
+ Events with 2 muonjets         1853     reff  0.69531
+ Events with 2 Dimuons          1852    reff  0.99946
+ Events with 2DimVtxOK          1846    reff  0.99676
+ Events with 2DimHitPix         194     reff  0.105092
+ Events with 2DimDzOK           180   reff   0.927835
+ Events with 2DimMassOK         173  reff   0.961111
+ Events with 2DimIsoOK          141   reff   0.815029
+
+ Events with 2DimHLT            131   reff   0.929078
+ ratio reco/gen                 0.752874 +/-  0.0326999
+ 2DimHLT Events SF (nominal)    126.359   reff   0.896165
+ ratio reco/gen with SF to reco 0.726202 +/-  0.0338041
+ 2DimHLT Events SF Low          126.359   reff   0.896165
+ ratio reco/gen with SFLow      0.726202 +/-  0.0338041
+ 2DimHLT Events SF High         126.359   reff   0.896165
+ ratio reco/gen with SFHigh     0.726202 +/-  0.0338041
+
+Number of Event Difference abs(2DimHLT - 2DimHLT_SF): 4.64077
+Percent difference (diff/2DimHLT * 100)             : 3.54257
+
+Difference in ratio abs(ratio-ratio_SF)             : 0.0266711
+Percent difference in ratio (diff/ratio)*100        : 3.54257
+
+ Sample: DarkSUSY_mH_125_mGammaD_8500_cT_000_E
+ Events          77080
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       42749   reff 0.554606
+ 2GenMu8                        40913   reff  0.957052
+ 3GenMu8                        34007   reff  0.831203
+ 4GenMu8                        15672   reff  0.460846
+ 4GenMu8 Lxy/Lz                 15672   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       42723  reff  0.554268
+ 2RecMu8                        40858  reff  0.956347
+ 3RecMu8                        33828  reff  0.827941
+ 4RecMu8                        15586  reff  0.460743
+ ================ EVENT variables ================= 
+ Events with VtxOK              15586    reff  1
+ Events with 2 muonjets         14383     reff  0.922815
+ Events with 2 Dimuons          14375    reff  0.999444
+ Events with 2DimVtxOK          14375    reff  1
+ Events with 2DimHitPix         14374     reff  0.99993
+ Events with 2DimDzOK           14373   reff   0.99993
+ Events with 2DimMassOK         13438  reff   0.934947
+ Events with 2DimIsoOK          10762   reff   0.800863
+
+ Events with 2DimHLT            10660   reff   0.990522
+ ratio reco/gen                 0.680194 +/-  0.00372561
+ 2DimHLT Events SF (nominal)    10378.3   reff   0.964342
+ ratio reco/gen with SF to reco 0.662216 +/-  0.00377796
+ 2DimHLT Events SF Low          10378.3   reff   0.964342
+ ratio reco/gen with SFLow      0.662216 +/-  0.00377796
+ 2DimHLT Events SF High         10378.3   reff   0.964342
+ ratio reco/gen with SFHigh     0.662216 +/-  0.00377796
+
+Number of Event Difference abs(2DimHLT - 2DimHLT_SF): 281.747
+Percent difference (diff/2DimHLT * 100)             : 2.64303
+
+Difference in ratio abs(ratio-ratio_SF)             : 0.0179777
+Percent difference in ratio (diff/ratio)*100        : 2.64303
+
+ Sample: DarkSUSY_mH_125_mGammaD_8500_cT_050_1
+ Events          79200
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       44028   reff 0.555909
+ 2GenMu8                        42182   reff  0.958072
+ 3GenMu8                        35065   reff  0.831279
+ 4GenMu8                        16162   reff  0.460915
+ 4GenMu8 Lxy/Lz                 16155   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       43995  reff  0.555492
+ 2RecMu8                        42129  reff  0.957586
+ 3RecMu8                        34873  reff  0.827767
+ 4RecMu8                        15943  reff  0.457173
+ ================ EVENT variables ================= 
+ Events with VtxOK              15943    reff  1
+ Events with 2 muonjets         14711     reff  0.922725
+ Events with 2 Dimuons          14704    reff  0.999524
+ Events with 2DimVtxOK          14704    reff  1
+ Events with 2DimHitPix         14700     reff  0.999728
+ Events with 2DimDzOK           14691   reff   0.999388
+ Events with 2DimMassOK         13750  reff   0.935947
+ Events with 2DimIsoOK          10994   reff   0.799564
+
+ Events with 2DimHLT            10898   reff   0.991268
+ ratio reco/gen                 0.67459 +/-  0.00368623
+ 2DimHLT Events SF (nominal)    10609.1   reff   0.964993
+ ratio reco/gen with SF to reco 0.656709 +/-  0.00373563
+ 2DimHLT Events SF Low          10609.1   reff   0.964993
+ ratio reco/gen with SFLow      0.656709 +/-  0.00373563
+ 2DimHLT Events SF High         10609.1   reff   0.964993
+ ratio reco/gen with SFHigh     0.656709 +/-  0.00373563
+
+Number of Event Difference abs(2DimHLT - 2DimHLT_SF): 288.862
+Percent difference (diff/2DimHLT * 100)             : 2.6506
+
+Difference in ratio abs(ratio-ratio_SF)             : 0.0178807
+Percent difference in ratio (diff/ratio)*100        : 2.6506
+
+ Sample: DarkSUSY_mH_125_mGammaD_8500_cT_100_1
+ Events          79200
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       43971   reff 0.555189
+ 2GenMu8                        42112   reff  0.957722
+ 3GenMu8                        34922   reff  0.829265
+ 4GenMu8                        16018   reff  0.458679
+ 4GenMu8 Lxy/Lz                 16006   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       43910  reff  0.554419
+ 2RecMu8                        42009  reff  0.956707
+ 3RecMu8                        34612  reff  0.823919
+ 4RecMu8                        15772  reff  0.45568
+ ================ EVENT variables ================= 
+ Events with VtxOK              15772    reff  1
+ Events with 2 muonjets         14488     reff  0.91859
+ Events with 2 Dimuons          14486    reff  0.999862
+ Events with 2DimVtxOK          14486    reff  1
+ Events with 2DimHitPix         14477     reff  0.999379
+ Events with 2DimDzOK           14462   reff   0.998964
+ Events with 2DimMassOK         13516  reff   0.934587
+ Events with 2DimIsoOK          10774   reff   0.797129
+
+ Events with 2DimHLT            10658   reff   0.989233
+ ratio reco/gen                 0.665875 +/-  0.00372829
+ 2DimHLT Events SF (nominal)    10375.4   reff   0.962999
+ ratio reco/gen with SF to reco 0.648216 +/-  0.00377447
+ 2DimHLT Events SF Low          10375.4   reff   0.962999
+ ratio reco/gen with SFLow      0.648216 +/-  0.00377447
+ 2DimHLT Events SF High         10375.4   reff   0.962999
+ ratio reco/gen with SFHigh     0.648216 +/-  0.00377447
+
+Number of Event Difference abs(2DimHLT - 2DimHLT_SF): 282.647
+Percent difference (diff/2DimHLT * 100)             : 2.65197
+
+Difference in ratio abs(ratio-ratio_SF)             : 0.0176588
+Percent difference in ratio (diff/ratio)*100        : 2.65197
+
+ Sample: DarkSUSY_mH_125_mGammaD_8500_cT_500_1
+ Events          79200
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       44200   reff 0.558081
+ 2GenMu8                        42328   reff  0.957647
+ 3GenMu8                        35069   reff  0.828506
+ 4GenMu8                        16157   reff  0.46072
+ 4GenMu8 Lxy/Lz                 14256   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       44047  reff  0.556149
+ 2RecMu8                        42024  reff  0.954072
+ 3RecMu8                        34155  reff  0.81275
+ 4RecMu8                        15067  reff  0.441136
+ ================ EVENT variables ================= 
+ Events with VtxOK              15067    reff  1
+ Events with 2 muonjets         13632     reff  0.904759
+ Events with 2 Dimuons          13628    reff  0.999707
+ Events with 2DimVtxOK          13628    reff  1
+ Events with 2DimHitPix         12567     reff  0.922146
+ Events with 2DimDzOK           12448   reff   0.990531
+ Events with 2DimMassOK         11728  reff   0.942159
+ Events with 2DimIsoOK          9386   reff   0.800307
+
+ Events with 2DimHLT            9181   reff   0.978159
+ ratio reco/gen                 0.64401 +/-  0.0040102
+ 2DimHLT Events SF (nominal)    8934.27   reff   0.951871
+ ratio reco/gen with SF to reco 0.626702 +/-  0.00405097
+ 2DimHLT Events SF Low          8934.27   reff   0.951871
+ ratio reco/gen with SFLow      0.626702 +/-  0.00405097
+ 2DimHLT Events SF High         8934.27   reff   0.951871
+ ratio reco/gen with SFHigh     0.626702 +/-  0.00405097
+
+Number of Event Difference abs(2DimHLT - 2DimHLT_SF): 246.734
+Percent difference (diff/2DimHLT * 100)             : 2.68745
+
+Difference in ratio abs(ratio-ratio_SF)             : 0.0173074
+Percent difference in ratio (diff/ratio)*100        : 2.68745
+file-for loop completes

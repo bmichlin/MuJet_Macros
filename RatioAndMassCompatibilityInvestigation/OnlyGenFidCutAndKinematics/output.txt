@@ -1,0 +1,373 @@
+   ------------------------------------------------------------
+  | Welcome to ROOT 6.02/05                http://root.cern.ch |
+  |                               (c) 1995-2014, The ROOT Team |
+  | Built for linuxx8664gcc                                    |
+  | From tag , 9 February 2015                                 |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
+   ------------------------------------------------------------
+
+
+Processing FakeInvestigation.C+...
+Info in <TUnixSystem::ACLiC>: creating shared library /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioAndMassInvestigation/OnlyGenFidCutAndKinematics/./FakeInvestigation_C.so
+In file included from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioAndMassInvestigation/OnlyGenFidCutAndKinematics/./FakeInvestigation.C:20:0,
+                 from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioAndMassInvestigation/OnlyGenFidCutAndKinematics/FakeInvestigation_C_ACLiC_dict.cxx:41:
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/Helpers.h: In function 'void printFileNames(const std::vector<std::vector<std::basic_string<char> > >&)':
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/Helpers.h:101:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < vec.size(); i++){
+                     ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/Helpers.h:102:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int j = 0; j < vec[i].size(); j++){
+                       ^
+In file included from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioAndMassInvestigation/OnlyGenFidCutAndKinematics/FakeInvestigation_C_ACLiC_dict.cxx:41:0:
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioAndMassInvestigation/OnlyGenFidCutAndKinematics/./FakeInvestigation.C: In function 'void makePlot()':
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioAndMassInvestigation/OnlyGenFidCutAndKinematics/./FakeInvestigation.C:608:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_0250_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioAndMassInvestigation/OnlyGenFidCutAndKinematics/./FakeInvestigation.C:620:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_0275_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioAndMassInvestigation/OnlyGenFidCutAndKinematics/./FakeInvestigation.C:632:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_0300_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioAndMassInvestigation/OnlyGenFidCutAndKinematics/./FakeInvestigation.C:644:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_2000_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioAndMassInvestigation/OnlyGenFidCutAndKinematics/./FakeInvestigation.C:655:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_8500_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioAndMassInvestigation/OnlyGenFidCutAndKinematics/./FakeInvestigation.C:667:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_0400_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioAndMassInvestigation/OnlyGenFidCutAndKinematics/./FakeInvestigation.C:679:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_0700_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioAndMassInvestigation/OnlyGenFidCutAndKinematics/./FakeInvestigation.C:691:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_1000_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioAndMassInvestigation/OnlyGenFidCutAndKinematics/./FakeInvestigation.C:703:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_1500_cT.size(); i++){
+                 ^
+Begin Fake Investigation
+Vector Created
+Samples read
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_000_
+ Events          149500
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       48209   reff 0.322468
+ 2GenMu8                        47173   reff  0.97851
+ 3GenMu8                        31463   reff  0.666971
+ 4GenMu8                        21140   reff  0.6719
+ 4GenMu8 Lxy/Lz                 21140   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       47954  reff  0.320763
+ 2RecMu8                        46238  reff  0.964216
+ 3RecMu8                        30821  reff  0.666573
+ 4RecMu8                        19208  reff  0.623211
+ ================ EVENT variables ================= 
+ Events with VtxOK              0    reff  0
+ Events with 2 muonjets         0     reff  -nan
+ Events with 2 Dimuons          0    reff  -nan
+ Events with 2DimVtxOK          0    reff  -nan
+ Events with 2DimHitPix         0     reff  -nan
+ Events with 2DimDzOK           0   reff   -nan
+ Events with 2DimMassOK         0  reff   -nan
+ Events with 2DimIsoOK          0   reff   -nan
+ Events with 2DimHLT            21140   reff   inf
+ ratio reco/gen                 1 +/-  0
+Fake rate (#Fakes/#Events): 0
+cT_string, cT_double    : 000_, 0
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 149500
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_005_
+ Events          140000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       45173   reff 0.322664
+ 2GenMu8                        44153   reff  0.97742
+ 3GenMu8                        29403   reff  0.665934
+ 4GenMu8                        19775   reff  0.67255
+ 4GenMu8 Lxy/Lz                 19693   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       44839  reff  0.320279
+ 2RecMu8                        43026  reff  0.959566
+ 3RecMu8                        28620  reff  0.665179
+ 4RecMu8                        17587  reff  0.6145
+ ================ EVENT variables ================= 
+ Events with VtxOK              0    reff  0
+ Events with 2 muonjets         0     reff  -nan
+ Events with 2 Dimuons          0    reff  -nan
+ Events with 2DimVtxOK          0    reff  -nan
+ Events with 2DimHitPix         0     reff  -nan
+ Events with 2DimDzOK           0   reff   -nan
+ Events with 2DimMassOK         0  reff   -nan
+ Events with 2DimIsoOK          0   reff   -nan
+ Events with 2DimHLT            19693   reff   inf
+ ratio reco/gen                 1 +/-  0
+Fake rate (#Fakes/#Events): 0
+cT_string, cT_double    : 005_, 0.05
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 140000
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_010_
+ Events          143250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       46090   reff 0.321745
+ 2GenMu8                        45090   reff  0.978303
+ 3GenMu8                        30157   reff  0.668818
+ 4GenMu8                        20140   reff  0.667838
+ 4GenMu8 Lxy/Lz                 19539   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       45695  reff  0.318988
+ 2RecMu8                        43735  reff  0.957107
+ 3RecMu8                        29176  reff  0.667109
+ 4RecMu8                        17670  reff  0.605635
+ ================ EVENT variables ================= 
+ Events with VtxOK              0    reff  0
+ Events with 2 muonjets         0     reff  -nan
+ Events with 2 Dimuons          0    reff  -nan
+ Events with 2DimVtxOK          0    reff  -nan
+ Events with 2DimHitPix         0     reff  -nan
+ Events with 2DimDzOK           0   reff   -nan
+ Events with 2DimMassOK         0  reff   -nan
+ Events with 2DimIsoOK          0   reff   -nan
+ Events with 2DimHLT            19539   reff   inf
+ ratio reco/gen                 1 +/-  0
+Fake rate (#Fakes/#Events): 0
+cT_string, cT_double    : 010_, 0.1
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 143250
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_020_
+ Events          151500
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       48830   reff 0.32231
+ 2GenMu8                        47775   reff  0.978394
+ 3GenMu8                        31887   reff  0.667441
+ 4GenMu8                        21247   reff  0.666322
+ 4GenMu8 Lxy/Lz                 18059   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       48249  reff  0.318475
+ 2RecMu8                        45980  reff  0.952973
+ 3RecMu8                        30468  reff  0.662636
+ 4RecMu8                        18003  reff  0.590882
+ ================ EVENT variables ================= 
+ Events with VtxOK              0    reff  0
+ Events with 2 muonjets         0     reff  -nan
+ Events with 2 Dimuons          0    reff  -nan
+ Events with 2DimVtxOK          0    reff  -nan
+ Events with 2DimHitPix         0     reff  -nan
+ Events with 2DimDzOK           0   reff   -nan
+ Events with 2DimMassOK         0  reff   -nan
+ Events with 2DimIsoOK          0   reff   -nan
+ Events with 2DimHLT            18059   reff   inf
+ ratio reco/gen                 1 +/-  0
+Fake rate (#Fakes/#Events): 0
+cT_string, cT_double    : 020_, 0.2
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 151500
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_050_
+ Events          151250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       48598   reff 0.321309
+ 2GenMu8                        47532   reff  0.978065
+ 3GenMu8                        31757   reff  0.668118
+ 4GenMu8                        21243   reff  0.668923
+ 4GenMu8 Lxy/Lz                 9839   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       47345  reff  0.313025
+ 2RecMu8                        44345  reff  0.936635
+ 3RecMu8                        28983  reff  0.65358
+ 4RecMu8                        15772  reff  0.544181
+ ================ EVENT variables ================= 
+ Events with VtxOK              0    reff  0
+ Events with 2 muonjets         0     reff  -nan
+ Events with 2 Dimuons          0    reff  -nan
+ Events with 2DimVtxOK          0    reff  -nan
+ Events with 2DimHitPix         0     reff  -nan
+ Events with 2DimDzOK           0   reff   -nan
+ Events with 2DimMassOK         0  reff   -nan
+ Events with 2DimIsoOK          0   reff   -nan
+ Events with 2DimHLT            9839   reff   inf
+ ratio reco/gen                 1 +/-  0
+Fake rate (#Fakes/#Events): 0
+cT_string, cT_double    : 050_, 0.5
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 151250
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_100_
+ Events          148750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       48032   reff 0.322904
+ 2GenMu8                        46959   reff  0.977661
+ 3GenMu8                        31251   reff  0.665495
+ 4GenMu8                        20870   reff  0.667819
+ 4GenMu8 Lxy/Lz                 4235   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       44082  reff  0.29635
+ 2RecMu8                        40118  reff  0.910077
+ 3RecMu8                        24800  reff  0.618176
+ 4RecMu8                        12019  reff  0.484637
+ ================ EVENT variables ================= 
+ Events with VtxOK              0    reff  0
+ Events with 2 muonjets         0     reff  -nan
+ Events with 2 Dimuons          0    reff  -nan
+ Events with 2DimVtxOK          0    reff  -nan
+ Events with 2DimHitPix         0     reff  -nan
+ Events with 2DimDzOK           0   reff   -nan
+ Events with 2DimMassOK         0  reff   -nan
+ Events with 2DimIsoOK          0   reff   -nan
+ Events with 2DimHLT            4235   reff   inf
+ ratio reco/gen                 1 +/-  0
+Fake rate (#Fakes/#Events): 0
+cT_string, cT_double    : 100_, 1
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 148750
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_200_
+ Events          147750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       47472   reff 0.321299
+ 2GenMu8                        46443   reff  0.978324
+ 3GenMu8                        30999   reff  0.667463
+ 4GenMu8                        20916   reff  0.674731
+ 4GenMu8 Lxy/Lz                 1451   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       36796  reff  0.249042
+ 2RecMu8                        31828  reff  0.864985
+ 3RecMu8                        17313  reff  0.543955
+ 4RecMu8                        7238  reff  0.418067
+ ================ EVENT variables ================= 
+ Events with VtxOK              0    reff  0
+ Events with 2 muonjets         0     reff  -nan
+ Events with 2 Dimuons          0    reff  -nan
+ Events with 2DimVtxOK          0    reff  -nan
+ Events with 2DimHitPix         0     reff  -nan
+ Events with 2DimDzOK           0   reff   -nan
+ Events with 2DimMassOK         0  reff   -nan
+ Events with 2DimIsoOK          0   reff   -nan
+ Events with 2DimHLT            1451   reff   inf
+ ratio reco/gen                 1 +/-  0
+Fake rate (#Fakes/#Events): 0
+cT_string, cT_double    : 200_, 2
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 147750
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_300_
+ Events          151250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       48720   reff 0.322116
+ 2GenMu8                        47638   reff  0.977791
+ 3GenMu8                        31844   reff  0.668458
+ 4GenMu8                        21363   reff  0.670864
+ 4GenMu8 Lxy/Lz                 780   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       32180  reff  0.21276
+ 2RecMu8                        26739  reff  0.83092
+ 3RecMu8                        12874  reff  0.481469
+ 4RecMu8                        4736  reff  0.367873
+ ================ EVENT variables ================= 
+ Events with VtxOK              0    reff  0
+ Events with 2 muonjets         0     reff  -nan
+ Events with 2 Dimuons          0    reff  -nan
+ Events with 2DimVtxOK          0    reff  -nan
+ Events with 2DimHitPix         0     reff  -nan
+ Events with 2DimDzOK           0   reff   -nan
+ Events with 2DimMassOK         0  reff   -nan
+ Events with 2DimIsoOK          0   reff   -nan
+ Events with 2DimHLT            780   reff   inf
+ ratio reco/gen                 1 +/-  0
+Fake rate (#Fakes/#Events): 0
+cT_string, cT_double    : 300_, 3
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 151250
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_500_
+ Events          144250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       46554   reff 0.322731
+ 2GenMu8                        45550   reff  0.978434
+ 3GenMu8                        30403   reff  0.667464
+ 4GenMu8                        20414   reff  0.671447
+ 4GenMu8 Lxy/Lz                 246   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       23384  reff  0.162107
+ 2RecMu8                        18092  reff  0.773691
+ 3RecMu8                        6912  reff  0.382047
+ 4RecMu8                        2331  reff  0.33724
+ ================ EVENT variables ================= 
+ Events with VtxOK              0    reff  0
+ Events with 2 muonjets         0     reff  -nan
+ Events with 2 Dimuons          0    reff  -nan
+ Events with 2DimVtxOK          0    reff  -nan
+ Events with 2DimHitPix         0     reff  -nan
+ Events with 2DimDzOK           0   reff   -nan
+ Events with 2DimMassOK         0  reff   -nan
+ Events with 2DimIsoOK          0   reff   -nan
+ Events with 2DimHLT            246   reff   inf
+ ratio reco/gen                 1 +/-  0
+Fake rate (#Fakes/#Events): 0
+cT_string, cT_double    : 500_, 5
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 144250
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_1000
+ Events          405490
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       129958   reff 0.320496
+ 2GenMu8                        127134   reff  0.97827
+ 3GenMu8                        84971   reff  0.668358
+ 4GenMu8                        57051   reff  0.671417
+ 4GenMu8 Lxy/Lz                 189   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       40554  reff  0.100012
+ 2RecMu8                        28266  reff  0.696997
+ 3RecMu8                        7331  reff  0.259358
+ 4RecMu8                        2141  reff  0.292047
+ ================ EVENT variables ================= 
+ Events with VtxOK              0    reff  0
+ Events with 2 muonjets         0     reff  -nan
+ Events with 2 Dimuons          0    reff  -nan
+ Events with 2DimVtxOK          0    reff  -nan
+ Events with 2DimHitPix         0     reff  -nan
+ Events with 2DimDzOK           0   reff   -nan
+ Events with 2DimMassOK         0  reff   -nan
+ Events with 2DimIsoOK          0   reff   -nan
+ Events with 2DimHLT            189   reff   inf
+ ratio reco/gen                 1 +/-  0
+Fake rate (#Fakes/#Events): 0
+cT_string, cT_double    : 1000, 10
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 405490
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_2000
+ Events          369000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       118428   reff 0.320943
+ 2GenMu8                        115881   reff  0.978493
+ 3GenMu8                        77495   reff  0.668746
+ 4GenMu8                        52119   reff  0.672547
+ 4GenMu8 Lxy/Lz                 53   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       21634  reff  0.0586287
+ 2RecMu8                        13633  reff  0.630165
+ 3RecMu8                        2340  reff  0.171642
+ 4RecMu8                        533  reff  0.227778
+ ================ EVENT variables ================= 
+ Events with VtxOK              0    reff  0
+ Events with 2 muonjets         0     reff  -nan
+ Events with 2 Dimuons          0    reff  -nan
+ Events with 2DimVtxOK          0    reff  -nan
+ Events with 2DimHitPix         0     reff  -nan
+ Events with 2DimDzOK           0   reff   -nan
+ Events with 2DimMassOK         0  reff   -nan
+ Events with 2DimIsoOK          0   reff   -nan
+ Events with 2DimHLT            53   reff   inf
+ ratio reco/gen                 1 +/-  0
+Fake rate (#Fakes/#Events): 0
+cT_string, cT_double    : 2000, 20
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 369000
+For Loop completes
+Info in <TCanvas::Print>: pdf file e_rec_alpha_gen_vs_cT_0250_GeV.pdf has been created

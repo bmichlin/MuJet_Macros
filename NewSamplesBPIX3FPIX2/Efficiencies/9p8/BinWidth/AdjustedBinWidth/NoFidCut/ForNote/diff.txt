@@ -1,0 +1,54 @@
+1d0
+< void eff_2D_LxyLz_A0()
+4,5c3,4
+< //=========  (Mon May  9 09:13:35 2016) by ROOT version6.02/05
+<    TCanvas *c = new TCanvas("c", "c",0,0,700,500);
+---
+> //=========  (Mon May  9 16:18:36 2016) by ROOT version5.34/32
+>    TCanvas *c = new TCanvas("c", "c",0,22,700,500);
+12186a12186
+>    eff_2D_A0->SetStats(0);
+12300,12304c12300
+< 
+<    Int_t ci;      // for color index setting
+<    TColor *color; // for color definition with alpha
+<    ci = TColor::GetColor("#890300");
+<    palette->SetFillColor(ci);
+---
+>    palette->SetFillColor(100);
+12307a12304,12305
+>    Int_t ci;      // for color index setting
+>    TColor *color; // for color definition with alpha
+12333c12331
+<    TText *AText = pt->AddText("eff_2D_A0");
+---
+>    TText *text = pt->AddText("eff_2D_A0");
+12334a12333,12360
+>    
+>    TF1 *f1 = new TF1("f1","x*0.974168",0,80);
+>    f1->SetFillColor(19);
+>    f1->SetFillStyle(0);
+>    f1->SetLineWidth(3);
+>    f1->GetXaxis()->SetLabelFont(42);
+>    f1->GetXaxis()->SetLabelSize(0.035);
+>    f1->GetXaxis()->SetTitleSize(0.035);
+>    f1->GetXaxis()->SetTitleFont(42);
+>    f1->GetYaxis()->SetLabelFont(42);
+>    f1->GetYaxis()->SetLabelSize(0.035);
+>    f1->GetYaxis()->SetTitleSize(0.035);
+>    f1->GetYaxis()->SetTitleFont(42);
+>    f1->Draw("same");
+>    
+>    TF1 *f3 = new TF1("f3","x*0.469642",0,80);
+>    f3->SetFillColor(19);
+>    f3->SetFillStyle(0);
+>    f3->SetLineWidth(3);
+>    f3->GetXaxis()->SetLabelFont(42);
+>    f3->GetXaxis()->SetLabelSize(0.035);
+>    f3->GetXaxis()->SetTitleSize(0.035);
+>    f3->GetXaxis()->SetTitleFont(42);
+>    f3->GetYaxis()->SetLabelFont(42);
+>    f3->GetYaxis()->SetLabelSize(0.035);
+>    f3->GetYaxis()->SetTitleSize(0.035);
+>    f3->GetYaxis()->SetTitleFont(42);
+>    f3->Draw("same");

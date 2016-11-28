@@ -1,0 +1,28 @@
+   ------------------------------------------------------------
+  | Welcome to ROOT 6.02/05                http://root.cern.ch |
+  |                               (c) 1995-2014, The ROOT Team |
+  | Built for linuxx8664gcc                                    |
+  | From tag , 9 February 2015                                 |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
+   ------------------------------------------------------------
+
+
+Processing FakeInvestigation.C+...
+Info in <TUnixSystem::ACLiC>: creating shared library /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioAndMassInvestigation/MassInvestigation/2000/./FakeInvestigation_C.so
+In file included from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioAndMassInvestigation/MassInvestigation/2000/./FakeInvestigation.C:20:0,
+                 from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioAndMassInvestigation/MassInvestigation/2000/FakeInvestigation_C_ACLiC_dict.cxx:41:
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/Helpers.h: In function 'void printFileNames(const std::vector<std::vector<std::basic_string<char> > >&)':
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/Helpers.h:101:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < vec.size(); i++){
+                     ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/Helpers.h:102:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int j = 0; j < vec[i].size(); j++){
+                       ^
+In file included from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioAndMassInvestigation/MassInvestigation/2000/FakeInvestigation_C_ACLiC_dict.cxx:41:0:
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioAndMassInvestigation/MassInvestigation/2000/./FakeInvestigation.C: In function 'void efficiency_hitrecovery(const std::vector<std::basic_string<char> >&)':
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioAndMassInvestigation/MassInvestigation/2000/./FakeInvestigation.C:574:11: warning: 'mass_double' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    double mass_double;
+           ^
+Vector Created
+Samples read
+For Loop completes

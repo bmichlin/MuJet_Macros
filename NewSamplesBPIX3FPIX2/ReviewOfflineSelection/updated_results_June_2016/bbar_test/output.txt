@@ -1,0 +1,91 @@
+   ------------------------------------------------------------
+  | Welcome to ROOT 6.02/05                http://root.cern.ch |
+  |                               (c) 1995-2014, The ROOT Team |
+  | Built for linuxx8664gcc                                    |
+  | From tag , 9 February 2015                                 |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
+   ------------------------------------------------------------
+
+
+Processing offline_selection_review.C+...
+Done adding files
+running on file /fdata/hepx/store/user/bmichlin/bbar_unhardcodecuts/out_ana_2015Dv1_newRel.root
+Loading directory cutFlowAnalyzerPXBL3PXFL2
+cutFlowAnalyzer loaded
+Getting cutFlowAnalyzer/Events_orphan
+Successfully retrieved cutFlowAnalyzer/Events_orphan
+  Events  109250
+Load orphan branch variables
+Info in <TCanvas::Print>: pdf file mGammaD_0250_MassCompatability.pdf has been created
+Info in <TCanvas::Print>: pdf file mGammaD_0275_MassCompatability.pdf has been created
+Info in <TCanvas::Print>: pdf file mGammaD_0300_MassCompatability.pdf has been created
+Info in <TCanvas::Print>: pdf file mGammaD_2000_MassCompatability.pdf has been created
+Info in <TCanvas::Print>: pdf file mGammaD_8500_MassCompatability.pdf has been created
+Info in <TCanvas::Print>: pdf file mGammaD_0400_MassCompatability.pdf has been created
+Info in <TCanvas::Print>: pdf file mGammaD_0700_MassCompatability.pdf has been created
+Info in <TCanvas::Print>: pdf file mGammaD_1000_MassCompatability.pdf has been created
+Info in <TCanvas::Print>: pdf file mGammaD_1500_MassCompatability.pdf has been created
+Info in <TCanvas::Print>: pdf file mGammaD_all_MassCompatability.pdf has been created
+Info in <TCanvas::Print>: pdf file bbar_dz_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0250_Fitted_dz_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0250_Fitted_dz_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0275_Fitted_dz_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0275_Fitted_dz_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0300_Fitted_dz_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0300_Fitted_dz_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_2000_Fitted_dz_plot
+Info in <TCanvas::Print>: pdf file mGammaD_2000_Fitted_dz_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_8500_Fitted_dz_plot
+Info in <TCanvas::Print>: pdf file mGammaD_8500_Fitted_dz_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0400_Fitted_dz_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0400_Fitted_dz_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0700_Fitted_dz_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0700_Fitted_dz_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_1000_Fitted_dz_plot
+Info in <TCanvas::Print>: pdf file mGammaD_1000_Fitted_dz_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_1500_Fitted_dz_plot
+Info in <TCanvas::Print>: pdf file mGammaD_1500_Fitted_dz_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_all_Fitted_dz_plot
+Info in <TCanvas::Print>: pdf file mGammaD_all_Fitted_dz_plot.pdf has been created
+Info in <TCanvas::Print>: pdf file bbar_Iso_plot.pdf has been created
+Info in <TCanvas::Print>: pdf file bbar_Iso_zoom_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0250_Fitted_Iso_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0250_Fitted_Iso_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0250_Fitted_Iso_zoom_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0250_Fitted_Iso_zoom_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0275_Fitted_Iso_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0275_Fitted_Iso_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0275_Fitted_Iso_zoom_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0275_Fitted_Iso_zoom_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0300_Fitted_Iso_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0300_Fitted_Iso_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0300_Fitted_Iso_zoom_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0300_Fitted_Iso_zoom_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_2000_Fitted_Iso_plot
+Info in <TCanvas::Print>: pdf file mGammaD_2000_Fitted_Iso_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_2000_Fitted_Iso_zoom_plot
+Info in <TCanvas::Print>: pdf file mGammaD_2000_Fitted_Iso_zoom_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_8500_Fitted_Iso_plot
+Info in <TCanvas::Print>: pdf file mGammaD_8500_Fitted_Iso_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_8500_Fitted_Iso_zoom_plot
+Info in <TCanvas::Print>: pdf file mGammaD_8500_Fitted_Iso_zoom_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0400_Fitted_Iso_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0400_Fitted_Iso_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0400_Fitted_Iso_zoom_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0400_Fitted_Iso_zoom_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0700_Fitted_Iso_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0700_Fitted_Iso_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0700_Fitted_Iso_zoom_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0700_Fitted_Iso_zoom_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_1000_Fitted_Iso_plot
+Info in <TCanvas::Print>: pdf file mGammaD_1000_Fitted_Iso_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_1000_Fitted_Iso_zoom_plot
+Info in <TCanvas::Print>: pdf file mGammaD_1000_Fitted_Iso_zoom_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_1500_Fitted_Iso_plot
+Info in <TCanvas::Print>: pdf file mGammaD_1500_Fitted_Iso_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_1500_Fitted_Iso_zoom_plot
+Info in <TCanvas::Print>: pdf file mGammaD_1500_Fitted_Iso_zoom_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_all_Fitted_Iso_plot
+Info in <TCanvas::Print>: pdf file mGammaD_all_Fitted_Iso_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_all_Fitted_Iso_zoom_plot
+Info in <TCanvas::Print>: pdf file mGammaD_all_Fitted_Iso_zoom_plot.pdf has been created

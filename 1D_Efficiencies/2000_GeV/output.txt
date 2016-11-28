@@ -1,0 +1,30 @@
+   ------------------------------------------------------------
+  | Welcome to ROOT 6.02/05                http://root.cern.ch |
+  |                               (c) 1995-2014, The ROOT Team |
+  | Built for linuxx8664gcc                                    |
+  | From tag , 9 February 2015                                 |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
+   ------------------------------------------------------------
+
+
+Processing perMuEfficiency.C...
+warning: expression result unused [-Wunused-value]
+warning: expression result unused [-Wunused-value]
+warning: expression result unused [-Wunused-value]
+warning: expression result unused [-Wunused-value]
+warning: expression result unused [-Wunused-value]
+warning: expression result unused [-Wunused-value]
+warning: expression result unused [-Wunused-value]
+warning: expression result unused [-Wunused-value]
+Info in <TCanvas::Print>: pdf file Efficiency_1D_pT.pdf has been created
+Info in <TCanvas::Print>: png file Efficiency_1D_pT.png has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: Efficiency_1D_pT.C has been generated
+Info in <TCanvas::Print>: pdf file Efficiency_1D_eta.pdf has been created
+Info in <TCanvas::Print>: png file Efficiency_1D_eta.png has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: Efficiency_1D_eta.C has been generated
+Info in <TCanvas::Print>: pdf file Efficiency_1D_lxy.pdf has been created
+Info in <TCanvas::Print>: png file Efficiency_1D_lxy.png has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: Efficiency_1D_lxy.C has been generated
+Info in <TCanvas::Print>: pdf file Efficiency_1D_lz.pdf has been created
+Info in <TCanvas::Print>: png file Efficiency_1D_lz.png has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: Efficiency_1D_lz.C has been generated

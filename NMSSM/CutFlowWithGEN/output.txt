@@ -1,0 +1,870 @@
+   ------------------------------------------------------------
+  | Welcome to ROOT 6.02/05                http://root.cern.ch |
+  |                               (c) 1995-2014, The ROOT Team |
+  | Built for linuxx8664gcc                                    |
+  | From tag , 9 February 2015                                 |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
+   ------------------------------------------------------------
+
+
+Processing FakeInvestigation.C+...
+Info in <TUnixSystem::ACLiC>: creating shared library /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NMSSM/Cutflow/AddingGen/./FakeInvestigation_C.so
+In file included from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NMSSM/Cutflow/AddingGen/./FakeInvestigation.C:20:0,
+                 from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NMSSM/Cutflow/AddingGen/FakeInvestigation_C_ACLiC_dict.cxx:41:
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/Helpers.h: In function 'void printFileNames(const std::vector<std::vector<std::basic_string<char> > >&)':
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/Helpers.h:119:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < vec.size(); i++){
+                     ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/Helpers.h:120:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int j = 0; j < vec[i].size(); j++){
+                       ^
+In file included from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NMSSM/Cutflow/AddingGen/FakeInvestigation_C_ACLiC_dict.cxx:41:0:
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NMSSM/Cutflow/AddingGen/./FakeInvestigation.C: In function 'void efficiency_hitrecovery(const std::vector<std::basic_string<char> >&)':
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NMSSM/Cutflow/AddingGen/./FakeInvestigation.C:498:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int i = 0; i < genMus.size(); i++){
+                     ^
+Begin Fake Investigation
+Vector Created
+Samples read
+fileName: NMSSM_mH_90__mA_0p5_
+
+ Sample: NMSSM_mH_90__mA_0p5_
+ Events          200000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       92347   reff 0.461735
+ 2GenMu8                        88222   reff  0.955332
+ 3GenMu8                        74092   reff  0.839836
+ 4GenMu8                        34219   reff  0.461845
+ 4GenMu8 Lxy/Lz                 34219   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       92134  reff  0.46067
+ 2RecMu8                        87836  reff  0.953351
+ 3RecMu8                        72987  reff  0.830946
+ 4RecMu8                        32986  reff  0.451943
+ ================ EVENT variables ================= 
+ Events with VtxOK              32986    reff  1
+ Events with 2 muonjets         29691     reff  0.900109
+ Events with 2 Dimuons          29678    reff  0.999562
+ Events with 2DimVtxOK          29672    reff  0.999798
+ Events with 2DimHitPix         29653     reff  0.99936
+ Events with 2DimDzOK           29613   reff   0.998651
+ Events with 2DimMassOK         29482  reff   0.995576
+ Events with 2DimIsoOK          23870   reff   0.809647
+ Events with 2DimHLT            23360   reff   0.978634
+ ratio reco/gen                 0.682662 +/-  0.00251611
+Nrec/Ntot:                     0.1168
+fileName: NMSSM_mH_90__mA_0p75
+
+ Sample: NMSSM_mH_90__mA_0p75
+ Events          196949
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       91023   reff 0.462165
+ 2GenMu8                        86543   reff  0.950782
+ 3GenMu8                        70400   reff  0.813468
+ 4GenMu8                        30156   reff  0.428352
+ 4GenMu8 Lxy/Lz                 30156   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       90874  reff  0.461409
+ 2RecMu8                        86261  reff  0.949237
+ 3RecMu8                        69409  reff  0.804639
+ 4RecMu8                        29300  reff  0.422135
+ ================ EVENT variables ================= 
+ Events with VtxOK              29300    reff  1
+ Events with 2 muonjets         26353     reff  0.89942
+ Events with 2 Dimuons          26343    reff  0.999621
+ Events with 2DimVtxOK          26340    reff  0.999886
+ Events with 2DimHitPix         26330     reff  0.99962
+ Events with 2DimDzOK           26320   reff   0.99962
+ Events with 2DimMassOK         26119  reff   0.992363
+ Events with 2DimIsoOK          21218   reff   0.812359
+ Events with 2DimHLT            20782   reff   0.979451
+ ratio reco/gen                 0.68915 +/-  0.0026653
+Nrec/Ntot:                     0.10552
+fileName: NMSSM_mH_90__mA_1_V5
+
+ Sample: NMSSM_mH_90__mA_1_V5
+ Events          194299
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       90113   reff 0.463785
+ 2GenMu8                        85602   reff  0.949941
+ 3GenMu8                        68786   reff  0.803556
+ 4GenMu8                        28400   reff  0.412875
+ 4GenMu8 Lxy/Lz                 28400   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       89940  reff  0.462895
+ 2RecMu8                        85284  reff  0.948232
+ 3RecMu8                        67795  reff  0.794932
+ 4RecMu8                        27490  reff  0.405487
+ ================ EVENT variables ================= 
+ Events with VtxOK              27490    reff  1
+ Events with 2 muonjets         24584     reff  0.894289
+ Events with 2 Dimuons          24572    reff  0.999512
+ Events with 2DimVtxOK          24572    reff  1
+ Events with 2DimHitPix         24566     reff  0.999756
+ Events with 2DimDzOK           24558   reff   0.999674
+ Events with 2DimMassOK         24252  reff   0.98754
+ Events with 2DimIsoOK          19637   reff   0.809706
+ Events with 2DimHLT            19249   reff   0.980241
+ ratio reco/gen                 0.677782 +/-  0.00277307
+Nrec/Ntot:                     0.099069
+fileName: NMSSM_mH_90__mA_2_V5
+
+ Sample: NMSSM_mH_90__mA_2_V5
+ Events          199598
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       92813   reff 0.465
+ 2GenMu8                        88084   reff  0.949048
+ 3GenMu8                        70041   reff  0.795161
+ 4GenMu8                        28243   reff  0.403235
+ 4GenMu8 Lxy/Lz                 28243   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       92587  reff  0.463867
+ 2RecMu8                        87761  reff  0.947876
+ 3RecMu8                        69113  reff  0.787514
+ 4RecMu8                        27556  reff  0.398709
+ ================ EVENT variables ================= 
+ Events with VtxOK              27556    reff  1
+ Events with 2 muonjets         24648     reff  0.894469
+ Events with 2 Dimuons          24639    reff  0.999635
+ Events with 2DimVtxOK          24639    reff  1
+ Events with 2DimHitPix         24636     reff  0.999878
+ Events with 2DimDzOK           24630   reff   0.999756
+ Events with 2DimMassOK         23944  reff   0.972148
+ Events with 2DimIsoOK          19252   reff   0.804043
+ Events with 2DimHLT            18836   reff   0.978392
+ ratio reco/gen                 0.666926 +/-  0.00280449
+Nrec/Ntot:                     0.0943697
+fileName: NMSSM_mH_90__mA_3_V5
+
+ Sample: NMSSM_mH_90__mA_3_V5
+ Events          199351
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       93212   reff 0.467577
+ 2GenMu8                        88583   reff  0.950339
+ 3GenMu8                        70298   reff  0.793583
+ 4GenMu8                        27734   reff  0.39452
+ 4GenMu8 Lxy/Lz                 27734   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       93033  reff  0.466679
+ 2RecMu8                        88311  reff  0.949244
+ 3RecMu8                        69445  reff  0.786369
+ 4RecMu8                        27146  reff  0.390899
+ ================ EVENT variables ================= 
+ Events with VtxOK              27146    reff  1
+ Events with 2 muonjets         24227     reff  0.89247
+ Events with 2 Dimuons          24214    reff  0.999463
+ Events with 2DimVtxOK          24214    reff  1
+ Events with 2DimHitPix         24214     reff  1
+ Events with 2DimDzOK           24206   reff   0.99967
+ Events with 2DimMassOK         23298  reff   0.962489
+ Events with 2DimIsoOK          18832   reff   0.80831
+ Events with 2DimHLT            18429   reff   0.9786
+ ratio reco/gen                 0.664491 +/-  0.00283524
+Nrec/Ntot:                     0.092445
+fileName: NMSSM_mH_90__mA_3p55
+
+ Sample: NMSSM_mH_90__mA_3p55
+ Events          199360
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       92949   reff 0.466237
+ 2GenMu8                        88422   reff  0.951296
+ 3GenMu8                        69944   reff  0.791025
+ 4GenMu8                        27730   reff  0.39646
+ 4GenMu8 Lxy/Lz                 27730   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       92788  reff  0.465429
+ 2RecMu8                        88159  reff  0.950112
+ 3RecMu8                        69149  reff  0.784367
+ 4RecMu8                        27129  reff  0.392327
+ ================ EVENT variables ================= 
+ Events with VtxOK              27129    reff  1
+ Events with 2 muonjets         24310     reff  0.896089
+ Events with 2 Dimuons          24293    reff  0.999301
+ Events with 2DimVtxOK          24293    reff  1
+ Events with 2DimHitPix         24290     reff  0.999877
+ Events with 2DimDzOK           24288   reff   0.999918
+ Events with 2DimMassOK         23359  reff   0.961751
+ Events with 2DimIsoOK          18962   reff   0.811764
+ Events with 2DimHLT            18536   reff   0.977534
+ ratio reco/gen                 0.668446 +/-  0.00282706
+Nrec/Ntot:                     0.0929775
+fileName: NMSSM_mH_100_mA_0p75
+
+ Sample: NMSSM_mH_100_mA_0p75
+ Events          200000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       97877   reff 0.489385
+ 2GenMu8                        92897   reff  0.94912
+ 3GenMu8                        77552   reff  0.834817
+ 4GenMu8                        36292   reff  0.46797
+ 4GenMu8 Lxy/Lz                 36292   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       97641  reff  0.488205
+ 2RecMu8                        92550  reff  0.94786
+ 3RecMu8                        76419  reff  0.825705
+ 4RecMu8                        35003  reff  0.458041
+ ================ EVENT variables ================= 
+ Events with VtxOK              35003    reff  1
+ Events with 2 muonjets         31373     reff  0.896295
+ Events with 2 Dimuons          31361    reff  0.999618
+ Events with 2DimVtxOK          31358    reff  0.999904
+ Events with 2DimHitPix         31342     reff  0.99949
+ Events with 2DimDzOK           31313   reff   0.999075
+ Events with 2DimMassOK         31044  reff   0.991409
+ Events with 2DimIsoOK          25120   reff   0.809174
+ Events with 2DimHLT            24572   reff   0.978185
+ ratio reco/gen                 0.677064 +/-  0.00245453
+Nrec/Ntot:                     0.12286
+fileName: NMSSM_mH_100_mA_1_V5
+
+ Sample: NMSSM_mH_100_mA_1_V5
+ Events          200000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       97737   reff 0.488685
+ 2GenMu8                        92878   reff  0.950285
+ 3GenMu8                        76798   reff  0.82687
+ 4GenMu8                        34752   reff  0.452512
+ 4GenMu8 Lxy/Lz                 34752   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       97502  reff  0.48751
+ 2RecMu8                        92543  reff  0.94914
+ 3RecMu8                        75639  reff  0.817339
+ 4RecMu8                        33658  reff  0.444982
+ ================ EVENT variables ================= 
+ Events with VtxOK              33658    reff  1
+ Events with 2 muonjets         30144     reff  0.895597
+ Events with 2 Dimuons          30132    reff  0.999602
+ Events with 2DimVtxOK          30130    reff  0.999934
+ Events with 2DimHitPix         30123     reff  0.999768
+ Events with 2DimDzOK           30110   reff   0.999568
+ Events with 2DimMassOK         29710  reff   0.986715
+ Events with 2DimIsoOK          24042   reff   0.809222
+ Events with 2DimHLT            23450   reff   0.975376
+ ratio reco/gen                 0.674781 +/-  0.00251292
+Nrec/Ntot:                     0.11725
+fileName: NMSSM_mH_100_mA_2_V5
+
+ Sample: NMSSM_mH_100_mA_2_V5
+ Events          200000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       98375   reff 0.491875
+ 2GenMu8                        93339   reff  0.948808
+ 3GenMu8                        76443   reff  0.818982
+ 4GenMu8                        33689   reff  0.440707
+ 4GenMu8 Lxy/Lz                 33689   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       98159  reff  0.490795
+ 2RecMu8                        92996  reff  0.947402
+ 3RecMu8                        75437  reff  0.811185
+ 4RecMu8                        32829  reff  0.435184
+ ================ EVENT variables ================= 
+ Events with VtxOK              32829    reff  1
+ Events with 2 muonjets         29433     reff  0.896555
+ Events with 2 Dimuons          29424    reff  0.999694
+ Events with 2DimVtxOK          29424    reff  1
+ Events with 2DimHitPix         29419     reff  0.99983
+ Events with 2DimDzOK           29412   reff   0.999762
+ Events with 2DimMassOK         28680  reff   0.975112
+ Events with 2DimIsoOK          23104   reff   0.805579
+ Events with 2DimHLT            22590   reff   0.977753
+ ratio reco/gen                 0.670545 +/-  0.00256075
+Nrec/Ntot:                     0.11295
+fileName: NMSSM_mH_100_mA_3_V5
+
+ Sample: NMSSM_mH_100_mA_3_V5
+ Events          198826
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       97384   reff 0.489795
+ 2GenMu8                        92442   reff  0.949252
+ 3GenMu8                        75508   reff  0.816815
+ 4GenMu8                        33148   reff  0.439
+ 4GenMu8 Lxy/Lz                 33148   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       97177  reff  0.488754
+ 2RecMu8                        92136  reff  0.948126
+ 3RecMu8                        74613  reff  0.809814
+ 4RecMu8                        32314  reff  0.433088
+ ================ EVENT variables ================= 
+ Events with VtxOK              32314    reff  1
+ Events with 2 muonjets         28935     reff  0.895432
+ Events with 2 Dimuons          28915    reff  0.999309
+ Events with 2DimVtxOK          28914    reff  0.999965
+ Events with 2DimHitPix         28910     reff  0.999862
+ Events with 2DimDzOK           28901   reff   0.999689
+ Events with 2DimMassOK         27822  reff   0.962666
+ Events with 2DimIsoOK          22454   reff   0.807059
+ Events with 2DimHLT            21983   reff   0.979024
+ ratio reco/gen                 0.663177 +/-  0.00259589
+Nrec/Ntot:                     0.110564
+fileName: NMSSM_mH_100_mA_3p55
+
+ Sample: NMSSM_mH_100_mA_3p55
+ Events          200000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       98541   reff 0.492705
+ 2GenMu8                        93623   reff  0.950092
+ 3GenMu8                        76492   reff  0.817021
+ 4GenMu8                        33487   reff  0.437784
+ 4GenMu8 Lxy/Lz                 33487   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       98321  reff  0.491605
+ 2RecMu8                        93285  reff  0.94878
+ 3RecMu8                        75616  reff  0.810591
+ 4RecMu8                        32753  reff  0.433149
+ ================ EVENT variables ================= 
+ Events with VtxOK              32753    reff  1
+ Events with 2 muonjets         29278     reff  0.893903
+ Events with 2 Dimuons          29258    reff  0.999317
+ Events with 2DimVtxOK          29258    reff  1
+ Events with 2DimHitPix         29254     reff  0.999863
+ Events with 2DimDzOK           29250   reff   0.999863
+ Events with 2DimMassOK         28031  reff   0.958325
+ Events with 2DimIsoOK          22506   reff   0.802897
+ Events with 2DimHLT            21990   reff   0.977073
+ ratio reco/gen                 0.656673 +/-  0.00259472
+Nrec/Ntot:                     0.10995
+fileName: NMSSM_mH_110_mA_0p5_
+
+ Sample: NMSSM_mH_110_mA_0p5_
+ Events          199400
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       101713   reff 0.510095
+ 2GenMu8                        97155   reff  0.955188
+ 3GenMu8                        84634   reff  0.871123
+ 4GenMu8                        46791   reff  0.552863
+ 4GenMu8 Lxy/Lz                 46791   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       101504  reff  0.509047
+ 2RecMu8                        96823  reff  0.953884
+ 3RecMu8                        83332  reff  0.860663
+ 4RecMu8                        44773  reff  0.537285
+ ================ EVENT variables ================= 
+ Events with VtxOK              44772    reff  0.999978
+ Events with 2 muonjets         40409     reff  0.902551
+ Events with 2 Dimuons          40400    reff  0.999777
+ Events with 2DimVtxOK          40386    reff  0.999653
+ Events with 2DimHitPix         40364     reff  0.999455
+ Events with 2DimDzOK           40324   reff   0.999009
+ Events with 2DimMassOK         40140  reff   0.995437
+ Events with 2DimIsoOK          32287   reff   0.80436
+ Events with 2DimHLT            31459   reff   0.974355
+ ratio reco/gen                 0.67233 +/-  0.00216984
+Nrec/Ntot:                     0.157768
+fileName: NMSSM_mH_110_mA_0p75
+
+ Sample: NMSSM_mH_110_mA_0p75
+ Events          200000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       103066   reff 0.51533
+ 2GenMu8                        97928   reff  0.950148
+ 3GenMu8                        83374   reff  0.851381
+ 4GenMu8                        42224   reff  0.506441
+ 4GenMu8 Lxy/Lz                 42224   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       102819  reff  0.514095
+ 2RecMu8                        97566  reff  0.94891
+ 3RecMu8                        82217  reff  0.842681
+ 4RecMu8                        40635  reff  0.494241
+ ================ EVENT variables ================= 
+ Events with VtxOK              40635    reff  1
+ Events with 2 muonjets         36465     reff  0.897379
+ Events with 2 Dimuons          36455    reff  0.999726
+ Events with 2DimVtxOK          36452    reff  0.999918
+ Events with 2DimHitPix         36437     reff  0.999588
+ Events with 2DimDzOK           36403   reff   0.999067
+ Events with 2DimMassOK         36056  reff   0.990468
+ Events with 2DimIsoOK          29077   reff   0.80644
+ Events with 2DimHLT            28350   reff   0.974997
+ ratio reco/gen                 0.671419 +/-  0.0022858
+Nrec/Ntot:                     0.14175
+fileName: NMSSM_mH_110_mA_1_V5
+
+ Sample: NMSSM_mH_110_mA_1_V5
+ Events          197892
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       101714   reff 0.513987
+ 2GenMu8                        96439   reff  0.948139
+ 3GenMu8                        81432   reff  0.844389
+ 4GenMu8                        39987   reff  0.491048
+ 4GenMu8 Lxy/Lz                 39987   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       101504  reff  0.512926
+ 2RecMu8                        96081  reff  0.946574
+ 3RecMu8                        80269  reff  0.835431
+ 4RecMu8                        38507  reff  0.479724
+ ================ EVENT variables ================= 
+ Events with VtxOK              38506    reff  0.999974
+ Events with 2 muonjets         34459     reff  0.894899
+ Events with 2 Dimuons          34441    reff  0.999478
+ Events with 2DimVtxOK          34441    reff  1
+ Events with 2DimHitPix         34435     reff  0.999826
+ Events with 2DimDzOK           34420   reff   0.999564
+ Events with 2DimMassOK         33952  reff   0.986403
+ Events with 2DimIsoOK          27390   reff   0.806727
+ Events with 2DimHLT            26695   reff   0.974626
+ ratio reco/gen                 0.667592 +/-  0.00235576
+Nrec/Ntot:                     0.134897
+fileName: NMSSM_mH_110_mA_2_V5
+
+ Sample: NMSSM_mH_110_mA_2_V5
+ Events          200000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       102544   reff 0.51272
+ 2GenMu8                        97246   reff  0.948334
+ 3GenMu8                        81312   reff  0.836148
+ 4GenMu8                        38778   reff  0.476904
+ 4GenMu8 Lxy/Lz                 38778   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       102369  reff  0.511845
+ 2RecMu8                        96961  reff  0.947172
+ 3RecMu8                        80291  reff  0.828075
+ 4RecMu8                        37630  reff  0.46867
+ ================ EVENT variables ================= 
+ Events with VtxOK              37630    reff  1
+ Events with 2 muonjets         33699     reff  0.895535
+ Events with 2 Dimuons          33688    reff  0.999674
+ Events with 2DimVtxOK          33688    reff  1
+ Events with 2DimHitPix         33688     reff  1
+ Events with 2DimDzOK           33673   reff   0.999555
+ Events with 2DimMassOK         32778  reff   0.973421
+ Events with 2DimIsoOK          26299   reff   0.802337
+ Events with 2DimHLT            25631   reff   0.9746
+ ratio reco/gen                 0.660968 +/-  0.00240391
+Nrec/Ntot:                     0.128155
+fileName: NMSSM_mH_110_mA_3_V5
+
+ Sample: NMSSM_mH_110_mA_3_V5
+ Events          200000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       102867   reff 0.514335
+ 2GenMu8                        97457   reff  0.947408
+ 3GenMu8                        81258   reff  0.833783
+ 4GenMu8                        38371   reff  0.472212
+ 4GenMu8 Lxy/Lz                 38371   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       102633  reff  0.513165
+ 2RecMu8                        97120  reff  0.946284
+ 3RecMu8                        80312  reff  0.826936
+ 4RecMu8                        37330  reff  0.464812
+ ================ EVENT variables ================= 
+ Events with VtxOK              37330    reff  1
+ Events with 2 muonjets         33372     reff  0.893973
+ Events with 2 Dimuons          33349    reff  0.999311
+ Events with 2DimVtxOK          33349    reff  1
+ Events with 2DimHitPix         33344     reff  0.99985
+ Events with 2DimDzOK           33337   reff   0.99979
+ Events with 2DimMassOK         32024  reff   0.960614
+ Events with 2DimIsoOK          25873   reff   0.807925
+ Events with 2DimHLT            25252   reff   0.975998
+ ratio reco/gen                 0.658101 +/-  0.00242155
+Nrec/Ntot:                     0.12626
+fileName: NMSSM_mH_110_mA_3p55
+
+ Sample: NMSSM_mH_110_mA_3p55
+ Events          200000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       103010   reff 0.51505
+ 2GenMu8                        97724   reff  0.948685
+ 3GenMu8                        81270   reff  0.831628
+ 4GenMu8                        38283   reff  0.471059
+ 4GenMu8 Lxy/Lz                 38283   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       102746  reff  0.51373
+ 2RecMu8                        97372  reff  0.947696
+ 3RecMu8                        80304  reff  0.824713
+ 4RecMu8                        37276  reff  0.464186
+ ================ EVENT variables ================= 
+ Events with VtxOK              37276    reff  1
+ Events with 2 muonjets         33284     reff  0.892907
+ Events with 2 Dimuons          33256    reff  0.999159
+ Events with 2DimVtxOK          33256    reff  1
+ Events with 2DimHitPix         33255     reff  0.99997
+ Events with 2DimDzOK           33252   reff   0.99991
+ Events with 2DimMassOK         31792  reff   0.956093
+ Events with 2DimIsoOK          25524   reff   0.802843
+ Events with 2DimHLT            24930   reff   0.976728
+ ratio reco/gen                 0.651203 +/-  0.0024358
+Nrec/Ntot:                     0.12465
+fileName: NMSSM_mH_125_mA_0p5_
+
+ Sample: NMSSM_mH_125_mA_0p5_
+ Events          192848
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       103866   reff 0.53859
+ 2GenMu8                        99193   reff  0.955009
+ 3GenMu8                        87588   reff  0.883006
+ 4GenMu8                        53063   reff  0.605825
+ 4GenMu8 Lxy/Lz                 53063   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       103656  reff  0.537501
+ 2RecMu8                        98861  reff  0.953741
+ 3RecMu8                        86442  reff  0.874379
+ 4RecMu8                        50686  reff  0.586358
+ ================ EVENT variables ================= 
+ Events with VtxOK              50686    reff  1
+ Events with 2 muonjets         45739     reff  0.902399
+ Events with 2 Dimuons          45718    reff  0.999541
+ Events with 2DimVtxOK          45700    reff  0.999606
+ Events with 2DimHitPix         45673     reff  0.999409
+ Events with 2DimDzOK           45580   reff   0.997964
+ Events with 2DimMassOK         45358  reff   0.995129
+ Events with 2DimIsoOK          36292   reff   0.800123
+ Events with 2DimHLT            35260   reff   0.971564
+ ratio reco/gen                 0.664493 +/-  0.00204975
+Nrec/Ntot:                     0.182838
+fileName: NMSSM_mH_125_mA_0p75
+
+ Sample: NMSSM_mH_125_mA_0p75
+ Events          200000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       108008   reff 0.54004
+ 2GenMu8                        102694   reff  0.9508
+ 3GenMu8                        88592   reff  0.862679
+ 4GenMu8                        49057   reff  0.553741
+ 4GenMu8 Lxy/Lz                 49057   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       107805  reff  0.539025
+ 2RecMu8                        102359  reff  0.949483
+ 3RecMu8                        87396  reff  0.853818
+ 4RecMu8                        47063  reff  0.538503
+ ================ EVENT variables ================= 
+ Events with VtxOK              47063    reff  1
+ Events with 2 muonjets         42281     reff  0.898392
+ Events with 2 Dimuons          42254    reff  0.999361
+ Events with 2DimVtxOK          42248    reff  0.999858
+ Events with 2DimHitPix         42237     reff  0.99974
+ Events with 2DimDzOK           42197   reff   0.999053
+ Events with 2DimMassOK         41798  reff   0.990544
+ Events with 2DimIsoOK          33448   reff   0.80023
+ Events with 2DimHLT            32504   reff   0.971777
+ ratio reco/gen                 0.662576 +/-  0.00213479
+Nrec/Ntot:                     0.16252
+fileName: NMSSM_mH_125_mA_1_V5
+
+ Sample: NMSSM_mH_125_mA_1_V5
+ Events          196985
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       106529   reff 0.540798
+ 2GenMu8                        101033   reff  0.948408
+ 3GenMu8                        86829   reff  0.859412
+ 4GenMu8                        46632   reff  0.537056
+ 4GenMu8 Lxy/Lz                 46632   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       106325  reff  0.539762
+ 2RecMu8                        100717  reff  0.947256
+ 3RecMu8                        85669  reff  0.850591
+ 4RecMu8                        44765  reff  0.522534
+ ================ EVENT variables ================= 
+ Events with VtxOK              44765    reff  1
+ Events with 2 muonjets         40142     reff  0.896727
+ Events with 2 Dimuons          40122    reff  0.999502
+ Events with 2DimVtxOK          40119    reff  0.999925
+ Events with 2DimHitPix         40107     reff  0.999701
+ Events with 2DimDzOK           40084   reff   0.999427
+ Events with 2DimMassOK         39508  reff   0.98563
+ Events with 2DimIsoOK          31526   reff   0.797965
+ Events with 2DimHLT            30726   reff   0.974624
+ ratio reco/gen                 0.658904 +/-  0.00219537
+Nrec/Ntot:                     0.155981
+fileName: NMSSM_mH_125_mA_2_V5
+
+ Sample: NMSSM_mH_125_mA_2_V5
+ Events          190593
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       103180   reff 0.541363
+ 2GenMu8                        97834   reff  0.948188
+ 3GenMu8                        83290   reff  0.85134
+ 4GenMu8                        43500   reff  0.522272
+ 4GenMu8 Lxy/Lz                 43500   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       102952  reff  0.540167
+ 2RecMu8                        97514  reff  0.947179
+ 3RecMu8                        82220  reff  0.843161
+ 4RecMu8                        42079  reff  0.511785
+ ================ EVENT variables ================= 
+ Events with VtxOK              42079    reff  1
+ Events with 2 muonjets         37740     reff  0.896884
+ Events with 2 Dimuons          37716    reff  0.999364
+ Events with 2DimVtxOK          37716    reff  1
+ Events with 2DimHitPix         37712     reff  0.999894
+ Events with 2DimDzOK           37703   reff   0.999761
+ Events with 2DimMassOK         36635  reff   0.971673
+ Events with 2DimIsoOK          29109   reff   0.794568
+ Events with 2DimHLT            28360   reff   0.974269
+ ratio reco/gen                 0.651954 +/-  0.00228393
+Nrec/Ntot:                     0.148799
+fileName: NMSSM_mH_125_mA_3_V5
+
+ Sample: NMSSM_mH_125_mA_3_V5
+ Events          199015
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       108145   reff 0.543401
+ 2GenMu8                        102514   reff  0.947931
+ 3GenMu8                        87306   reff  0.85165
+ 4GenMu8                        44992   reff  0.515337
+ 4GenMu8 Lxy/Lz                 44992   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       107936  reff  0.542351
+ 2RecMu8                        102194  reff  0.946802
+ 3RecMu8                        86321  reff  0.844678
+ 4RecMu8                        43703  reff  0.506285
+ ================ EVENT variables ================= 
+ Events with VtxOK              43703    reff  1
+ Events with 2 muonjets         39146     reff  0.895728
+ Events with 2 Dimuons          39123    reff  0.999412
+ Events with 2DimVtxOK          39123    reff  1
+ Events with 2DimHitPix         39119     reff  0.999898
+ Events with 2DimDzOK           39109   reff   0.999744
+ Events with 2DimMassOK         37521  reff   0.959396
+ Events with 2DimIsoOK          29887   reff   0.796541
+ Events with 2DimHLT            29133   reff   0.974772
+ ratio reco/gen                 0.647515 +/-  0.00225231
+Nrec/Ntot:                     0.146386
+fileName: NMSSM_mH_125_mA_3p55
+
+ Sample: NMSSM_mH_125_mA_3p55
+ Events          200000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       118969   reff 0.594845
+ 2GenMu8                        118651   reff  0.997327
+ 3GenMu8                        114231   reff  0.962748
+ 4GenMu8                        86840   reff  0.760214
+ 4GenMu8 Lxy/Lz                 86840   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       118922  reff  0.59461
+ 2RecMu8                        118592  reff  0.997225
+ 3RecMu8                        113999  reff  0.961271
+ 4RecMu8                        86228  reff  0.756393
+ ================ EVENT variables ================= 
+ Events with VtxOK              86228    reff  1
+ Events with 2 muonjets         53     reff  0.00061465
+ Events with 2 Dimuons          53    reff  1
+ Events with 2DimVtxOK          53    reff  1
+ Events with 2DimHitPix         53     reff  1
+ Events with 2DimDzOK           53   reff   1
+ Events with 2DimMassOK         4  reff   0.0754717
+ Events with 2DimIsoOK          3   reff   0.75
+ Events with 2DimHLT            3   reff   1
+ ratio reco/gen                 3.45463e-05 +/-  1.9945e-05
+Nrec/Ntot:                     1.5e-05
+fileName: NMSSM_mH_150_mA_0p5_
+
+ Sample: NMSSM_mH_150_mA_0p5_
+ Events          200000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       114553   reff 0.572765
+ 2GenMu8                        109812   reff  0.958613
+ 3GenMu8                        97919   reff  0.891697
+ 4GenMu8                        67039   reff  0.684637
+ 4GenMu8 Lxy/Lz                 67039   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       114352  reff  0.57176
+ 2RecMu8                        109427  reff  0.956931
+ 3RecMu8                        96527  reff  0.882113
+ 4RecMu8                        63191  reff  0.654646
+ ================ EVENT variables ================= 
+ Events with VtxOK              63191    reff  1
+ Events with 2 muonjets         57243     reff  0.905873
+ Events with 2 Dimuons          57221    reff  0.999616
+ Events with 2DimVtxOK          57181    reff  0.999301
+ Events with 2DimHitPix         57146     reff  0.999388
+ Events with 2DimDzOK           57031   reff   0.997988
+ Events with 2DimMassOK         56586  reff   0.992197
+ Events with 2DimIsoOK          44989   reff   0.795055
+ Events with 2DimHLT            43486   reff   0.966592
+ ratio reco/gen                 0.648667 +/-  0.00184377
+Nrec/Ntot:                     0.21743
+fileName: NMSSM_mH_150_mA_0p75
+
+ Sample: NMSSM_mH_150_mA_0p75
+ Events          200000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       114794   reff 0.57397
+ 2GenMu8                        109300   reff  0.95214
+ 3GenMu8                        95833   reff  0.876789
+ 4GenMu8                        59538   reff  0.621268
+ 4GenMu8 Lxy/Lz                 59538   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       114600  reff  0.573
+ 2RecMu8                        108939  reff  0.950602
+ 3RecMu8                        94543  reff  0.867853
+ 4RecMu8                        56742  reff  0.600171
+ ================ EVENT variables ================= 
+ Events with VtxOK              56742    reff  1
+ Events with 2 muonjets         51058     reff  0.899827
+ Events with 2 Dimuons          51039    reff  0.999628
+ Events with 2DimVtxOK          51035    reff  0.999922
+ Events with 2DimHitPix         51012     reff  0.999549
+ Events with 2DimDzOK           50969   reff   0.999157
+ Events with 2DimMassOK         50416  reff   0.98915
+ Events with 2DimIsoOK          39985   reff   0.793101
+ Events with 2DimHLT            38723   reff   0.968438
+ ratio reco/gen                 0.650391 +/-  0.00195426
+Nrec/Ntot:                     0.193615
+fileName: NMSSM_mH_150_mA_1_V5
+
+ Sample: NMSSM_mH_150_mA_1_V5
+ Events          197874
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       113491   reff 0.573552
+ 2GenMu8                        108076   reff  0.952287
+ 3GenMu8                        94409   reff  0.873543
+ 4GenMu8                        56803   reff  0.601669
+ 4GenMu8 Lxy/Lz                 56803   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       113319  reff  0.572683
+ 2RecMu8                        107767  reff  0.951006
+ 3RecMu8                        93112  reff  0.864012
+ 4RecMu8                        54115  reff  0.581182
+ ================ EVENT variables ================= 
+ Events with VtxOK              54115    reff  1
+ Events with 2 muonjets         48444     reff  0.895205
+ Events with 2 Dimuons          48425    reff  0.999608
+ Events with 2DimVtxOK          48424    reff  0.999979
+ Events with 2DimHitPix         48418     reff  0.999876
+ Events with 2DimDzOK           48376   reff   0.999133
+ Events with 2DimMassOK         47607  reff   0.984104
+ Events with 2DimIsoOK          37885   reff   0.795786
+ Events with 2DimHLT            36650   reff   0.967401
+ ratio reco/gen                 0.645212 +/-  0.00200747
+Nrec/Ntot:                     0.185219
+fileName: NMSSM_mH_150_mA_2_V5
+
+ Sample: NMSSM_mH_150_mA_2_V5
+ Events          195495
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       112471   reff 0.575314
+ 2GenMu8                        106819   reff  0.949747
+ 3GenMu8                        92513   reff  0.866073
+ 4GenMu8                        53951   reff  0.583172
+ 4GenMu8 Lxy/Lz                 53951   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       112259  reff  0.57423
+ 2RecMu8                        106492  reff  0.948628
+ 3RecMu8                        91390  reff  0.858187
+ 4RecMu8                        51893  reff  0.567819
+ ================ EVENT variables ================= 
+ Events with VtxOK              51893    reff  1
+ Events with 2 muonjets         46489     reff  0.895863
+ Events with 2 Dimuons          46463    reff  0.999441
+ Events with 2DimVtxOK          46461    reff  0.999957
+ Events with 2DimHitPix         46454     reff  0.999849
+ Events with 2DimDzOK           46445   reff   0.999806
+ Events with 2DimMassOK         44958  reff   0.967984
+ Events with 2DimIsoOK          35574   reff   0.791272
+ Events with 2DimHLT            34553   reff   0.971299
+ ratio reco/gen                 0.640452 +/-  0.00206596
+Nrec/Ntot:                     0.176746
+fileName: NMSSM_mH_150_mA_3_V5
+
+ Sample: NMSSM_mH_150_mA_3_V5
+ Events          199004
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       114897   reff 0.57736
+ 2GenMu8                        109349   reff  0.951713
+ 3GenMu8                        94833   reff  0.867251
+ 4GenMu8                        55041   reff  0.580399
+ 4GenMu8 Lxy/Lz                 55041   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       114697  reff  0.576355
+ 2RecMu8                        109049  reff  0.950757
+ 3RecMu8                        93845  reff  0.860576
+ 4RecMu8                        53057  reff  0.565368
+ ================ EVENT variables ================= 
+ Events with VtxOK              53057    reff  1
+ Events with 2 muonjets         47598     reff  0.897111
+ Events with 2 Dimuons          47572    reff  0.999454
+ Events with 2DimVtxOK          47570    reff  0.999958
+ Events with 2DimHitPix         47564     reff  0.999874
+ Events with 2DimDzOK           47554   reff   0.99979
+ Events with 2DimMassOK         45588  reff   0.958658
+ Events with 2DimIsoOK          36173   reff   0.793476
+ Events with 2DimHLT            35161   reff   0.972023
+ ratio reco/gen                 0.638815 +/-  0.00204743
+Nrec/Ntot:                     0.176685
+fileName: NMSSM_mH_150_mA_3p55
+
+ Sample: NMSSM_mH_150_mA_3p55
+ Events          190704
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       110287   reff 0.578315
+ 2GenMu8                        104850   reff  0.950701
+ 3GenMu8                        90643   reff  0.864502
+ 4GenMu8                        52312   reff  0.577121
+ 4GenMu8 Lxy/Lz                 52312   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       110106  reff  0.577366
+ 2RecMu8                        104601  reff  0.950003
+ 3RecMu8                        89709  reff  0.85763
+ 4RecMu8                        50615  reff  0.564213
+ ================ EVENT variables ================= 
+ Events with VtxOK              50615    reff  1
+ Events with 2 muonjets         45352     reff  0.896019
+ Events with 2 Dimuons          45306    reff  0.998986
+ Events with 2DimVtxOK          45306    reff  1
+ Events with 2DimHitPix         45304     reff  0.999956
+ Events with 2DimDzOK           45287   reff   0.999625
+ Events with 2DimMassOK         43220  reff   0.954358
+ Events with 2DimIsoOK          34226   reff   0.791902
+ Events with 2DimHLT            33287   reff   0.972565
+ ratio reco/gen                 0.636317 +/-  0.00210328
+Nrec/Ntot:                     0.174548
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x0000003f7b6ac65e in waitpid () from /lib64/libc.so.6
+#1  0x0000003f7b63e609 in do_system () from /lib64/libc.so.6
+#2  0x00007f894e69ce27 in TUnixSystem::StackTrace() () from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/lib/libCore.so
+#3  0x00007f894e69edbc in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/lib/libCore.so
+#4  <signal handler called>
+#5  0x00007f894e60a697 in TString::TString(std::string const&) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/lib/libCore.so
+#6  0x00007f894205713e in decodeFileNameManyNMSSM(std::vector<std::string, std::allocator<std::string> > const&, TString&, TString&) () from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NMSSM/Cutflow/AddingGen/FakeInvestigation_C.so
+#7  0x00007f8942058371 in efficiency_hitrecovery(std::vector<std::string, std::allocator<std::string> > const&) () from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NMSSM/Cutflow/AddingGen/FakeInvestigation_C.so
+#8  0x00007f894205bfda in FakeInvestigation() () from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NMSSM/Cutflow/AddingGen/FakeInvestigation_C.so
+#9  0x00007f894afe6212 in ?? ()
+#10 0x0000000000000015 in ?? ()
+#11 0x00007ffe8d26ea60 in ?? ()
+#12 0x0000000001e04360 in ?? ()
+#13 0x00007f894ba0fd3d in cling::IncrementalExecutor::executeFunction(llvm::StringRef, cling::Value*) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/lib/libCling.so
+#14 0x00007f894ba17460 in cling::Interpreter::RunFunction(clang::FunctionDecl const*, cling::Value*) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/lib/libCling.so
+#15 0x00007f894ba1c665 in cling::Interpreter::EvaluateInternal(std::string const&, cling::CompilationOptions const&, cling::Value*, cling::Transaction**) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/lib/libCling.so
+#16 0x00007f894ba1c7ed in cling::Interpreter::process(std::string const&, cling::Value*, cling::Transaction**) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/lib/libCling.so
+#17 0x00007f894ba5f3e3 in cling::MetaProcessor::process(char const*, cling::Interpreter::CompilationResult&, cling::Value*) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/lib/libCling.so
+#18 0x00007f894b90e706 in TCling::ProcessLine(char const*, TInterpreter::EErrorCode*) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/lib/libCling.so
+#19 0x00007f894b901407 in TCling::ProcessLineSynch(char const*, TInterpreter::EErrorCode*) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/lib/libCling.so
+#20 0x00007f894e5c161d in TApplication::ExecuteFile(char const*, int*, bool) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/lib/libCore.so
+#21 0x00007f894e5c25e6 in TApplication::ProcessLine(char const*, bool, int*) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/lib/libCore.so
+#22 0x00007f894e3eff75 in TRint::ProcessLineNr(char const*, char const*, int*) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/lib/libRint.so
+#23 0x00007f894e3f13a7 in TRint::Run(bool) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/lib/libRint.so
+#24 0x0000000000400fc0 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+If they do not help you then please submit a bug report at
+http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x00007f894e60a697 in TString::TString(std::string const&) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/lib/libCore.so
+#6  0x00007f894205713e in decodeFileNameManyNMSSM(std::vector<std::string, std::allocator<std::string> > const&, TString&, TString&) () from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NMSSM/Cutflow/AddingGen/FakeInvestigation_C.so
+#7  0x00007f8942058371 in efficiency_hitrecovery(std::vector<std::string, std::allocator<std::string> > const&) () from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NMSSM/Cutflow/AddingGen/FakeInvestigation_C.so
+#8  0x00007f894205bfda in FakeInvestigation() () from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NMSSM/Cutflow/AddingGen/FakeInvestigation_C.so
+#9  0x00007f894afe6212 in ?? ()
+#10 0x0000000000000015 in ?? ()
+#11 0x00007ffe8d26ea60 in ?? ()
+#12 0x0000000001e04360 in ?? ()
+#13 0x00007f894ba0fd3d in cling::IncrementalExecutor::executeFunction(llvm::StringRef, cling::Value*) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/lib/libCling.so
+#14 0x00007f894ba17460 in cling::Interpreter::RunFunction(clang::FunctionDecl const*, cling::Value*) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/lib/libCling.so
+#15 0x00007f894ba1c665 in cling::Interpreter::EvaluateInternal(std::string const&, cling::CompilationOptions const&, cling::Value*, cling::Transaction**) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/lib/libCling.so
+#16 0x00007f894ba1c7ed in cling::Interpreter::process(std::string const&, cling::Value*, cling::Transaction**) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/lib/libCling.so
+#17 0x00007f894ba5f3e3 in cling::MetaProcessor::process(char const*, cling::Interpreter::CompilationResult&, cling::Value*) () from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/lib/libCling.so
+===========================================================
+
+

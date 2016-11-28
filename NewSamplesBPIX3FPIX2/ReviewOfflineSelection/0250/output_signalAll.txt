@@ -1,0 +1,227 @@
+   ------------------------------------------------------------
+  | Welcome to ROOT 6.02/05                http://root.cern.ch |
+  |                               (c) 1995-2014, The ROOT Team |
+  | Built for linuxx8664gcc                                    |
+  | From tag , 9 February 2015                                 |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
+   ------------------------------------------------------------
+
+
+Processing offline_selection_review.C+...
+Info in <TUnixSystem::ACLiC>: creating shared library /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review_C.so
+In file included from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:21:0,
+                 from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/offline_selection_review_C_ACLiC_dict.cxx:41:
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/Helpers.h: In function 'void printFileNames(const std::vector<std::vector<std::basic_string<char> > >&)':
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/Helpers.h:101:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < vec.size(); i++){
+                     ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/Helpers.h:102:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int j = 0; j < vec[i].size(); j++){
+                       ^
+In file included from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/offline_selection_review_C_ACLiC_dict.cxx:41:0:
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C: In function 'void makePlots()':
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:578:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < mGammaD_0250_MassCompatability.size(); i ++){
+                   ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:593:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < mGammaD_0275_MassCompatability.size(); i ++){
+                   ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:607:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < mGammaD_0300_MassCompatability.size(); i ++){
+                   ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:621:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < mGammaD_2000_MassCompatability.size(); i ++){
+                   ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:635:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < mGammaD_8500_MassCompatability.size(); i ++){
+                   ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:649:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < mGammaD_0400_MassCompatability.size(); i ++){
+                   ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:663:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < mGammaD_0700_MassCompatability.size(); i ++){
+                   ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:677:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < mGammaD_1000_MassCompatability.size(); i ++){
+                   ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:691:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < mGammaD_1500_MassCompatability.size(); i ++){
+                   ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:708:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < mGammaD_all_MassCompatability.size(); i ++){
+                   ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:734:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < bbar_Fitted_dz.size(); i++){
+                  ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:747:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < mGammaD_0250_Fitted_dz.size(); i++){
+                  ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:761:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < mGammaD_0275_Fitted_dz.size(); i++){
+                  ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:774:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < mGammaD_0300_Fitted_dz.size(); i++){
+                  ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:788:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < mGammaD_2000_Fitted_dz.size(); i++){
+                  ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:801:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < mGammaD_8500_Fitted_dz.size(); i++){
+                  ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:813:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < mGammaD_0400_Fitted_dz.size(); i++){
+                  ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:826:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < mGammaD_0700_Fitted_dz.size(); i++){
+                  ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:840:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < mGammaD_1000_Fitted_dz.size(); i++){
+                  ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:852:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < mGammaD_1500_Fitted_dz.size(); i++){
+                  ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:866:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < mGammaD_all_Fitted_dz.size(); i++){
+                  ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:996:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < bbar_Fitted_iso.size(); i++){
+                  ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:1016:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < mGammaD_0250_Fitted_iso.size(); i++){
+                  ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:1038:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < mGammaD_0275_Fitted_iso.size(); i++){
+                  ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:1058:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < mGammaD_0300_Fitted_iso.size(); i++){
+                  ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:1078:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < mGammaD_2000_Fitted_iso.size(); i++){
+                  ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:1098:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < mGammaD_8500_Fitted_iso.size(); i++){
+                  ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:1120:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < mGammaD_0400_Fitted_iso.size(); i++){
+                  ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:1140:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < mGammaD_0700_Fitted_iso.size(); i++){
+                  ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:1160:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < mGammaD_1000_Fitted_iso.size(); i++){
+                  ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:1180:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < mGammaD_1500_Fitted_iso.size(); i++){
+                  ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:1205:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i =0; i < mGammaD_all_Fitted_iso.size(); i++){
+                  ^
+In file included from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/include/TChain.h:25:0,
+                 from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:12,
+                 from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/offline_selection_review_C_ACLiC_dict.cxx:41:
+/cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/include/TTree.h: In function 'void offline_vs_signal(const std::vector<std::basic_string<char> >&, int)':
+/cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/include/TTree.h:517:58: warning: 'b' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       return SetBranchAddress(bname,add,ptr,cl,type,false);
+                                                          ^
+In file included from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/offline_selection_review_C_ACLiC_dict.cxx:41:0:
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:257:10: note: 'b' was declared here
+   TTree *b;
+          ^
+In file included from /cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/include/TChain.h:25:0,
+                 from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:12,
+                 from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/offline_selection_review_C_ACLiC_dict.cxx:41:
+/cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.00-eccfad2/include/TTree.h:517:58: warning: 't' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       return SetBranchAddress(bname,add,ptr,cl,type,false);
+                                                          ^
+In file included from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/offline_selection_review_C_ACLiC_dict.cxx:41:0:
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ReviewOfflineSelection/ReReviewBPIX3FPIX2/./offline_selection_review.C:254:10: note: 't' was declared here
+   TTree *t;
+          ^
+Info in <TCanvas::Print>: pdf file mGammaD_0250_MassCompatability.pdf has been created
+Info in <TCanvas::Print>: pdf file mGammaD_0275_MassCompatability.pdf has been created
+Info in <TCanvas::Print>: pdf file mGammaD_0300_MassCompatability.pdf has been created
+Info in <TCanvas::Print>: pdf file mGammaD_2000_MassCompatability.pdf has been created
+Info in <TCanvas::Print>: pdf file mGammaD_8500_MassCompatability.pdf has been created
+Info in <TCanvas::Print>: pdf file mGammaD_0400_MassCompatability.pdf has been created
+Info in <TCanvas::Print>: pdf file mGammaD_0700_MassCompatability.pdf has been created
+Info in <TCanvas::Print>: pdf file mGammaD_1000_MassCompatability.pdf has been created
+Info in <TCanvas::Print>: pdf file mGammaD_1500_MassCompatability.pdf has been created
+Info in <TCanvas::Print>: pdf file mGammaD_all_MassCompatability.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: bbar_Fitted_dz_plot
+Info in <TCanvas::Print>: pdf file bbar_dz_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0250_Fitted_dz_plot
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: bbar_Fitted_dz_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0250_Fitted_dz_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0275_Fitted_dz_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0275_Fitted_dz_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0300_Fitted_dz_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0300_Fitted_dz_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_2000_Fitted_dz_plot
+Info in <TCanvas::Print>: pdf file mGammaD_2000_Fitted_dz_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_8500_Fitted_dz_plot
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: bbar_Fitted_dz_plot
+Info in <TCanvas::Print>: pdf file mGammaD_8500_Fitted_dz_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0400_Fitted_dz_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0400_Fitted_dz_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0700_Fitted_dz_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0700_Fitted_dz_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_1000_Fitted_dz_plot
+Info in <TCanvas::Print>: pdf file mGammaD_1000_Fitted_dz_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_1500_Fitted_dz_plot
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: bbar_Fitted_dz_plot
+Info in <TCanvas::Print>: pdf file mGammaD_1500_Fitted_dz_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_all_Fitted_dz_plot
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: bbar_Fitted_dz_plot
+Info in <TCanvas::Print>: pdf file mGammaD_all_Fitted_dz_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: bbar_Iso_plot
+Info in <TCanvas::Print>: pdf file bbar_Iso_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: bbar_Iso_zoom_plot
+Info in <TCanvas::Print>: pdf file bbar_Iso_zoom_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0250_Fitted_Iso_plot
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: bbar_Iso_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0250_Fitted_Iso_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0250_Fitted_Iso_zoom_plot
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: bbar_Iso_zoom_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0250_Fitted_Iso_zoom_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0275_Fitted_Iso_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0275_Fitted_Iso_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0275_Fitted_Iso_zoom_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0275_Fitted_Iso_zoom_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0300_Fitted_Iso_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0300_Fitted_Iso_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0300_Fitted_Iso_zoom_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0300_Fitted_Iso_zoom_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_2000_Fitted_Iso_plot
+Info in <TCanvas::Print>: pdf file mGammaD_2000_Fitted_Iso_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_2000_Fitted_Iso_zoom_plot
+Info in <TCanvas::Print>: pdf file mGammaD_2000_Fitted_Iso_zoom_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_8500_Fitted_Iso_plot
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: bbar_Iso_plot
+Info in <TCanvas::Print>: pdf file mGammaD_8500_Fitted_Iso_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_8500_Fitted_Iso_zoom_plot
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: bbar_Iso_zoom_plot
+Info in <TCanvas::Print>: pdf file mGammaD_8500_Fitted_Iso_zoom_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0400_Fitted_Iso_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0400_Fitted_Iso_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0400_Fitted_Iso_zoom_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0400_Fitted_Iso_zoom_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0700_Fitted_Iso_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0700_Fitted_Iso_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_0700_Fitted_Iso_zoom_plot
+Info in <TCanvas::Print>: pdf file mGammaD_0700_Fitted_Iso_zoom_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_1000_Fitted_Iso_plot
+Info in <TCanvas::Print>: pdf file mGammaD_1000_Fitted_Iso_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_1000_Fitted_Iso_zoom_plot
+Info in <TCanvas::Print>: pdf file mGammaD_1000_Fitted_Iso_zoom_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_1500_Fitted_Iso_plot
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: bbar_Iso_plot
+Info in <TCanvas::Print>: pdf file mGammaD_1500_Fitted_Iso_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_1500_Fitted_Iso_zoom_plot
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: bbar_Iso_zoom_plot
+Info in <TCanvas::Print>: pdf file mGammaD_1500_Fitted_Iso_zoom_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_all_Fitted_Iso_plot
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: bbar_Iso_plot
+Info in <TCanvas::Print>: pdf file mGammaD_all_Fitted_Iso_plot.pdf has been created
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: mGammaD_all_Fitted_Iso_zoom_plot
+Error in <TH1D::DrawNormalized>: Sum of weights is null. Cannot normalize histogram: bbar_Iso_zoom_plot
+Info in <TCanvas::Print>: pdf file mGammaD_all_Fitted_Iso_zoom_plot.pdf has been created

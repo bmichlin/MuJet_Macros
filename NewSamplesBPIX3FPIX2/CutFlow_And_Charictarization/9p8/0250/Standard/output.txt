@@ -1,0 +1,796 @@
+   ------------------------------------------------------------
+  | Welcome to ROOT 6.02/05                http://root.cern.ch |
+  |                               (c) 1995-2014, The ROOT Team |
+  | Built for linuxx8664gcc                                    |
+  | From tag , 9 February 2015                                 |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
+   ------------------------------------------------------------
+
+
+Processing FakeInvestigation.C+...
+Info in <TUnixSystem::ACLiC>: creating shared library /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation_C.so
+In file included from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:20:0,
+                 from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/FakeInvestigation_C_ACLiC_dict.cxx:41:
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/Helpers.h: In function 'void printFileNames(const std::vector<std::vector<std::basic_string<char> > >&)':
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/Helpers.h:101:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < vec.size(); i++){
+                     ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/Helpers.h:102:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int j = 0; j < vec[i].size(); j++){
+                       ^
+In file included from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/FakeInvestigation_C_ACLiC_dict.cxx:41:0:
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C: In function 'void efficiency_hitrecovery(const std::vector<std::basic_string<char> >&)':
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:962:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(int r = 0; r < reco_real_muons_phi.size(); r++){
+                       ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:978:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(int i = 0; i< dR_real_g_r_real.size(); i++){
+                     ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:999:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(int i = 0; i< dR_real_g_r_real.size(); i++){
+                     ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1022:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(int i = 0; i< dR_real_g_r_real.size(); i++){
+                     ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1045:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(int i = 0; i< dR_real_g_r_real.size(); i++){
+                     ^
+In file included from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/FakeInvestigation_C_ACLiC_dict.cxx:41:0:
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1093:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(int r = 0; r < reco_real_muons_phi.size(); r++){ //Find best real_match to diMuonC
+                       ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1105:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(int r = 0; r < reco_real_muons_phi.size(); r++){ //Find Second_real best real_match to diMuonC
+                       ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1121:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(int r = 0; r < reco_real_muons_phi.size(); r++){ //Find best real_match to diMuonF
+                       ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1133:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(int r = 0; r < reco_real_muons_phi.size(); r++){ //Find Second_real best real_match to diMuonF
+                       ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1477:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       for(int r = 0; r < reco_muons_phi.size(); r++){
+                        ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1515:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       for(int r = 0; r < reco_muons_phi.size(); r++){
+                        ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1538:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(int i = 0; i< dR_g_r.size(); i++){
+                      ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1559:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(int i = 0; i< dR_g_r.size(); i++){
+                      ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1582:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(int i = 0; i< dR_g_r.size(); i++){
+                      ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1605:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(int i = 0; i< dR_g_r.size(); i++){
+                      ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1653:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       for(int r = 0; r < reco_muons_phi.size(); r++){ //Find best match to diMuonC
+                        ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1665:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       for(int r = 0; r < reco_muons_phi.size(); r++){ //Find second best match to diMuonC
+                        ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1681:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       for(int r = 0; r < reco_muons_phi.size(); r++){ //Find best match to diMuonF
+                        ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1693:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       for(int r = 0; r < reco_muons_phi.size(); r++){ //Find second best match to diMuonF
+                        ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C: In function 'void makePlot()':
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:2455:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_0250_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:2467:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_0275_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:2479:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_0300_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:2491:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_2000_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:2502:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_8500_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:2514:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_0400_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:2526:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_0700_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:2538:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_1000_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:2550:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_1500_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C: In function 'void printFakeStats()':
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:3295:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < FakeStatistics.size(); i++){
+                   ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C: In function 'void efficiency_hitrecovery(const std::vector<std::basic_string<char> >&)':
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1608:169: warning: 'Third' may be used uninitialized in this function [-Wmaybe-uninitialized]
+        if(dR_g_r[First][1] != dR_g_r[i][1] && dR_g_r[First][2] != dR_g_r[i][2] && dR_g_r[Second][1] != dR_g_r[i][1] && dR_g_r[Second][2] != dR_g_r[i][2] && dR_g_r[Third][1] != dR_g_r[i][1] && dR_g_r[Third][2] != dR_g_r[i][2]){
+                                                                                                                                                                         ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1608:96: warning: 'Second' may be used uninitialized in this function [-Wmaybe-uninitialized]
+        if(dR_g_r[First][1] != dR_g_r[i][1] && dR_g_r[First][2] != dR_g_r[i][2] && dR_g_r[Second][1] != dR_g_r[i][1] && dR_g_r[Second][2] != dR_g_r[i][2] && dR_g_r[Third][1] != dR_g_r[i][1] && dR_g_r[Third][2] != dR_g_r[i][2]){
+                                                                                                ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1562:23: warning: 'First' may be used uninitialized in this function [-Wmaybe-uninitialized]
+        if(dR_g_r[First][1] != dR_g_r[i][1] && dR_g_r[First][2] != dR_g_r[i][2]){ //make sure that the second best match isn't the same RECO or GEN particles
+                       ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1048:283: warning: 'Third_real' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       if(dR_real_g_r_real[First_real][1] != dR_real_g_r_real[i][1] && dR_real_g_r_real[First_real][2] != dR_real_g_r_real[i][2] && dR_real_g_r_real[Second_real][1] != dR_real_g_r_real[i][1] && dR_real_g_r_real[Second_real][2] != dR_real_g_r_real[i][2] && dR_real_g_r_real[Third_real][1] != dR_real_g_r_real[i][1] && dR_real_g_r_real[Third_real][2] != dR_real_g_r_real[i][2]){
+                                                                                                                                                                                                                                                                                           ^
+In file included from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/FakeInvestigation_C_ACLiC_dict.cxx:41:0:
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1048:160: warning: 'Second_real' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       if(dR_real_g_r_real[First_real][1] != dR_real_g_r_real[i][1] && dR_real_g_r_real[First_real][2] != dR_real_g_r_real[i][2] && dR_real_g_r_real[Second_real][1] != dR_real_g_r_real[i][1] && dR_real_g_r_real[Second_real][2] != dR_real_g_r_real[i][2] && dR_real_g_r_real[Third_real][1] != dR_real_g_r_real[i][1] && dR_real_g_r_real[Third_real][2] != dR_real_g_r_real[i][2]){
+                                                                                                                                                                ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/ExtendFidRegion_NewSamples/MakeAllPlots_AndRatio/9p8/0250/./FakeInvestigation.C:1002:37: warning: 'First_real' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       if(dR_real_g_r_real[First_real][1] != dR_real_g_r_real[i][1] && dR_real_g_r_real[First_real][2] != dR_real_g_r_real[i][2]){ //make sure that the Second_real best real_match isn't the same RECO or GEN particles
+                                     ^
+Begin Fake Investigation
+Vector Created
+Samples read
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_000_
+ Events          149500
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       48209   reff 0.322468
+ 2GenMu8                        47173   reff  0.97851
+ 3GenMu8                        31463   reff  0.666971
+ 4GenMu8                        21140   reff  0.6719
+ 4GenMu8 Lxy/Lz                 21140   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       47954  reff  0.320763
+ 2RecMu8                        46238  reff  0.964216
+ 3RecMu8                        30821  reff  0.666573
+ 4RecMu8                        19208  reff  0.623211
+ ================ EVENT variables ================= 
+ Events with VtxOK              19208    reff  1
+ Events with 2 muonjets         18729     reff  0.975062
+ Events with 2 Dimuons          18725    reff  0.999786
+ Events with 2DimVtxOK          18633    reff  0.995087
+ Events with 2DimHitPix         18606     reff  0.998551
+ Events with 2DimDzOK           18589   reff   0.999086
+ Events with 2DimMassOK         18547  reff   0.997741
+ Events with 2DimIsoOK          14942   reff   0.805629
+ Events with 2DimHLT            14455   reff   0.967407
+ ratio reco/gen                 0.683775 +/-  0.00319818
+Fake rate (#Fakes/#Events): 0
+Filling fake stat vector: 
+cT_string, cT_double    : 000_, 0
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 149500
+numFakes                : 0
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_005_
+ Events          140000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       45173   reff 0.322664
+ 2GenMu8                        44153   reff  0.97742
+ 3GenMu8                        29403   reff  0.665934
+ 4GenMu8                        19775   reff  0.67255
+ 4GenMu8 Lxy/Lz                 19693   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       44839  reff  0.320279
+ 2RecMu8                        43026  reff  0.959566
+ 3RecMu8                        28620  reff  0.665179
+ 4RecMu8                        17587  reff  0.6145
+ ================ EVENT variables ================= 
+ Events with VtxOK              17587    reff  1
+ Events with 2 muonjets         17060     reff  0.970035
+ Events with 2 Dimuons          17052    reff  0.999531
+ Events with 2DimVtxOK          16945    reff  0.993725
+ Events with 2DimHitPix         16891     reff  0.996813
+ Events with 2DimDzOK           16868   reff   0.998638
+ Events with 2DimMassOK         16818  reff   0.997036
+ Events with 2DimIsoOK          13572   reff   0.806993
+ Events with 2DimHLT            13052   reff   0.961686
+ ratio reco/gen                 0.662774 +/-  0.00336889
+Fake rate (#Fakes/#Events): 0
+Filling fake stat vector: 
+cT_string, cT_double    : 005_, 0.05
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 140000
+numFakes                : 0
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_010_
+ Events          143250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       46090   reff 0.321745
+ 2GenMu8                        45090   reff  0.978303
+ 3GenMu8                        30157   reff  0.668818
+ 4GenMu8                        20140   reff  0.667838
+ 4GenMu8 Lxy/Lz                 19539   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       45695  reff  0.318988
+ 2RecMu8                        43735  reff  0.957107
+ 3RecMu8                        29176  reff  0.667109
+ 4RecMu8                        17670  reff  0.605635
+ ================ EVENT variables ================= 
+ Events with VtxOK              17670    reff  1
+ Events with 2 muonjets         17080     reff  0.96661
+ Events with 2 Dimuons          17079    reff  0.999941
+ Events with 2DimVtxOK          16949    reff  0.992388
+ Events with 2DimHitPix         16614     reff  0.980235
+ Events with 2DimDzOK           16590   reff   0.998555
+ Events with 2DimMassOK         16540  reff   0.996986
+ Events with 2DimIsoOK          13297   reff   0.80393
+ Events with 2DimHLT            12815   reff   0.963751
+ ratio reco/gen                 0.655868 +/-  0.00339875
+Fake rate (#Fakes/#Events): 6.282722513e-05
+Filling fake stat vector: 
+cT_string, cT_double    : 010_, 0.1
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 143250
+numFakes                : 9
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_020_
+ Events          151500
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       48830   reff 0.322310231
+ 2GenMu8                        47775   reff  0.9783944297
+ 3GenMu8                        31887   reff  0.6674411303
+ 4GenMu8                        21247   reff  0.6663216985
+ 4GenMu8 Lxy/Lz                 18059   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       48249  reff  0.3184752475
+ 2RecMu8                        45980  reff  0.9529731186
+ 3RecMu8                        30468  reff  0.6626359287
+ 4RecMu8                        18003  reff  0.5908822371
+ ================ EVENT variables ================= 
+ Events with VtxOK              18003    reff  1
+ Events with 2 muonjets         16982     reff  0.9432872299
+ Events with 2 Dimuons          16975    reff  0.9995877988
+ Events with 2DimVtxOK          16817    reff  0.9906921944
+ Events with 2DimHitPix         15141     reff  0.9003389427
+ Events with 2DimDzOK           15105   reff   0.9976223499
+ Events with 2DimMassOK         15079  reff   0.9982787157
+ Events with 2DimIsoOK          12125   reff   0.804098415
+ Events with 2DimHLT            11636   reff   0.9596701031
+ ratio reco/gen                 0.6443324658 +/-  0.003562298191
+Fake rate (#Fakes/#Events): 0.0001518151815
+Filling fake stat vector: 
+cT_string, cT_double    : 020_, 0.2
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 151500
+numFakes                : 23
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_050_
+ Events          151250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       48598   reff 0.3213090909
+ 2GenMu8                        47532   reff  0.9780649409
+ 3GenMu8                        31757   reff  0.6681183203
+ 4GenMu8                        21243   reff  0.668923387
+ 4GenMu8 Lxy/Lz                 9839   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       47345  reff  0.3130247934
+ 2RecMu8                        44345  reff  0.9366353364
+ 3RecMu8                        28983  reff  0.653579885
+ 4RecMu8                        15772  reff  0.5441810717
+ ================ EVENT variables ================= 
+ Events with VtxOK              15772    reff  1
+ Events with 2 muonjets         13546     reff  0.8588638093
+ Events with 2 Dimuons          13541    reff  0.9996308873
+ Events with 2DimVtxOK          13428    reff  0.9916549738
+ Events with 2DimHitPix         8307     reff  0.6186327078
+ Events with 2DimDzOK           8261   reff   0.9944625015
+ Events with 2DimMassOK         8240  reff   0.9974579349
+ Events with 2DimIsoOK          6634   reff   0.8050970874
+ Events with 2DimHLT            6288   reff   0.9478444377
+ ratio reco/gen                 0.6390893383 +/-  0.004841781223
+Fake rate (#Fakes/#Events): 0.0006347107438
+Filling fake stat vector: 
+cT_string, cT_double    : 050_, 0.5
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 151250
+numFakes                : 96
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_100_
+ Events          148750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       48032   reff 0.3229042017
+ 2GenMu8                        46959   reff  0.9776607262
+ 3GenMu8                        31251   reff  0.6654954322
+ 4GenMu8                        20870   reff  0.6678186298
+ 4GenMu8 Lxy/Lz                 4235   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       44082  reff  0.2963495798
+ 2RecMu8                        40118  reff  0.9100766753
+ 3RecMu8                        24800  reff  0.6181763797
+ 4RecMu8                        12019  reff  0.4846370968
+ ================ EVENT variables ================= 
+ Events with VtxOK              12019    reff  1
+ Events with 2 muonjets         9303     reff  0.7740244613
+ Events with 2 Dimuons          9300    reff  0.9996775234
+ Events with 2DimVtxOK          9215    reff  0.9908602151
+ Events with 2DimHitPix         3683     reff  0.3996744438
+ Events with 2DimDzOK           3623   reff   0.9837089329
+ Events with 2DimMassOK         3611  reff   0.9966878278
+ Events with 2DimIsoOK          2912   reff   0.8064248131
+ Events with 2DimHLT            2742   reff   0.9416208791
+ ratio reco/gen                 0.6474616293 +/-  0.007341478091
+Fake rate (#Fakes/#Events): 0.0004705882353
+Filling fake stat vector: 
+cT_string, cT_double    : 100_, 1
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 148750
+numFakes                : 70
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_200_
+ Events          147750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       47472   reff 0.3212994924
+ 2GenMu8                        46443   reff  0.9783240647
+ 3GenMu8                        30999   reff  0.6674633422
+ 4GenMu8                        20916   reff  0.6747314429
+ 4GenMu8 Lxy/Lz                 1451   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       36796  reff  0.2490423012
+ 2RecMu8                        31828  reff  0.8649853245
+ 3RecMu8                        17313  reff  0.5439550082
+ 4RecMu8                        7238  reff  0.4180673482
+ ================ EVENT variables ================= 
+ Events with VtxOK              7238    reff  1
+ Events with 2 muonjets         5134     reff  0.7093119646
+ Events with 2 Dimuons          5133    reff  0.9998052201
+ Events with 2DimVtxOK          5099    reff  0.9933761933
+ Events with 2DimHitPix         1286     reff  0.252206315
+ Events with 2DimDzOK           1251   reff   0.9727838258
+ Events with 2DimMassOK         1242  reff   0.9928057554
+ Events with 2DimIsoOK          991   reff   0.7979066023
+ Events with 2DimHLT            932   reff   0.9404641776
+ ratio reco/gen                 0.6423156444 +/-  0.01258318311
+Fake rate (#Fakes/#Events): 0.0001759729272
+Filling fake stat vector: 
+cT_string, cT_double    : 200_, 2
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 147750
+numFakes                : 26
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_300_
+ Events          151250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       48720   reff 0.3221157025
+ 2GenMu8                        47638   reff  0.9777914614
+ 3GenMu8                        31844   reff  0.6684579537
+ 4GenMu8                        21363   reff  0.670864213
+ 4GenMu8 Lxy/Lz                 780   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       32180  reff  0.2127603306
+ 2RecMu8                        26739  reff  0.830919826
+ 3RecMu8                        12874  reff  0.4814690153
+ 4RecMu8                        4736  reff  0.3678732329
+ ================ EVENT variables ================= 
+ Events with VtxOK              4736    reff  1
+ Events with 2 muonjets         3212     reff  0.6782094595
+ Events with 2 Dimuons          3212    reff  1
+ Events with 2DimVtxOK          3191    reff  0.9934620174
+ Events with 2DimHitPix         710     reff  0.2225007835
+ Events with 2DimDzOK           694   reff   0.9774647887
+ Events with 2DimMassOK         688  reff   0.9913544669
+ Events with 2DimIsoOK          551   reff   0.800872093
+ Events with 2DimHLT            526   reff   0.9546279492
+ ratio reco/gen                 0.6743589744 +/-  0.0167790677
+Fake rate (#Fakes/#Events): 0.0001983471074
+Filling fake stat vector: 
+cT_string, cT_double    : 300_, 3
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 151250
+numFakes                : 30
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_500_
+ Events          144250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       46554   reff 0.3227313692
+ 2GenMu8                        45550   reff  0.9784336469
+ 3GenMu8                        30403   reff  0.6674643249
+ 4GenMu8                        20414   reff  0.6714468967
+ 4GenMu8 Lxy/Lz                 246   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       23384  reff  0.1621074523
+ 2RecMu8                        18092  reff  0.7736914129
+ 3RecMu8                        6912  reff  0.3820473137
+ 4RecMu8                        2331  reff  0.3372395833
+ ================ EVENT variables ================= 
+ Events with VtxOK              2331    reff  1
+ Events with 2 muonjets         1507     reff  0.6465036465
+ Events with 2 Dimuons          1507    reff  1
+ Events with 2DimVtxOK          1500    reff  0.99535501
+ Events with 2DimHitPix         235     reff  0.1566666667
+ Events with 2DimDzOK           219   reff   0.9319148936
+ Events with 2DimMassOK         216  reff   0.9863013699
+ Events with 2DimIsoOK          176   reff   0.8148148148
+ Events with 2DimHLT            165   reff   0.9375
+ ratio reco/gen                 0.6707317073 +/-  0.02996276036
+Fake rate (#Fakes/#Events): 6.239168111e-05
+Filling fake stat vector: 
+cT_string, cT_double    : 500_, 5
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 144250
+numFakes                : 9
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_1000
+ Events          405490
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       129958   reff 0.3204961898
+ 2GenMu8                        127134   reff  0.9782699026
+ 3GenMu8                        84971   reff  0.6683577957
+ 4GenMu8                        57051   reff  0.6714173071
+ 4GenMu8 Lxy/Lz                 189   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       40554  reff  0.1000123308
+ 2RecMu8                        28266  reff  0.6969965971
+ 3RecMu8                        7331  reff  0.259357532
+ 4RecMu8                        2141  reff  0.2920474696
+ ================ EVENT variables ================= 
+ Events with VtxOK              2141    reff  1
+ Events with 2 muonjets         1339     reff  0.6254086875
+ Events with 2 Dimuons          1338    reff  0.999253174
+ Events with 2DimVtxOK          1330    reff  0.9940209268
+ Events with 2DimHitPix         195     reff  0.1466165414
+ Events with 2DimDzOK           187   reff   0.958974359
+ Events with 2DimMassOK         181  reff   0.9679144385
+ Events with 2DimIsoOK          144   reff   0.7955801105
+ Events with 2DimHLT            137   reff   0.9513888889
+ ratio reco/gen                 0.7248677249 +/-  0.0324839811
+Fake rate (#Fakes/#Events): 1.233076031e-05
+Filling fake stat vector: 
+cT_string, cT_double    : 1000, 10
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 405490
+numFakes                : 5
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_2000
+ Events          369000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       118428   reff 0.3209430894
+ 2GenMu8                        115881   reff  0.9784932617
+ 3GenMu8                        77495   reff  0.6687463864
+ 4GenMu8                        52119   reff  0.6725466159
+ 4GenMu8 Lxy/Lz                 53   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       21634  reff  0.05862872629
+ 2RecMu8                        13633  reff  0.6301654803
+ 3RecMu8                        2340  reff  0.1716423384
+ 4RecMu8                        533  reff  0.2277777778
+ ================ EVENT variables ================= 
+ Events with VtxOK              533    reff  1
+ Events with 2 muonjets         329     reff  0.617260788
+ Events with 2 Dimuons          329    reff  1
+ Events with 2DimVtxOK          327    reff  0.9939209726
+ Events with 2DimHitPix         56     reff  0.1712538226
+ Events with 2DimDzOK           54   reff   0.9642857143
+ Events with 2DimMassOK         51  reff   0.9444444444
+ Events with 2DimIsoOK          40   reff   0.7843137255
+ Events with 2DimHLT            38   reff   0.95
+ ratio reco/gen                 0.7169811321 +/-  0.06187619842
+Fake rate (#Fakes/#Events): 1.08401084e-05
+Filling fake stat vector: 
+cT_string, cT_double    : 2000, 20
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 369000
+numFakes                : 4
+For Loop completes
+Info in <TCanvas::Print>: pdf file e_rec_alpha_gen_vs_cT_0250_GeV.pdf has been created
+
+Fake Statistics
+Mass (GeV)	cT (mm)	Num Events in Sample	Num Fakes in Sample
+0.25	0	149500	0
+0.25	0.05	140000	0
+0.25	0.1	143250	9
+0.25	0.2	151500	23
+0.25	0.5	151250	96
+0.25	1	148750	70
+0.25	2	147750	26
+0.25	3	151250	30
+0.25	5	144250	9
+0.25	10	405490	5
+0.25	20	369000	4
+

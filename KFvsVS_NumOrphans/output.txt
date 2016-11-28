@@ -1,0 +1,1533 @@
+   ------------------------------------------------------------
+  | Welcome to ROOT 6.02/05                http://root.cern.ch |
+  |                               (c) 1995-2014, The ROOT Team |
+  | Built for linuxx8664gcc                                    |
+  | From tag , 9 February 2015                                 |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
+   ------------------------------------------------------------
+
+
+Processing FakeInvestigation.C+...
+Info in <TUnixSystem::ACLiC>: creating shared library /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NumOrphanAndVSvsKF/./FakeInvestigation_C.so
+In file included from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NumOrphanAndVSvsKF/./FakeInvestigation.C:20:0,
+                 from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NumOrphanAndVSvsKF/FakeInvestigation_C_ACLiC_dict.cxx:41:
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/LatexHelpers.h: In function 'void printFileNames(const std::vector<std::vector<std::basic_string<char> > >&)':
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/LatexHelpers.h:118:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < vec.size(); i++){
+                     ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/LatexHelpers.h:119:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int j = 0; j < vec[i].size(); j++){
+                       ^
+In file included from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NumOrphanAndVSvsKF/FakeInvestigation_C_ACLiC_dict.cxx:41:0:
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NumOrphanAndVSvsKF/./FakeInvestigation.C: In function 'void makePlot()':
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NumOrphanAndVSvsKF/./FakeInvestigation.C:680:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_0250_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NumOrphanAndVSvsKF/./FakeInvestigation.C:693:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_8500_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NumOrphanAndVSvsKF/./FakeInvestigation.C:705:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_0400_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NumOrphanAndVSvsKF/./FakeInvestigation.C:718:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_1000_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NumOrphanAndVSvsKF/./FakeInvestigation.C:731:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_KF_0250_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NumOrphanAndVSvsKF/./FakeInvestigation.C:744:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_KF_8500_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NumOrphanAndVSvsKF/./FakeInvestigation.C:756:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_KF_0400_cT.size(); i++){
+                 ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/NumOrphanAndVSvsKF/./FakeInvestigation.C:768:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < mGammaD_KF_1000_cT.size(); i++){
+                 ^
+Begin Fake Investigation
+Vector Created
+Samples read
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_000_E
+ Events          149500
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       48209   reff 0.322468
+ 2GenMu8                        47173   reff  0.97851
+ 3GenMu8                        31463   reff  0.666971
+ 4GenMu8                        21140   reff  0.6719
+ 4GenMu8 Lxy/Lz                 21140   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       47954  reff  0.320763
+ 2RecMu8                        46238  reff  0.964216
+ 3RecMu8                        30821  reff  0.666573
+ 4RecMu8                        19208  reff  0.623211
+ ratio reco/gen                 0.683775 +/-  0.00319818
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.25, 0, 236, 0.0015786
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.25, 0, 237, 0.00158528
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_005_E
+ Events          140000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       45173   reff 0.322664
+ 2GenMu8                        44153   reff  0.97742
+ 3GenMu8                        29403   reff  0.665934
+ 4GenMu8                        19775   reff  0.67255
+ 4GenMu8 Lxy/Lz                 19693   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       44839  reff  0.320279
+ 2RecMu8                        43026  reff  0.959566
+ 3RecMu8                        28620  reff  0.665179
+ 4RecMu8                        17587  reff  0.6145
+ ratio reco/gen                 0.662774 +/-  0.00336889
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.25, 0.05, 229, 0.00163571
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.25, 0.05, 231, 0.00165
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_010_E
+ Events          143250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       46090   reff 0.321745
+ 2GenMu8                        45090   reff  0.978303
+ 3GenMu8                        30157   reff  0.668818
+ 4GenMu8                        20140   reff  0.667838
+ 4GenMu8 Lxy/Lz                 19539   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       45695  reff  0.318988
+ 2RecMu8                        43735  reff  0.957107
+ 3RecMu8                        29176  reff  0.667109
+ 4RecMu8                        17670  reff  0.605635
+ ratio reco/gen                 0.655868 +/-  0.00339875
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.25, 0.1, 220, 0.00153578
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.25, 0.1, 221, 0.00154276
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_020_E
+ Events          151500
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       48830   reff 0.32231
+ 2GenMu8                        47775   reff  0.978394
+ 3GenMu8                        31887   reff  0.667441
+ 4GenMu8                        21247   reff  0.666322
+ 4GenMu8 Lxy/Lz                 18059   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       48249  reff  0.318475
+ 2RecMu8                        45980  reff  0.952973
+ 3RecMu8                        30468  reff  0.662636
+ 4RecMu8                        18003  reff  0.590882
+ ratio reco/gen                 0.644332 +/-  0.0035623
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.25, 0.2, 216, 0.00142574
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.25, 0.2, 219, 0.00144554
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_050_E
+ Events          151250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       48598   reff 0.321309
+ 2GenMu8                        47532   reff  0.978065
+ 3GenMu8                        31757   reff  0.668118
+ 4GenMu8                        21243   reff  0.668923
+ 4GenMu8 Lxy/Lz                 9839   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       47345  reff  0.313025
+ 2RecMu8                        44345  reff  0.936635
+ 3RecMu8                        28983  reff  0.65358
+ 4RecMu8                        15772  reff  0.544181
+ ratio reco/gen                 0.639089 +/-  0.00484178
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.25, 0.5, 99, 0.000654545
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.25, 0.5, 99, 0.000654545
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_100_E
+ Events          148750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       48032   reff 0.322904
+ 2GenMu8                        46959   reff  0.977661
+ 3GenMu8                        31251   reff  0.665495
+ 4GenMu8                        20870   reff  0.667819
+ 4GenMu8 Lxy/Lz                 4235   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       44082  reff  0.29635
+ 2RecMu8                        40118  reff  0.910077
+ 3RecMu8                        24800  reff  0.618176
+ 4RecMu8                        12019  reff  0.484637
+ ratio reco/gen                 0.647462 +/-  0.00734148
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.25, 1, 50, 0.000336134
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.25, 1, 50, 0.000336134
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_200_E
+ Events          147750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       47472   reff 0.321299
+ 2GenMu8                        46443   reff  0.978324
+ 3GenMu8                        30999   reff  0.667463
+ 4GenMu8                        20916   reff  0.674731
+ 4GenMu8 Lxy/Lz                 1451   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       36796  reff  0.249042
+ 2RecMu8                        31828  reff  0.864985
+ 3RecMu8                        17313  reff  0.543955
+ 4RecMu8                        7238  reff  0.418067
+ ratio reco/gen                 0.642316 +/-  0.0125832
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.25, 2, 10, 6.76819e-05
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.25, 2, 10, 6.76819e-05
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_300_E
+ Events          151250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       48720   reff 0.322116
+ 2GenMu8                        47638   reff  0.977791
+ 3GenMu8                        31844   reff  0.668458
+ 4GenMu8                        21363   reff  0.670864
+ 4GenMu8 Lxy/Lz                 780   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       32180  reff  0.21276
+ 2RecMu8                        26739  reff  0.83092
+ 3RecMu8                        12874  reff  0.481469
+ 4RecMu8                        4736  reff  0.367873
+ ratio reco/gen                 0.674359 +/-  0.0167791
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.25, 3, 4, 2.64463e-05
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.25, 3, 4, 2.64463e-05
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_500_E
+ Events          144250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       46554   reff 0.322731
+ 2GenMu8                        45550   reff  0.978434
+ 3GenMu8                        30403   reff  0.667464
+ 4GenMu8                        20414   reff  0.671447
+ 4GenMu8 Lxy/Lz                 246   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       23384  reff  0.162107
+ 2RecMu8                        18092  reff  0.773691
+ 3RecMu8                        6912  reff  0.382047
+ 4RecMu8                        2331  reff  0.33724
+ ratio reco/gen                 0.670732 +/-  0.0299628
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.25, 5, 2, 1.38648e-05
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.25, 5, 2, 1.38648e-05
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_1000_
+ Events          405490
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       129958   reff 0.320496
+ 2GenMu8                        127134   reff  0.97827
+ 3GenMu8                        84971   reff  0.668358
+ 4GenMu8                        57051   reff  0.671417
+ 4GenMu8 Lxy/Lz                 189   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       40554  reff  0.100012
+ 2RecMu8                        28266  reff  0.696997
+ 3RecMu8                        7331  reff  0.259358
+ 4RecMu8                        2141  reff  0.292047
+ ratio reco/gen                 0.724868 +/-  0.032484
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.25, 10, 3, 7.39846e-06
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.25, 10, 3, 7.39846e-06
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_2000_
+ Events          369000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       118428   reff 0.320943
+ 2GenMu8                        115881   reff  0.978493
+ 3GenMu8                        77495   reff  0.668746
+ 4GenMu8                        52119   reff  0.672547
+ 4GenMu8 Lxy/Lz                 53   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       21634  reff  0.0586287
+ 2RecMu8                        13633  reff  0.630165
+ 3RecMu8                        2340  reff  0.171642
+ 4RecMu8                        533  reff  0.227778
+ ratio reco/gen                 0.716981 +/-  0.0618762
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.25, 20, 0, 0
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.25, 20, 0, 0
+Error in <TFile::cd>: Unknown directory cutFlowAnalyzerPXBL3PXFL2
+Error in <TFile::cd>: Unknown directory cutFlowAnalyzerPXBL3PXFL2
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_5000_
+ Events          1262000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       405817   reff 0.321567
+ 2GenMu8                        396899   reff  0.978025
+ 3GenMu8                        264804   reff  0.667182
+ 4GenMu8                        177878   reff  0.671735
+ 4GenMu8 Lxy/Lz                 23   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       34504  reff  0.0273407
+ 2RecMu8                        18762  reff  0.543763
+ 3RecMu8                        1641  reff  0.087464
+ 4RecMu8                        362  reff  0.220597
+ ratio reco/gen                 0.608696 +/-  0.101764
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.25, 50, 0, 0
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.25, 50, 0, 0
+
+ Sample: DarkSUSY_mH_125_mGammaD_0250_cT_10000
+ Events          1360000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       437708   reff 0.321844
+ 2GenMu8                        428099   reff  0.978047
+ 3GenMu8                        286109   reff  0.668324
+ 4GenMu8                        192551   reff  0.672999
+ 4GenMu8 Lxy/Lz                 7   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       20906  reff  0.0153721
+ 2RecMu8                        10381  reff  0.496556
+ 3RecMu8                        518  reff  0.0498989
+ 4RecMu8                        105  reff  0.202703
+ ratio reco/gen                 0.714286 +/-  0.170747
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.25, 100, 0, 0
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.25, 100, 0, 0
+
+ Sample: DarkSUSY_mH_125_mGammaD_0275_cT_000_E
+ Events          98250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       32026   reff 0.325964
+ 2GenMu8                        30666   reff  0.957535
+ 3GenMu8                        20536   reff  0.669667
+ 4GenMu8                        12280   reff  0.597974
+ 4GenMu8 Lxy/Lz                 12280   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       31890  reff  0.32458
+ 2RecMu8                        30236  reff  0.948134
+ 3RecMu8                        20159  reff  0.666722
+ 4RecMu8                        11498  reff  0.570366
+ ratio reco/gen                 0.702199 +/-  0.00412662
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.275, 0, 148, 0.00150636
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.275, 0, 149, 0.00151654
+
+ Sample: DarkSUSY_mH_125_mGammaD_0275_cT_005_E
+ Events          93250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       30499   reff 0.327067
+ 2GenMu8                        29158   reff  0.956031
+ 3GenMu8                        19547   reff  0.670382
+ 4GenMu8                        11802   reff  0.603776
+ 4GenMu8 Lxy/Lz                 11757   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       30365  reff  0.32563
+ 2RecMu8                        28671  reff  0.944212
+ 3RecMu8                        19131  reff  0.66726
+ 4RecMu8                        10934  reff  0.571533
+ ratio reco/gen                 0.693374 +/-  0.00425246
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.275, 0.05, 148, 0.00158713
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.275, 0.05, 150, 0.00160858
+
+ Sample: DarkSUSY_mH_125_mGammaD_0275_cT_010_E
+ Events          151750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       49506   reff 0.326234
+ 2GenMu8                        47414   reff  0.957742
+ 3GenMu8                        31830   reff  0.671321
+ 4GenMu8                        18949   reff  0.595319
+ 4GenMu8 Lxy/Lz                 18509   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       49258  reff  0.3246
+ 2RecMu8                        46490  reff  0.943806
+ 3RecMu8                        31055  reff  0.667993
+ 4RecMu8                        17270  reff  0.55611
+ ratio reco/gen                 0.675077 +/-  0.00344251
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.275, 0.1, 222, 0.00146293
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.275, 0.1, 222, 0.00146293
+
+ Sample: DarkSUSY_mH_125_mGammaD_0275_cT_020_E
+ Events          148750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       48761   reff 0.327805
+ 2GenMu8                        46733   reff  0.958409
+ 3GenMu8                        31334   reff  0.67049
+ 4GenMu8                        18818   reff  0.600562
+ 4GenMu8 Lxy/Lz                 16366   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       48386  reff  0.325284
+ 2RecMu8                        45466  reff  0.939652
+ 3RecMu8                        30196  reff  0.664145
+ 4RecMu8                        16591  reff  0.549444
+ ratio reco/gen                 0.663204 +/-  0.00369433
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.275, 0.2, 164, 0.00110252
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.275, 0.2, 164, 0.00110252
+
+ Sample: DarkSUSY_mH_125_mGammaD_0275_cT_050_E
+ Events          94500
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       31036   reff 0.328423
+ 2GenMu8                        29719   reff  0.957565
+ 3GenMu8                        19884   reff  0.669067
+ 4GenMu8                        12048   reff  0.605914
+ 4GenMu8 Lxy/Lz                 6025   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       30285  reff  0.320476
+ 2RecMu8                        27856  reff  0.919795
+ 3RecMu8                        18123  reff  0.650596
+ 4RecMu8                        9157  reff  0.50527
+ ratio reco/gen                 0.651452 +/-  0.00613895
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.275, 0.5, 71, 0.000751323
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.275, 0.5, 71, 0.000751323
+
+ Sample: DarkSUSY_mH_125_mGammaD_0275_cT_100_E
+ Events          89000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       29002   reff 0.325865
+ 2GenMu8                        27770   reff  0.95752
+ 3GenMu8                        18646   reff  0.671444
+ 4GenMu8                        11175   reff  0.599324
+ 4GenMu8 Lxy/Lz                 2520   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       26848  reff  0.301663
+ 2RecMu8                        24031  reff  0.895076
+ 3RecMu8                        14864  reff  0.618534
+ 4RecMu8                        6455  reff  0.434271
+ ratio reco/gen                 0.650397 +/-  0.00949897
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.275, 1, 19, 0.000213483
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.275, 1, 19, 0.000213483
+
+ Sample: DarkSUSY_mH_125_mGammaD_0275_cT_200_E
+ Events          128750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       42006   reff 0.32626
+ 2GenMu8                        40195   reff  0.956887
+ 3GenMu8                        26878   reff  0.66869
+ 4GenMu8                        16161   reff  0.601272
+ 4GenMu8 Lxy/Lz                 1279   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       33638  reff  0.261266
+ 2RecMu8                        28377  reff  0.8436
+ 3RecMu8                        15420  reff  0.543398
+ 4RecMu8                        5736  reff  0.371984
+ ratio reco/gen                 0.6724 +/-  0.0131235
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.275, 2, 6, 4.66019e-05
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.275, 2, 6, 4.66019e-05
+
+ Sample: DarkSUSY_mH_125_mGammaD_0275_cT_300_E
+ Events          46750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       15294   reff 0.327144
+ 2GenMu8                        14584   reff  0.953577
+ 3GenMu8                        9822   reff  0.673478
+ 4GenMu8                        5911   reff  0.601812
+ 4GenMu8 Lxy/Lz                 204   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       10660  reff  0.228021
+ 2RecMu8                        8553  reff  0.802345
+ 3RecMu8                        4125  reff  0.482287
+ 4RecMu8                        1421  reff  0.344485
+ ratio reco/gen                 0.735294 +/-  0.0308885
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.275, 3, 2, 4.27807e-05
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.275, 3, 2, 4.27807e-05
+
+ Sample: DarkSUSY_mH_125_mGammaD_0275_cT_500_E
+ Events          61250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       20016   reff 0.326792
+ 2GenMu8                        19199   reff  0.959183
+ 3GenMu8                        12904   reff  0.672118
+ 4GenMu8                        7658   reff  0.593459
+ 4GenMu8 Lxy/Lz                 114   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       10712  reff  0.17489
+ 2RecMu8                        7989  reff  0.745799
+ 3RecMu8                        3199  reff  0.400426
+ 4RecMu8                        948  reff  0.296343
+ ratio reco/gen                 0.754386 +/-  0.0403154
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.275, 5, 2, 3.26531e-05
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.275, 5, 2, 3.26531e-05
+
+ Sample: DarkSUSY_mH_125_mGammaD_0300_cT_000_E
+ Events          80250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       26746   reff 0.333283
+ 2GenMu8                        25216   reff  0.942795
+ 3GenMu8                        16881   reff  0.669456
+ 4GenMu8                        9164   reff  0.542859
+ 4GenMu8 Lxy/Lz                 9164   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       26675  reff  0.332399
+ 2RecMu8                        24965  reff  0.935895
+ 3RecMu8                        16683  reff  0.668256
+ 4RecMu8                        8798  reff  0.527363
+ ratio reco/gen                 0.71639 +/-  0.00470861
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.3, 0, 135, 0.00168224
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.3, 0, 136, 0.0016947
+
+ Sample: DarkSUSY_mH_125_mGammaD_0300_cT_005_E
+ Events          54750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       18077   reff 0.330174
+ 2GenMu8                        17073   reff  0.94446
+ 3GenMu8                        11468   reff  0.671704
+ 4GenMu8                        6311   reff  0.550314
+ 4GenMu8 Lxy/Lz                 6290   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       18040  reff  0.329498
+ 2RecMu8                        16875  reff  0.935421
+ 3RecMu8                        11311  reff  0.670281
+ 4RecMu8                        6039  reff  0.533905
+ ratio reco/gen                 0.70938 +/-  0.00572502
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.3, 0.05, 87, 0.00158904
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.3, 0.05, 88, 0.00160731
+
+ Sample: DarkSUSY_mH_125_mGammaD_0300_cT_010_E
+ Events          128000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       42189   reff 0.329602
+ 2GenMu8                        39791   reff  0.943161
+ 3GenMu8                        26607   reff  0.668669
+ 4GenMu8                        14483   reff  0.54433
+ 4GenMu8 Lxy/Lz                 14211   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       42059  reff  0.328586
+ 2RecMu8                        39214  reff  0.932357
+ 3RecMu8                        26105  reff  0.665706
+ 4RecMu8                        13542  reff  0.518751
+ ratio reco/gen                 0.68834 +/-  0.00388535
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.3, 0.1, 180, 0.00140625
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.3, 0.1, 180, 0.00140625
+
+ Sample: DarkSUSY_mH_125_mGammaD_0300_cT_020_E
+ Events          116750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       38920   reff 0.333362
+ 2GenMu8                        36736   reff  0.943885
+ 3GenMu8                        24740   reff  0.673454
+ 4GenMu8                        13504   reff  0.545837
+ 4GenMu8 Lxy/Lz                 12023   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       38640  reff  0.330964
+ 2RecMu8                        35807  reff  0.926682
+ 3RecMu8                        23854  reff  0.666183
+ 4RecMu8                        12002  reff  0.503144
+ ratio reco/gen                 0.670049 +/-  0.00428817
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.3, 0.2, 146, 0.00125054
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.3, 0.2, 146, 0.00125054
+
+ Sample: DarkSUSY_mH_125_mGammaD_0300_cT_050_E
+ Events          143750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       47535   reff 0.330678
+ 2GenMu8                        44788   reff  0.942211
+ 3GenMu8                        30103   reff  0.672122
+ 4GenMu8                        16373   reff  0.543899
+ 4GenMu8 Lxy/Lz                 8736   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       46621  reff  0.32432
+ 2RecMu8                        42351  reff  0.90841
+ 3RecMu8                        27524  reff  0.649902
+ 4RecMu8                        12739  reff  0.462832
+ ratio reco/gen                 0.652358 +/-  0.0050951
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.3, 0.5, 95, 0.00066087
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.3, 0.5, 95, 0.00066087
+
+ Sample: DarkSUSY_mH_125_mGammaD_0300_cT_100_E
+ Events          3250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       1063   reff 0.327077
+ 2GenMu8                        1007   reff  0.947319
+ 3GenMu8                        666   reff  0.66137
+ 4GenMu8                        390   reff  0.585586
+ 4GenMu8 Lxy/Lz                 103   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       992  reff  0.305231
+ 2RecMu8                        876  reff  0.883065
+ 3RecMu8                        549  reff  0.626712
+ 4RecMu8                        241  reff  0.43898
+ ratio reco/gen                 0.728155 +/-  0.0438383
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.3, 1, 1, 0.000307692
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.3, 1, 1, 0.000307692
+
+ Sample: DarkSUSY_mH_125_mGammaD_0300_cT_200_E
+ Events          148750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       49280   reff 0.331294
+ 2GenMu8                        46402   reff  0.941599
+ 3GenMu8                        31164   reff  0.671609
+ 4GenMu8                        16881   reff  0.541683
+ 4GenMu8 Lxy/Lz                 1446   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       40558  reff  0.272659
+ 2RecMu8                        33746  reff  0.832043
+ 3RecMu8                        18566  reff  0.550169
+ 4RecMu8                        6308  reff  0.339761
+ ratio reco/gen                 0.664592 +/-  0.012416
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.3, 2, 16, 0.000107563
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.3, 2, 16, 0.000107563
+
+ Sample: DarkSUSY_mH_125_mGammaD_0300_cT_300_E
+ Events          146000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       48420   reff 0.331644
+ 2GenMu8                        45627   reff  0.942317
+ 3GenMu8                        30586   reff  0.670349
+ 4GenMu8                        16735   reff  0.547146
+ 4GenMu8 Lxy/Lz                 751   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       34598  reff  0.236973
+ 2RecMu8                        27419  reff  0.792502
+ 3RecMu8                        13368  reff  0.487545
+ 4RecMu8                        4130  reff  0.308947
+ ratio reco/gen                 0.645806 +/-  0.0174523
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.3, 3, 6, 4.10959e-05
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.3, 3, 6, 4.10959e-05
+
+ Sample: DarkSUSY_mH_125_mGammaD_0300_cT_500_E
+ Events          67000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       22196   reff 0.331284
+ 2GenMu8                        20908   reff  0.941972
+ 3GenMu8                        14159   reff  0.677205
+ 4GenMu8                        7699   reff  0.543753
+ 4GenMu8 Lxy/Lz                 134   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       12383  reff  0.184821
+ 2RecMu8                        8955  reff  0.723169
+ 3RecMu8                        3740  reff  0.417644
+ 4RecMu8                        1023  reff  0.273529
+ ratio reco/gen                 0.641791 +/-  0.0414202
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.3, 5, 2, 2.98507e-05
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.3, 5, 2, 2.98507e-05
+
+ Sample: DarkSUSY_mH_125_mGammaD_0400_cT_000_E
+ Events          146000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       49272   reff 0.337479
+ 2GenMu8                        45364   reff  0.920685
+ 3GenMu8                        30015   reff  0.661648
+ 4GenMu8                        14272   reff  0.475496
+ 4GenMu8 Lxy/Lz                 14272   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       49193  reff  0.336938
+ 2RecMu8                        45104  reff  0.916878
+ 3RecMu8                        29701  reff  0.6585
+ 4RecMu8                        13843  reff  0.466079
+ ratio reco/gen                 0.711113 +/-  0.00379395
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.4, 0, 176, 0.00120548
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.4, 0, 176, 0.00120548
+
+ Sample: DarkSUSY_mH_125_mGammaD_0400_cT_005_E
+ Events          127000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       42579   reff 0.335268
+ 2GenMu8                        39153   reff  0.919538
+ 3GenMu8                        26056   reff  0.665492
+ 4GenMu8                        12398   reff  0.475821
+ 4GenMu8 Lxy/Lz                 12378   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       42477  reff  0.334465
+ 2RecMu8                        38817  reff  0.913836
+ 3RecMu8                        25792  reff  0.664451
+ 4RecMu8                        11903  reff  0.4615
+ ratio reco/gen                 0.684763 +/-  0.00417603
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.4, 0.05, 170, 0.00133858
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.4, 0.05, 172, 0.00135433
+
+ Sample: DarkSUSY_mH_125_mGammaD_0400_cT_010_E
+ Events          67750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       22926   reff 0.338391
+ 2GenMu8                        21121   reff  0.921268
+ 3GenMu8                        13930   reff  0.659533
+ 4GenMu8                        6637   reff  0.476454
+ 4GenMu8 Lxy/Lz                 6578   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       22891  reff  0.337875
+ 2RecMu8                        20919  reff  0.913853
+ 3RecMu8                        13740  reff  0.656819
+ 4RecMu8                        6304  reff  0.458806
+ ratio reco/gen                 0.688659 +/-  0.00570917
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.4, 0.1, 94, 0.00138745
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.4, 0.1, 94, 0.00138745
+
+ Sample: DarkSUSY_mH_125_mGammaD_0400_cT_020_E
+ Events          36250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       12162   reff 0.335503
+ 2GenMu8                        11188   reff  0.919914
+ 3GenMu8                        7418   reff  0.663032
+ 4GenMu8                        3579   reff  0.482475
+ 4GenMu8 Lxy/Lz                 3364   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       12128  reff  0.334566
+ 2RecMu8                        11021  reff  0.908724
+ 3RecMu8                        7199  reff  0.653208
+ 4RecMu8                        3293  reff  0.457425
+ ratio reco/gen                 0.670333 +/-  0.00810504
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.4, 0.2, 35, 0.000965517
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.4, 0.2, 35, 0.000965517
+
+ Sample: DarkSUSY_mH_125_mGammaD_0400_cT_050_E
+ Events          135250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       45680   reff 0.337745
+ 2GenMu8                        42158   reff  0.922898
+ 3GenMu8                        27866   reff  0.66099
+ 4GenMu8                        13271   reff  0.476243
+ 4GenMu8 Lxy/Lz                 8833   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       45082  reff  0.333323
+ 2RecMu8                        40464  reff  0.897564
+ 3RecMu8                        25838  reff  0.638543
+ 4RecMu8                        10768  reff  0.416751
+ ratio reco/gen                 0.639534 +/-  0.00510869
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.4, 0.5, 87, 0.000643253
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.4, 0.5, 88, 0.000650647
+
+ Sample: DarkSUSY_mH_125_mGammaD_0400_cT_100_E
+ Events          100750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       34024   reff 0.337707
+ 2GenMu8                        31270   reff  0.919057
+ 3GenMu8                        20610   reff  0.659098
+ 4GenMu8                        9832   reff  0.47705
+ 4GenMu8 Lxy/Lz                 3449   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       32705  reff  0.324615
+ 2RecMu8                        28552  reff  0.873016
+ 3RecMu8                        17553  reff  0.614773
+ 4RecMu8                        6633  reff  0.377884
+ ratio reco/gen                 0.636706 +/-  0.0081894
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.4, 1, 38, 0.000377171
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.4, 1, 38, 0.000377171
+
+ Sample: DarkSUSY_mH_125_mGammaD_0400_cT_200_E
+ Events          82500
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       27961   reff 0.338921
+ 2GenMu8                        25707   reff  0.919388
+ 3GenMu8                        17046   reff  0.663088
+ 4GenMu8                        8052   reff  0.472369
+ 4GenMu8 Lxy/Lz                 1114   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       24766  reff  0.300194
+ 2RecMu8                        20677  reff  0.834895
+ 3RecMu8                        11592  reff  0.560623
+ 4RecMu8                        3725  reff  0.321342
+ ratio reco/gen                 0.616697 +/-  0.0145668
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.4, 2, 10, 0.000121212
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.4, 2, 10, 0.000121212
+
+ Sample: DarkSUSY_mH_125_mGammaD_0400_cT_300_E
+ Events          90250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       30544   reff 0.338438
+ 2GenMu8                        27988   reff  0.916317
+ 3GenMu8                        18584   reff  0.663999
+ 4GenMu8                        8886   reff  0.478153
+ 4GenMu8 Lxy/Lz                 629   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       24553  reff  0.272055
+ 2RecMu8                        19658  reff  0.800635
+ 3RecMu8                        10164  reff  0.517041
+ 4RecMu8                        2985  reff  0.293684
+ ratio reco/gen                 0.63911 +/-  0.0191492
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.4, 3, 4, 4.43213e-05
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.4, 3, 4, 4.43213e-05
+
+ Sample: DarkSUSY_mH_125_mGammaD_0400_cT_500_E
+ Events          112750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       37927   reff 0.336381
+ 2GenMu8                        34922   reff  0.920769
+ 3GenMu8                        23104   reff  0.661589
+ 4GenMu8                        11035   reff  0.477623
+ 4GenMu8 Lxy/Lz                 367   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       24993  reff  0.221667
+ 2RecMu8                        18452  reff  0.738287
+ 3RecMu8                        8174  reff  0.442987
+ 4RecMu8                        2147  reff  0.262662
+ ratio reco/gen                 0.594005 +/-  0.0256343
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.4, 5, 4, 3.54767e-05
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.4, 5, 4, 3.54767e-05
+
+ Sample: DarkSUSY_mH_125_mGammaD_0700_cT_000_E
+ Events          145000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       49463   reff 0.341124
+ 2GenMu8                        45065   reff  0.911085
+ 3GenMu8                        29715   reff  0.659381
+ 4GenMu8                        13253   reff  0.446004
+ 4GenMu8 Lxy/Lz                 13253   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       49405  reff  0.340724
+ 2RecMu8                        44855  reff  0.907904
+ 3RecMu8                        29500  reff  0.657675
+ 4RecMu8                        12929  reff  0.438271
+ ratio reco/gen                 0.709198 +/-  0.0039448
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.7, 0, 160, 0.00110345
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.7, 0, 163, 0.00112414
+
+ Sample: DarkSUSY_mH_125_mGammaD_0700_cT_005_E
+ Events          155500
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       52924   reff 0.340347
+ 2GenMu8                        48296   reff  0.912554
+ 3GenMu8                        31646   reff  0.655251
+ 4GenMu8                        14214   reff  0.449156
+ 4GenMu8 Lxy/Lz                 14209   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       52839  reff  0.339801
+ 2RecMu8                        47998  reff  0.908382
+ 3RecMu8                        31357  reff  0.653298
+ 4RecMu8                        13877  reff  0.442549
+ ratio reco/gen                 0.699627 +/-  0.00384576
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.7, 0.05, 196, 0.00126045
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.7, 0.05, 197, 0.00126688
+
+ Sample: DarkSUSY_mH_125_mGammaD_0700_cT_010_E
+ Events          150500
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       51042   reff 0.33915
+ 2GenMu8                        46474   reff  0.910505
+ 3GenMu8                        30565   reff  0.65768
+ 4GenMu8                        13754   reff  0.449992
+ 4GenMu8 Lxy/Lz                 13721   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       50953  reff  0.338558
+ 2RecMu8                        46170  reff  0.906129
+ 3RecMu8                        30277  reff  0.655772
+ 4RecMu8                        13336  reff  0.440466
+ ratio reco/gen                 0.697398 +/-  0.00392178
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.7, 0.1, 192, 0.00127575
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.7, 0.1, 192, 0.00127575
+
+ Sample: DarkSUSY_mH_125_mGammaD_0700_cT_020_E
+ Events          136750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       46870   reff 0.342742
+ 2GenMu8                        42698   reff  0.910988
+ 3GenMu8                        28114   reff  0.658438
+ 4GenMu8                        12660   reff  0.450309
+ 4GenMu8 Lxy/Lz                 12475   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       46727  reff  0.341697
+ 2RecMu8                        42267  reff  0.904552
+ 3RecMu8                        27678  reff  0.654837
+ 4RecMu8                        12117  reff  0.437785
+ ratio reco/gen                 0.692505 +/-  0.00413152
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.7, 0.2, 148, 0.00108227
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.7, 0.2, 149, 0.00108958
+
+ Sample: DarkSUSY_mH_125_mGammaD_0700_cT_050_E
+ Events          135250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       46176   reff 0.341412
+ 2GenMu8                        42068   reff  0.911036
+ 3GenMu8                        27767   reff  0.66005
+ 4GenMu8                        12502   reff  0.450247
+ 4GenMu8 Lxy/Lz                 10859   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       45926  reff  0.339564
+ 2RecMu8                        41141  reff  0.895811
+ 3RecMu8                        26682  reff  0.64855
+ 4RecMu8                        11190  reff  0.419384
+ ratio reco/gen                 0.662492 +/-  0.00453772
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.7, 0.5, 106, 0.000783734
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.7, 0.5, 106, 0.000783734
+
+ Sample: DarkSUSY_mH_125_mGammaD_0700_cT_100_E
+ Events          56000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       19142   reff 0.341821
+ 2GenMu8                        17414   reff  0.909727
+ 3GenMu8                        11351   reff  0.651832
+ 4GenMu8                        5167   reff  0.455202
+ 4GenMu8 Lxy/Lz                 3101   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       18832  reff  0.336286
+ 2RecMu8                        16624  reff  0.882753
+ 3RecMu8                        10376  reff  0.624158
+ 4RecMu8                        4109  reff  0.39601
+ ratio reco/gen                 0.65237 +/-  0.00855174
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.7, 1, 26, 0.000464286
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.7, 1, 26, 0.000464286
+
+ Sample: DarkSUSY_mH_125_mGammaD_0700_cT_200_E
+ Events          100750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       34315   reff 0.340596
+ 2GenMu8                        31170   reff  0.908349
+ 3GenMu8                        20675   reff  0.663298
+ 4GenMu8                        9201   reff  0.44503
+ 4GenMu8 Lxy/Lz                 2730   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       32691  reff  0.324476
+ 2RecMu8                        28147  reff  0.861001
+ 3RecMu8                        16985  reff  0.603439
+ 4RecMu8                        5909  reff  0.347895
+ ratio reco/gen                 0.63956 +/-  0.00918916
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.7, 2, 29, 0.000287841
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.7, 2, 30, 0.000297767
+
+ Sample: DarkSUSY_mH_125_mGammaD_0700_cT_300_E
+ Events          149500
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       51044   reff 0.341431
+ 2GenMu8                        46490   reff  0.910783
+ 3GenMu8                        30648   reff  0.659239
+ 4GenMu8                        13744   reff  0.448447
+ 4GenMu8 Lxy/Lz                 2354   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       46448  reff  0.310689
+ 2RecMu8                        38934  reff  0.838228
+ 3RecMu8                        22337  reff  0.573714
+ 4RecMu8                        7235  reff  0.323902
+ ratio reco/gen                 0.658454 +/-  0.00977427
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.7, 3, 31, 0.000207358
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.7, 3, 31, 0.000207358
+
+ Sample: DarkSUSY_mH_125_mGammaD_0700_cT_500_E
+ Events          50500
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       17141   reff 0.339426
+ 2GenMu8                        15564   reff  0.907998
+ 3GenMu8                        10264   reff  0.659471
+ 4GenMu8                        4585   reff  0.446707
+ 4GenMu8 Lxy/Lz                 330   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       13984  reff  0.276911
+ 2RecMu8                        11159  reff  0.797983
+ 3RecMu8                        5813  reff  0.520925
+ 4RecMu8                        1632  reff  0.28075
+ ratio reco/gen                 0.654545 +/-  0.0261763
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 0.7, 5, 3, 5.94059e-05
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 0.7, 5, 3, 5.94059e-05
+
+ Sample: DarkSUSY_mH_125_mGammaD_1000_cT_000_E
+ Events          125250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       43177   reff 0.344727
+ 2GenMu8                        39196   reff  0.907798
+ 3GenMu8                        25950   reff  0.662057
+ 4GenMu8                        11524   reff  0.444085
+ 4GenMu8 Lxy/Lz                 11524   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       43132  reff  0.344367
+ 2RecMu8                        39009  reff  0.90441
+ 3RecMu8                        25724  reff  0.659438
+ 4RecMu8                        11222  reff  0.436246
+ ratio reco/gen                 0.694637 +/-  0.00429028
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 1, 0, 147, 0.00117365
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 1, 0, 147, 0.00117365
+
+ Sample: DarkSUSY_mH_125_mGammaD_1000_cT_005_E
+ Events          117250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       40226   reff 0.343079
+ 2GenMu8                        36593   reff  0.909685
+ 3GenMu8                        24132   reff  0.65947
+ 4GenMu8                        10662   reff  0.44182
+ 4GenMu8 Lxy/Lz                 10661   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       40133  reff  0.342286
+ 2RecMu8                        36360  reff  0.905988
+ 3RecMu8                        23928  reff  0.658086
+ 4RecMu8                        10401  reff  0.434679
+ ratio reco/gen                 0.696933 +/-  0.00445109
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 1, 0.05, 137, 0.00116844
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 1, 0.05, 139, 0.0011855
+
+ Sample: DarkSUSY_mH_125_mGammaD_1000_cT_010_E
+ Events          152000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       52342   reff 0.344355
+ 2GenMu8                        47509   reff  0.907665
+ 3GenMu8                        31390   reff  0.660717
+ 4GenMu8                        13939   reff  0.444059
+ 4GenMu8 Lxy/Lz                 13927   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       52221  reff  0.343559
+ 2RecMu8                        47180  reff  0.903468
+ 3RecMu8                        31064  reff  0.658415
+ 4RecMu8                        13591  reff  0.437516
+ ratio reco/gen                 0.695268 +/-  0.00390037
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 1, 0.1, 197, 0.00129605
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 1, 0.1, 202, 0.00132895
+
+ Sample: DarkSUSY_mH_125_mGammaD_1000_cT_020_E
+ Events          143000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       49238   reff 0.344322
+ 2GenMu8                        44703   reff  0.907896
+ 3GenMu8                        29450   reff  0.658792
+ 4GenMu8                        13029   reff  0.442411
+ 4GenMu8 Lxy/Lz                 12957   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       49147  reff  0.343685
+ 2RecMu8                        44342  reff  0.902232
+ 3RecMu8                        29050  reff  0.655135
+ 4RecMu8                        12579  reff  0.433012
+ ratio reco/gen                 0.686656 +/-  0.004075
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 1, 0.2, 164, 0.00114685
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 1, 0.2, 165, 0.00115385
+
+ Sample: DarkSUSY_mH_125_mGammaD_1000_cT_050_E
+ Events          136250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       46697   reff 0.34273
+ 2GenMu8                        42492   reff  0.909951
+ 3GenMu8                        27990   reff  0.658712
+ 4GenMu8                        12474   reff  0.445659
+ 4GenMu8 Lxy/Lz                 11743   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       46554  reff  0.341681
+ 2RecMu8                        41898  reff  0.899987
+ 3RecMu8                        27304  reff  0.651678
+ 4RecMu8                        11664  reff  0.42719
+ ratio reco/gen                 0.670697 +/-  0.00433682
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 1, 0.5, 137, 0.0010055
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 1, 0.5, 138, 0.00101284
+
+ Sample: DarkSUSY_mH_125_mGammaD_1000_cT_100_E
+ Events          129500
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       44585   reff 0.344286
+ 2GenMu8                        40508   reff  0.908557
+ 3GenMu8                        26809   reff  0.66182
+ 4GenMu8                        11847   reff  0.441904
+ 4GenMu8 Lxy/Lz                 8928   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       44151  reff  0.340934
+ 2RecMu8                        39341  reff  0.891056
+ 3RecMu8                        25343  reff  0.644188
+ 4RecMu8                        10238  reff  0.403977
+ ratio reco/gen                 0.656922 +/-  0.00502431
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 1, 1, 113, 0.000872587
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 1, 1, 114, 0.000880309
+
+ Sample: DarkSUSY_mH_125_mGammaD_1000_cT_200_E
+ Events          111000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       37902   reff 0.341459
+ 2GenMu8                        34527   reff  0.910955
+ 3GenMu8                        22705   reff  0.657601
+ 4GenMu8                        10144   reff  0.446774
+ 4GenMu8 Lxy/Lz                 4406   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       36972  reff  0.333081
+ 2RecMu8                        32486  reff  0.878665
+ 3RecMu8                        20223  reff  0.622514
+ 4RecMu8                        7633  reff  0.377442
+ ratio reco/gen                 0.6532 +/-  0.00717035
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 1, 2, 46, 0.000414414
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 1, 2, 48, 0.000432432
+
+ Sample: DarkSUSY_mH_125_mGammaD_1000_cT_300_E
+ Events          92250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       31985   reff 0.346721
+ 2GenMu8                        29100   reff  0.909801
+ 3GenMu8                        19302   reff  0.663299
+ 4GenMu8                        8590   reff  0.445032
+ 4GenMu8 Lxy/Lz                 2348   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       30499  reff  0.330612
+ 2RecMu8                        26316  reff  0.862848
+ 3RecMu8                        16084  reff  0.611187
+ 4RecMu8                        5680  reff  0.353146
+ ratio reco/gen                 0.660136 +/-  0.00977508
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 1, 3, 19, 0.000205962
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 1, 3, 19, 0.000205962
+
+ Sample: DarkSUSY_mH_125_mGammaD_1000_cT_500_E
+ Events          117250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       40480   reff 0.345245
+ 2GenMu8                        36841   reff  0.910104
+ 3GenMu8                        24377   reff  0.661681
+ 4GenMu8                        10817   reff  0.443738
+ 4GenMu8 Lxy/Lz                 1415   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       36174  reff  0.30852
+ 2RecMu8                        30321  reff  0.838199
+ 3RecMu8                        17231  reff  0.568286
+ 4RecMu8                        5600  reff  0.324996
+ ratio reco/gen                 0.653004 +/-  0.0126544
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 1, 5, 10, 8.52878e-05
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 1, 5, 10, 8.52878e-05
+
+ Sample: DarkSUSY_mH_125_mGammaD_8500_cT_000_E
+ Events          77080
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       42749   reff 0.554606
+ 2GenMu8                        40913   reff  0.957052
+ 3GenMu8                        34007   reff  0.831203
+ 4GenMu8                        15672   reff  0.460846
+ 4GenMu8 Lxy/Lz                 15672   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       42723  reff  0.554268
+ 2RecMu8                        40858  reff  0.956347
+ 3RecMu8                        33828  reff  0.827941
+ 4RecMu8                        15586  reff  0.460743
+ ratio reco/gen                 0.680194 +/-  0.00372561
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 8.5, 0, 202, 0.00262065
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 8.5, 0, 215, 0.00278931
+
+ Sample: DarkSUSY_mH_125_mGammaD_8500_cT_005_1
+ Events          76800
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       42776   reff 0.556979
+ 2GenMu8                        40972   reff  0.957827
+ 3GenMu8                        33916   reff  0.827785
+ 4GenMu8                        15691   reff  0.462643
+ 4GenMu8 Lxy/Lz                 15691   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       42737  reff  0.556471
+ 2RecMu8                        40915  reff  0.957367
+ 3RecMu8                        33738  reff  0.824588
+ 4RecMu8                        15602  reff  0.462446
+ ratio reco/gen                 0.677331 +/-  0.0037321
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 8.5, 0, 214, 0.00278646
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 8.5, 0, 229, 0.00298177
+
+ Sample: DarkSUSY_mH_125_mGammaD_8500_cT_010_1
+ Events          77600
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       43107   reff 0.555503
+ 2GenMu8                        41305   reff  0.958197
+ 3GenMu8                        34347   reff  0.831546
+ 4GenMu8                        15778   reff  0.459371
+ 4GenMu8 Lxy/Lz                 15778   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       43081  reff  0.555168
+ 2RecMu8                        41248  reff  0.957452
+ 3RecMu8                        34156  reff  0.828064
+ 4RecMu8                        15661  reff  0.458514
+ ratio reco/gen                 0.674293 +/-  0.00373088
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 8.5, 0, 221, 0.00284794
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 8.5, 0, 247, 0.00318299
+
+ Sample: DarkSUSY_mH_125_mGammaD_8500_cT_020_1
+ Events          79200
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       44059   reff 0.556301
+ 2GenMu8                        42219   reff  0.958238
+ 3GenMu8                        35132   reff  0.832137
+ 4GenMu8                        16109   reff  0.458528
+ 4GenMu8 Lxy/Lz                 16108   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       44035  reff  0.555997
+ 2RecMu8                        42165  reff  0.957534
+ 3RecMu8                        34910  reff  0.827938
+ 4RecMu8                        15993  reff  0.458121
+ ratio reco/gen                 0.672833 +/-  0.00369673
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 8.5, 0, 209, 0.00263889
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 8.5, 0, 223, 0.00281566
+
+ Sample: DarkSUSY_mH_125_mGammaD_8500_cT_050_1
+ Events          79200
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       44028   reff 0.555909
+ 2GenMu8                        42182   reff  0.958072
+ 3GenMu8                        35065   reff  0.831279
+ 4GenMu8                        16162   reff  0.460915
+ 4GenMu8 Lxy/Lz                 16155   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       43995  reff  0.555492
+ 2RecMu8                        42129  reff  0.957586
+ 3RecMu8                        34873  reff  0.827767
+ 4RecMu8                        15943  reff  0.457173
+ ratio reco/gen                 0.67459 +/-  0.00368623
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 8.5, 0, 224, 0.00282828
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 8.5, 0, 241, 0.00304293
+
+ Sample: DarkSUSY_mH_125_mGammaD_8500_cT_100_1
+ Events          79200
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       43971   reff 0.555189
+ 2GenMu8                        42112   reff  0.957722
+ 3GenMu8                        34922   reff  0.829265
+ 4GenMu8                        16018   reff  0.458679
+ 4GenMu8 Lxy/Lz                 16006   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       43910  reff  0.554419
+ 2RecMu8                        42009  reff  0.956707
+ 3RecMu8                        34612  reff  0.823919
+ 4RecMu8                        15772  reff  0.45568
+ ratio reco/gen                 0.665875 +/-  0.00372829
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 8.5, 0, 200, 0.00252525
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 8.5, 0, 213, 0.00268939
+
+ Sample: DarkSUSY_mH_125_mGammaD_8500_cT_200_1
+ Events          78400
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       43542   reff 0.555383
+ 2GenMu8                        41728   reff  0.958339
+ 3GenMu8                        34632   reff  0.829946
+ 4GenMu8                        15900   reff  0.459113
+ 4GenMu8 Lxy/Lz                 15705   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       43488  reff  0.554694
+ 2RecMu8                        41613  reff  0.956885
+ 3RecMu8                        34308  reff  0.824454
+ 4RecMu8                        15523  reff  0.45246
+ ratio reco/gen                 0.653932 +/-  0.00379602
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 8.5, 0, 223, 0.00284439
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 8.5, 0, 232, 0.00295918
+
+ Sample: DarkSUSY_mH_125_mGammaD_8500_cT_300_1
+ Events          48800
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       26969   reff 0.552643
+ 2GenMu8                        25819   reff  0.957358
+ 3GenMu8                        21438   reff  0.830319
+ 4GenMu8                        9818   reff  0.457972
+ 4GenMu8 Lxy/Lz                 9475   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       26928  reff  0.551803
+ 2RecMu8                        25728  reff  0.955437
+ 3RecMu8                        21155  reff  0.822256
+ 4RecMu8                        9478  reff  0.448026
+ ratio reco/gen                 0.658681 +/-  0.00487111
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 8.5, 0, 102, 0.00209016
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 8.5, 0, 110, 0.0022541
+
+ Sample: DarkSUSY_mH_125_mGammaD_8500_cT_500_1
+ Events          79200
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       44200   reff 0.558081
+ 2GenMu8                        42328   reff  0.957647
+ 3GenMu8                        35069   reff  0.828506
+ 4GenMu8                        16157   reff  0.46072
+ 4GenMu8 Lxy/Lz                 14256   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       44047  reff  0.556149
+ 2RecMu8                        42024  reff  0.954072
+ 3RecMu8                        34155  reff  0.81275
+ 4RecMu8                        15067  reff  0.441136
+ ratio reco/gen                 0.64401 +/-  0.0040102
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 8.5, 0, 158, 0.00199495
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 8.5, 0, 168, 0.00212121
+
+ Sample: DarkSUSY_mH_125_mGammaD_2000_cT_000_1
+ Events          76800
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       27361   reff 0.356263
+ 2GenMu8                        24810   reff  0.906765
+ 3GenMu8                        16569   reff  0.667836
+ 4GenMu8                        6699   reff  0.404309
+ 4GenMu8 Lxy/Lz                 6699   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       27343  reff  0.356029
+ 2RecMu8                        24725  reff  0.904253
+ 3RecMu8                        16432  reff  0.66459
+ 4RecMu8                        6609  reff  0.402203
+ ratio reco/gen                 0.692193 +/-  0.00563959
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 2, 0, 86, 0.00111979
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 2, 0, 87, 0.00113281
+
+ Sample: DarkSUSY_mH_125_mGammaD_2000_cT_005_1
+ Events          78400
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       28067   reff 0.357997
+ 2GenMu8                        25474   reff  0.907614
+ 3GenMu8                        17102   reff  0.671351
+ 4GenMu8                        7015   reff  0.410186
+ 4GenMu8 Lxy/Lz                 7015   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       27986  reff  0.356964
+ 2RecMu8                        25349  reff  0.905774
+ 3RecMu8                        16966  reff  0.669297
+ 4RecMu8                        6890  reff  0.406106
+ ratio reco/gen                 0.701924 +/-  0.00546128
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 2, 0, 93, 0.00118622
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 2, 0, 96, 0.00122449
+
+ Sample: DarkSUSY_mH_125_mGammaD_2000_cT_010_1
+ Events          79200
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       28519   reff 0.360088
+ 2GenMu8                        25908   reff  0.908447
+ 3GenMu8                        17360   reff  0.670063
+ 4GenMu8                        7003   reff  0.403399
+ 4GenMu8 Lxy/Lz                 7003   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       28481  reff  0.359609
+ 2RecMu8                        25798  reff  0.905797
+ 3RecMu8                        17157  reff  0.665052
+ 4RecMu8                        6876  reff  0.400769
+ ratio reco/gen                 0.696844 +/-  0.00549236
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 2, 0, 100, 0.00126263
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 2, 0, 102, 0.00128788
+
+ Sample: DarkSUSY_mH_125_mGammaD_2000_cT_020_1
+ Events          79200
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       28447   reff 0.359179
+ 2GenMu8                        25801   reff  0.906985
+ 3GenMu8                        17260   reff  0.668966
+ 4GenMu8                        6952   reff  0.402781
+ 4GenMu8 Lxy/Lz                 6951   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       28367  reff  0.358169
+ 2RecMu8                        25623  reff  0.903268
+ 3RecMu8                        17047  reff  0.665301
+ 4RecMu8                        6820  reff  0.40007
+ ratio reco/gen                 0.694289 +/-  0.00552589
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 2, 0, 98, 0.00123737
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 2, 0, 101, 0.00127525
+
+ Sample: DarkSUSY_mH_125_mGammaD_2000_cT_050_1
+ Events          78400
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       28127   reff 0.358763
+ 2GenMu8                        25514   reff  0.9071
+ 3GenMu8                        17101   reff  0.670259
+ 4GenMu8                        6972   reff  0.407695
+ 4GenMu8 Lxy/Lz                 6903   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       28079  reff  0.358151
+ 2RecMu8                        25364  reff  0.903309
+ 3RecMu8                        16861  reff  0.664761
+ 4RecMu8                        6774  reff  0.401756
+ ratio reco/gen                 0.678835 +/-  0.00561988
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 2, 0, 100, 0.00127551
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 2, 0, 102, 0.00130102
+
+ Sample: DarkSUSY_mH_125_mGammaD_2000_cT_100_1
+ Events          78400
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       28302   reff 0.360995
+ 2GenMu8                        25697   reff  0.907957
+ 3GenMu8                        17189   reff  0.668911
+ 4GenMu8                        6924   reff  0.402816
+ 4GenMu8 Lxy/Lz                 6512   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       28195  reff  0.35963
+ 2RecMu8                        25417  reff  0.901472
+ 3RecMu8                        16815  reff  0.661565
+ 4RecMu8                        6591  reff  0.391971
+ ratio reco/gen                 0.677518 +/-  0.00579236
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 2, 0, 83, 0.00105867
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 2, 0, 90, 0.00114796
+
+ Sample: DarkSUSY_mH_125_mGammaD_2000_cT_200_1
+ Events          79200
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       28395   reff 0.358523
+ 2GenMu8                        25783   reff  0.908012
+ 3GenMu8                        17145   reff  0.664973
+ 4GenMu8                        7034   reff  0.410265
+ 4GenMu8 Lxy/Lz                 5292   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       28191  reff  0.355947
+ 2RecMu8                        25269  reff  0.89635
+ 3RecMu8                        16434  reff  0.650362
+ 4RecMu8                        6355  reff  0.386698
+ ratio reco/gen                 0.648526 +/-  0.00656297
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 2, 0, 69, 0.000871212
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 2, 0, 71, 0.000896465
+
+ Sample: DarkSUSY_mH_125_mGammaD_2000_cT_300_1
+ Events          75200
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       26967   reff 0.358604
+ 2GenMu8                        24455   reff  0.906849
+ 3GenMu8                        16221   reff  0.6633
+ 4GenMu8                        6597   reff  0.406695
+ 4GenMu8 Lxy/Lz                 3762   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       26632  reff  0.354149
+ 2RecMu8                        23710  reff  0.890282
+ 3RecMu8                        15226  reff  0.642176
+ 4RecMu8                        5700  reff  0.37436
+ ratio reco/gen                 0.669059 +/-  0.00767181
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 2, 0, 46, 0.000611702
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 2, 0, 48, 0.000638298
+
+ Sample: DarkSUSY_mH_125_mGammaD_2000_cT_500_1
+ Events          78400
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       28245   reff 0.360268
+ 2GenMu8                        25658   reff  0.908409
+ 3GenMu8                        17116   reff  0.667082
+ 4GenMu8                        6984   reff  0.408039
+ 4GenMu8 Lxy/Lz                 2392   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       27425  reff  0.349809
+ 2RecMu8                        24186  reff  0.881896
+ 3RecMu8                        15198  reff  0.62838
+ 4RecMu8                        5336  reff  0.351099
+ ratio reco/gen                 0.664298 +/-  0.00965557
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 2, 0, 21, 0.000267857
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 2, 0, 21, 0.000267857
+
+ Sample: DarkSUSY_mH_125_mGammaD_2000_cT_1000_
+ Events          439750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       157634   reff 0.358463
+ 2GenMu8                        143569   reff  0.910774
+ 3GenMu8                        96018   reff  0.668793
+ 4GenMu8                        39413   reff  0.410475
+ 4GenMu8 Lxy/Lz                 5483   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       142191  reff  0.323345
+ 2RecMu8                        120675  reff  0.848682
+ 3RecMu8                        69864  reff  0.578943
+ 4RecMu8                        22308  reff  0.319306
+ ratio reco/gen                 0.674631 +/-  0.00632721
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 2, 10, 63, 0.000143263
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 2, 10, 68, 0.000154633
+
+ Sample: DarkSUSY_mH_125_mGammaD_2000_cT_2000_
+ Events          438250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       156792   reff 0.357768
+ 2GenMu8                        142739   reff  0.910372
+ 3GenMu8                        95793   reff  0.671106
+ 4GenMu8                        39157   reff  0.408767
+ 4GenMu8 Lxy/Lz                 1691   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       117093  reff  0.267183
+ 2RecMu8                        91489  reff  0.781336
+ 3RecMu8                        44867  reff  0.490409
+ 4RecMu8                        12290  reff  0.273921
+ ratio reco/gen                 0.688941 +/-  0.0112575
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 2, 20, 20, 4.56361e-05
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 2, 20, 20, 4.56361e-05
+
+ Sample: DarkSUSY_mH_125_mGammaD_2000_cT_10000
+ Events          1063000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       357466   reff 0.33628
+ 2GenMu8                        324634   reff  0.908154
+ 3GenMu8                        217670   reff  0.670509
+ 4GenMu8                        88318   reff  0.405743
+ 4GenMu8 Lxy/Lz                 174   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       101878  reff  0.0958401
+ 2RecMu8                        56612  reff  0.555684
+ 3RecMu8                        13446  reff  0.237511
+ 4RecMu8                        2665  reff  0.1982
+ ratio reco/gen                 0.752874 +/-  0.0326999
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 2, 100, 2, 1.88147e-06
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 2, 100, 2, 1.88147e-06
+
+ Sample: DarkSUSY_mH_125_mGammaD_1500_cT_000_E
+ Events          143750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       50160   reff 0.348939
+ 2GenMu8                        45525   reff  0.907596
+ 3GenMu8                        30299   reff  0.665546
+ 4GenMu8                        12842   reff  0.423842
+ 4GenMu8 Lxy/Lz                 12842   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       50065  reff  0.348278
+ 2RecMu8                        45276  reff  0.904344
+ 3RecMu8                        30017  reff  0.662978
+ 4RecMu8                        12553  reff  0.418196
+ ratio reco/gen                 0.691715 +/-  0.00407496
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 1.5, 0, 162, 0.00112696
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 1.5, 0, 165, 0.00114783
+
+ Sample: DarkSUSY_mH_125_mGammaD_1500_cT_005_E
+ Events          137750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       47827   reff 0.347201
+ 2GenMu8                        43388   reff  0.907186
+ 3GenMu8                        28924   reff  0.666636
+ 4GenMu8                        12292   reff  0.424976
+ 4GenMu8 Lxy/Lz                 12292   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       47733  reff  0.346519
+ 2RecMu8                        43145  reff  0.903882
+ 3RecMu8                        28693  reff  0.665037
+ 4RecMu8                        12050  reff  0.419963
+ ratio reco/gen                 0.690042 +/-  0.00417136
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 1.5, 0.05, 148, 0.00107441
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 1.5, 0.05, 151, 0.00109619
+
+ Sample: DarkSUSY_mH_125_mGammaD_1500_cT_010_E
+ Events          52500
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       18361   reff 0.349733
+ 2GenMu8                        16635   reff  0.905996
+ 3GenMu8                        11076   reff  0.665825
+ 4GenMu8                        4689   reff  0.423348
+ 4GenMu8 Lxy/Lz                 4688   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       18338  reff  0.349295
+ 2RecMu8                        16586  reff  0.904461
+ 3RecMu8                        10965  reff  0.6611
+ 4RecMu8                        4568  reff  0.416598
+ ratio reco/gen                 0.69006 +/-  0.00675443
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 1.5, 0.1, 74, 0.00140952
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 1.5, 0.1, 77, 0.00146667
+
+ Sample: DarkSUSY_mH_125_mGammaD_1500_cT_020_E
+ Events          109750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       37991   reff 0.346159
+ 2GenMu8                        34562   reff  0.909742
+ 3GenMu8                        23026   reff  0.666223
+ 4GenMu8                        9657   reff  0.419395
+ 4GenMu8 Lxy/Lz                 9643   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       37941  reff  0.345704
+ 2RecMu8                        34345  reff  0.905221
+ 3RecMu8                        22771  reff  0.663008
+ 4RecMu8                        9486  reff  0.416582
+ ratio reco/gen                 0.697916 +/-  0.00467584
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 1.5, 0.2, 123, 0.00112073
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 1.5, 0.2, 125, 0.00113895
+
+ Sample: DarkSUSY_mH_125_mGammaD_1500_cT_100_E
+ Events          97750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       34158   reff 0.349442
+ 2GenMu8                        30967   reff  0.906581
+ 3GenMu8                        20588   reff  0.664837
+ 4GenMu8                        8828   reff  0.428793
+ 4GenMu8 Lxy/Lz                 7764   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       34003  reff  0.347857
+ 2RecMu8                        30485  reff  0.896539
+ 3RecMu8                        20003  reff  0.656159
+ 4RecMu8                        8173  reff  0.408589
+ ratio reco/gen                 0.674266 +/-  0.00531869
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 1.5, 1, 115, 0.00117647
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 1.5, 1, 118, 0.00120716
+
+ Sample: DarkSUSY_mH_125_mGammaD_1500_cT_200_E
+ Events          98750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       34414   reff 0.348496
+ 2GenMu8                        31189   reff  0.906288
+ 3GenMu8                        20662   reff  0.662477
+ 4GenMu8                        8829   reff  0.427306
+ 4GenMu8 Lxy/Lz                 5593   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       33972  reff  0.34402
+ 2RecMu8                        30149  reff  0.887466
+ 3RecMu8                        19401  reff  0.643504
+ 4RecMu8                        7544  reff  0.388846
+ ratio reco/gen                 0.652423 +/-  0.00636748
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 1.5, 2, 69, 0.000698734
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 1.5, 2, 70, 0.000708861
+
+ Sample: DarkSUSY_mH_125_mGammaD_1500_cT_300_E
+ Events          139500
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       48610   reff 0.348459
+ 2GenMu8                        44134   reff  0.90792
+ 3GenMu8                        29341   reff  0.664816
+ 4GenMu8                        12415   reff  0.423128
+ 4GenMu8 Lxy/Lz                 5540   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       47615  reff  0.341326
+ 2RecMu8                        42052  reff  0.883167
+ 3RecMu8                        26649  reff  0.633715
+ 4RecMu8                        9909  reff  0.371834
+ ratio reco/gen                 0.656498 +/-  0.00638008
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 1.5, 3, 55, 0.000394265
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 1.5, 3, 57, 0.000408602
+
+ Sample: DarkSUSY_mH_125_mGammaD_1500_cT_500_E
+ Events          140250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       48933   reff 0.348898
+ 2GenMu8                        44442   reff  0.908221
+ 3GenMu8                        29577   reff  0.665519
+ 4GenMu8                        12578   reff  0.425263
+ 4GenMu8 Lxy/Lz                 3048   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       46423  reff  0.331002
+ 2RecMu8                        40248  reff  0.866984
+ 3RecMu8                        24637  reff  0.61213
+ 4RecMu8                        8589  reff  0.348622
+ ratio reco/gen                 0.658793 +/-  0.00858768
+Number of Events With An Orphan Muon (All Regions), {mass, cT, Num, Ratio}  : 1.5, 5, 42, 0.000299465
+Number of Events With An Orphan Muon (SideBand Only), Ratio: 1.5, 5, 42, 0.000299465
+For Loop completes
+Info in <TCanvas::Print>: pdf file e_rec_alpha_gen_vs_cT_0250_GeV.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: e_rec_alpha_gen_vs_cT_0250_GeV.C has been generated

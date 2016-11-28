@@ -1,0 +1,39 @@
+   ------------------------------------------------------------
+  | Welcome to ROOT 6.02/05                http://root.cern.ch |
+  |                               (c) 1995-2014, The ROOT Team |
+  | Built for linuxx8664gcc                                    |
+  | From tag , 9 February 2015                                 |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
+   ------------------------------------------------------------
+
+
+Processing FakeInvestigation.C+...
+Info in <TUnixSystem::ACLiC>: creating shared library /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioWithPHR/EtaInvestigation/./FakeInvestigation_C.so
+In file included from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioWithPHR/EtaInvestigation/./FakeInvestigation.C:20:0,
+                 from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/RatioWithPHR/EtaInvestigation/FakeInvestigation_C_ACLiC_dict.cxx:41:
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/LatexHelpers.h: In function 'void printFileNames(const std::vector<std::vector<std::basic_string<char> > >&)':
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/LatexHelpers.h:101:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < vec.size(); i++){
+                     ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/LatexHelpers.h:102:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int j = 0; j < vec[i].size(); j++){
+                       ^
+Vector Created
+Samples read
+fileName: DarkSUSY_mH_125_mGammaD_0250_cT_000_E
+fileName: DarkSUSY_mH_125_mGammaD_0250_cT_005_E
+fileName: DarkSUSY_mH_125_mGammaD_0250_cT_010_E
+fileName: DarkSUSY_mH_125_mGammaD_0250_cT_020_E
+fileName: DarkSUSY_mH_125_mGammaD_0250_cT_050_E
+fileName: DarkSUSY_mH_125_mGammaD_0250_cT_100_E
+fileName: DarkSUSY_mH_125_mGammaD_0250_cT_200_E
+fileName: DarkSUSY_mH_125_mGammaD_0250_cT_300_E
+fileName: DarkSUSY_mH_125_mGammaD_0250_cT_500_E
+fileName: DarkSUSY_mH_125_mGammaD_0250_cT_1000_
+fileName: DarkSUSY_mH_125_mGammaD_0250_cT_2000_
+fileName: DarkSUSY_mH_125_mGammaD_0250_cT_5000_
+Error in <TFile::cd>: Unknown directory cutFlowAnalyzerPXBL3PXFL2
+Error in <TFile::cd>: Unknown directory cutFlowAnalyzerPXBL3PXFL2
+fileName: DarkSUSY_mH_125_mGammaD_0250_cT_10000
+For Loop completes
+Making plots pretty

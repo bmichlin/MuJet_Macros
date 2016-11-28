@@ -1,0 +1,37 @@
+SideBand [2-12]
+Correlation factor between IsoTK of dimuon1 and 2: 0.133733
+Number of data events in region A, B, C, D       : 20, 11, 46, 24
+Estimated number of prompt Jpsi in region A      : 14.2609 +/- 5.00827
+Estimated number of non-prompt Jpsi in region A  : 5.73913 +/- 2.2545
+
+SideBand [2-6]
+Correlation factor between IsoTK of dimuon1 and 2: 0.133733
+Number of data events in region A, B, C, D       : 20, 5, 11, 15
+Estimated number of prompt Jpsi in region A      : 13.1818 +/- 6.05168
+Estimated number of non-prompt Jpsi in region A  : 6.81818 +/- 4.07711
+
+SideBand [2-8]
+Correlation factor between IsoTK of dimuon1 and 2: 0.133733
+Number of data events in region A, B, C, D       : 20, 7, 29, 18
+Estimated number of prompt Jpsi in region A      : 15.6552 +/- 4.93928
+Estimated number of non-prompt Jpsi in region A  : 4.34483 +/- 2.09678
+
+SideBand [2-16]
+Correlation factor between IsoTK of dimuon1 and 2: 0.133733
+Number of data events in region A, B, C, D       : 20, 14, 57, 32
+Estimated number of prompt Jpsi in region A      : 12.1404 +/- 5.23704
+Estimated number of non-prompt Jpsi in region A  : 7.85965 +/- 2.72518
+
+SideBand [2-18]
+Correlation factor between IsoTK of dimuon1 and 2: 0.133733
+Number of data events in region A, B, C, D       : 20, 14, 61, 32
+Estimated number of prompt Jpsi in region A      : 12.6557 +/- 5.14028
+Estimated number of non-prompt Jpsi in region A  : 7.34426 +/- 2.53427
+
+High   : 15.6552
+Low    : 12.1404
+StdDev : 1.40138
+12     : 14.2609
+
+
+Varies by about 10%

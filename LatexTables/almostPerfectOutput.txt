@@ -1,0 +1,241 @@
+   ------------------------------------------------------------
+  | Welcome to ROOT 6.02/05                http://root.cern.ch |
+  |                               (c) 1995-2014, The ROOT Team |
+  | Built for linuxx8664gcc                                    |
+  | From tag , 9 February 2015                                 |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
+   ------------------------------------------------------------
+
+
+Processing makeCutflowLatex.C+...
+Info in <TUnixSystem::ACLiC>: creating shared library /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/LaTeX_CutFlow/v2_June15/v3/v4/./makeCutflowLatex_C.so
+In file included from input_line_12:9:
+././makeCutflowLatex.C:151:60: warning: invalid conversion specifier ')' [-Wformat-invalid-specifier]
+        printf("\\caption{Acceptances and efficiencies (all in \\%) of the event selection requirements for several representative benchmark values of $c \\tau$ for fixed masses $m_{h_{1}} = 125$~GeV$/c^{2}$, $m_{n_{1}} = 10$~GeV$/c^{2}$,  $m_{n_{D}} = 1$~GeV$/c^{2}$ and $m_{\\gamma_D}= %f $ GeV$/c^{2}$ in MC simulation of Dark SUSY signal. \\label{tab:eff_darkSUSY_mGammaD%2.3f}}", sample_mass_double, sample_mass_double);
+                                                                 ~^
+././makeCutflowLatex.C:151:373: warning: more '%' conversions than data arguments [-Wformat]
+        printf("\\caption{Acceptances and efficiencies (all in \\%) of the event selection requirements for several representative benchmark values of $c \\tau$ for fixed masses $m_{h_{1}} = 125$~GeV$/c^{2}$, $m_{n_{1}} = 10$~GeV$/c^{2}$,  $m_{n_{D}} = 1$~GeV$/c^{2}$ and $m_{\\gamma_D}= %f $ GeV$/c^{2}$ in MC simulation of Dark SUSY signal. \\label{tab:eff_darkSUSY_mGammaD%2.3f}}", sample_mass_double, sample_mass_double);
+                                                                                                                                                                                                                                                                                                                                                                                       ~~~~^
+././makeCutflowLatex.C:155:14: warning: unknown escape sequence '\g' [-Wunknown-escape-sequence]
+        printf("$m_{\gamma_D}=%f$GeV & \\multicolumn{2}{c|}{c$\\tau$=%fmm} & \\multicolumn{2}{c|}{c$\\tau$=%fmm} & \\multicolumn{2}{c|}{c$\\tau$=%fmm} & \\multicolumn{2}{c|}{c$\\tau$=%fmm}   \\\\ \\hline", sample_mass_double, cTDouble0, cTDouble1, cTDouble2, cTDouble3);  
+                    ^~
+././makeCutflowLatex.C:170:518: warning: unsequenced modification and access to 'j' [-Wunsequenced]
+        sprintf(buf,pattern2,cutsgen[5],"&",counter_genlxylz2[indx[0]][4],"&",counter_genlxylz2[indx[0]][4]/(counter_gen[indx[0]][4]*1.0),"$\\pm$",sqrt( ( (counter_genlxylz2[indx[0]][4]/(counter_gen[indx[0]][4]*1.0))*(1-(counter_genlxylz2[indx[0]][4]/(counter_gen[indx[0]][4]*1.0))))/(counter_gen[indx[0]][4]*1.0)),"&",counter_genlxylz2[indx[1]][4],"&",counter_genlxylz2[indx[1]][4]/(counter_gen[indx[1]][4]*1.0),"$\\pm$",sqrt( ( (counter_genlxylz2[indx[1]][j]/(counter_gen[indx[1]][4]*1.0))*(1-(counter_genlxylz2[indx[1]][j++]/(counter_gen[indx[1]][4]*1.0))))/(counter_gen[indx[1]][4]*1.0)),"&",counter_genlxylz2[indx[2]][4],"&",counter_genlxylz2[indx[2]][4]/(counter_gen[indx[2]][4]*1.0),"$\\pm$",sqrt( ( (counter_genlxylz2[indx[2]][j++]/(counter_gen[indx[2]][4]*1.0))*(1-(counter_genlxylz2[indx[2]][j++]/(counter_gen[indx[2]][4]*1.0))))/(counter_gen[indx[2]][4]*1.0)),"&",counter_genlxylz2[indx[3]][4],"&",counter_genlxylz2[indx[3]][4]/(counter_gen[indx[3]][4]*1.0),"$\\pm$",sqrt( ( (counter_genlxylz2[indx[3]][4]/(counter_gen[indx[3]][4]*1.0))*(1-(counter_genlxylz2[indx[3]][4]/(counter_gen[indx[3]][4]*1.0))))/(counter_gen[indx[3]][4]*1.0)),"\\\\");
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ~                                                                 ^
+././makeCutflowLatex.C:235:60: warning: invalid conversion specifier ')' [-Wformat-invalid-specifier]
+        printf("\\caption{Acceptances and efficiencies (all in \\%) of the event selection requirements for several representative benchmark values of $c \\tau$ for fixed masses $m_{h_{1}} = 125$~GeV$/c^{2}$, $m_{n_{1}} = 10$~GeV$/c^{2}$,  $m_{n_{D}} = 1$~GeV$/c^{2}$ and $m_{\\gamma_D}= %2.3f $ GeV$/c^{2}$ in MC simulation of Dark SUSY signal. \\label{tab:eff_darkSUSY_mGammaD%2.3f}}", sample_mass_double, sample_mass_double);
+                                                                 ~^
+././makeCutflowLatex.C:235:376: warning: more '%' conversions than data arguments [-Wformat]
+        printf("\\caption{Acceptances and efficiencies (all in \\%) of the event selection requirements for several representative benchmark values of $c \\tau$ for fixed masses $m_{h_{1}} = 125$~GeV$/c^{2}$, $m_{n_{1}} = 10$~GeV$/c^{2}$,  $m_{n_{D}} = 1$~GeV$/c^{2}$ and $m_{\\gamma_D}= %2.3f $ GeV$/c^{2}$ in MC simulation of Dark SUSY signal. \\label{tab:eff_darkSUSY_mGammaD%2.3f}}", sample_mass_double, sample_mass_double);
+                                                                                                                                                                                                                                                                                                                                                                                          ~~~~^
+././makeCutflowLatex.C:239:14: warning: unknown escape sequence '\g' [-Wunknown-escape-sequence]
+        printf("$m_{\gamma_D}=%2.3f$GeV & \\multicolumn{2}{c|}{c$\\tau$=%2.2fmm} & \\multicolumn{2}{c|}{c$\\tau$=%2.2fmm} & \\multicolumn{2}{c|}{c$\\tau$=%2.2fmm}  \\\\ \\hline", sample_mass_double, cTDouble0, cTDouble1, cTDouble2);        
+                    ^~
+././makeCutflowLatex.C:254:518: warning: unsequenced modification and access to 'j' [-Wunsequenced]
+        sprintf(buf,pattern2,cutsgen[5],"&",counter_genlxylz2[indx[0]][4],"&",counter_genlxylz2[indx[0]][4]/(counter_gen[indx[0]][4]*1.0),"$\\pm$",sqrt( ( (counter_genlxylz2[indx[0]][4]/(counter_gen[indx[0]][4]*1.0))*(1-(counter_genlxylz2[indx[0]][4]/(counter_gen[indx[0]][4]*1.0))))/(counter_gen[indx[0]][4]*1.0)),"&",counter_genlxylz2[indx[1]][4],"&",counter_genlxylz2[indx[1]][4]/(counter_gen[indx[1]][4]*1.0),"$\\pm$",sqrt( ( (counter_genlxylz2[indx[1]][j]/(counter_gen[indx[1]][4]*1.0))*(1-(counter_genlxylz2[indx[1]][j++]/(counter_gen[indx[1]][4]*1.0))))/(counter_gen[indx[1]][4]*1.0)),"&",counter_genlxylz2[indx[2]][4],"&",counter_genlxylz2[indx[2]][4]/(counter_gen[indx[2]][4]*1.0),"$\\pm$",sqrt( ( (counter_genlxylz2[indx[2]][j++]/(counter_gen[indx[2]][4]*1.0))*(1-(counter_genlxylz2[indx[2]][j++]/(counter_gen[indx[2]][4]*1.0))))/(counter_gen[indx[2]][4]*1.0)),"\\\\");
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ~                                                                 ^
+In file included from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/LaTeX_CutFlow/v2_June15/v3/v4/./makeCutflowLatex.C:20:0,
+                 from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/LaTeX_CutFlow/v2_June15/v3/v4/makeCutflowLatex_C_ACLiC_dict.cxx:41:
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/Helpers.h: In function 'void printFileNames(const std::vector<std::vector<std::basic_string<char> > >&)':
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/Helpers.h:101:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < vec.size(); i++){
+                     ^
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/Helpers.h:102:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int j = 0; j < vec[i].size(); j++){
+                       ^
+In file included from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/LaTeX_CutFlow/v2_June15/v3/v4/makeCutflowLatex_C_ACLiC_dict.cxx:41:0:
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/LaTeX_CutFlow/v2_June15/v3/v4/./makeCutflowLatex.C: In function 'void makeLatex4(double, double, double, double, double)':
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/LaTeX_CutFlow/v2_June15/v3/v4/./makeCutflowLatex.C:155:9: warning: unknown escape sequence: '\g'
+  printf("$m_{\gamma_D}=%f$GeV & \\multicolumn{2}{c|}{c$\\tau$=%fmm} & \\multicolumn{2}{c|}{c$\\tau$=%fmm} & \\multicolumn{2}{c|}{c$\\tau$=%fmm} & \\multicolumn{2}{c|}{c$\\tau$=%fmm}   \\\\ \\hline", sample_mass_double, cTDouble0, cTDouble1, cTDouble2, cTDouble3); 
+         ^
+In file included from /home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/LaTeX_CutFlow/v2_June15/v3/v4/makeCutflowLatex_C_ACLiC_dict.cxx:41:0:
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/LaTeX_CutFlow/v2_June15/v3/v4/./makeCutflowLatex.C: In function 'void makeLatex(double, double, double, double)':
+/home/bmichlin/TreeLoop/BaseBranchCheck/CMSSW_7_4_1_patch1/src/MuJetAnalysis/AnalysisRun2/scripts/LaTeX_CutFlow/v2_June15/v3/v4/./makeCutflowLatex.C:239:9: warning: unknown escape sequence: '\g'
+  printf("$m_{\gamma_D}=%2.3f$GeV & \\multicolumn{2}{c|}{c$\\tau$=%2.2fmm} & \\multicolumn{2}{c|}{c$\\tau$=%2.2fmm} & \\multicolumn{2}{c|}{c$\\tau$=%2.2fmm}  \\\\ \\hline", sample_mass_double, cTDouble0, cTDouble1, cTDouble2); 
+         ^
+cTstring, massString: 000_, 0250
+cT_double, mass_double: 0, 0.25
+cTstring, massString: 005_, 0250
+cT_double, mass_double: 0.05, 0.25
+cTstring, massString: 010_, 0250
+cT_double, mass_double: 0.1, 0.25
+makeLatex (massdouble, cT0, cT1, cT2) : 0.25, 0, 0.05, 0.1
+\begin{landscape}    
+\begin{table}[ht]         
+\renewcommand{\tabcolsep}{2pt}
+\caption{Acceptances and efficiencies (all in \%) of the event selection requirements for several representative benchmark values of $c \tau$ for fixed masses $m_{h_{1}} = 125$~GeV$/c^{2}$, $m_{n_{1}} = 10$~GeV$/c^{2}$,  $m_{n_{D}} = 1$~GeV$/c^{2}$ and $m_{\gamma_D}= 0.250 $ GeV$/c^{2}$ in MC simulation of Dark SUSY signal. \label{tab:eff_darkSUSY_mGammaD0.250}}
+\centering               
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|} \hline  
+$m_{gamma_D}=0.250$GeV & \multicolumn{2}{c|}{c$\tau$=0.00mm} & \multicolumn{2}{c|}{c$\tau$=0.05mm} & \multicolumn{2}{c|}{c$\tau$=0.10mm}  \\ \hline
+Selection  &  $N_{evts}$  &  Rel. Eff(\%)  &  $N_{evts}$  &  Rel. Eff(\%)  &  $N_{evts}$  &  Rel. Eff(\%)   \\ \hline
+All events&       73250&&       76250&&       72500& \\ \hline\multicolumn{2}{|c}{\textbf{Basic event selections (gen):}} \\ \hline
+$p_{T_1} > 17$ GeV, $|\eta|< 0.9$  &        23703  &        0.324 $\pm$        0.002  &        24665  &        0.323 $\pm$        0.002  &        23294  &        0.321 $\pm$        0.002 \\
+$p_{T_2} > 8$ GeV,  $|\eta|< 2.4$  &        23174  &        0.978 $\pm$        0.001  &        24098  &        0.977 $\pm$        0.001  &        22758  &        0.977 $\pm$        0.001 \\
+$p_{T_3} > 8$ GeV,  $|\eta|< 2.4$  &        15321  &        0.661 $\pm$        0.003  &        16036  &        0.665 $\pm$        0.003  &        15164  &        0.666 $\pm$        0.003 \\
+$p_{T_4} > 8$ GeV,  $|\eta|< 2.4$  &        10299  &        0.672 $\pm$        0.004  &        10789  &        0.673 $\pm$        0.004  &        10123  &        0.668 $\pm$        0.004 \\
+$L_{xy} < 9.8$ cm, $L_{z} < 48.5$ cm  &        10299  &        1.000 $\pm$        0.000  &        10741  &        0.996 $\pm$         -nan  &         9820  &        0.970 $\pm$       -0.000 \\
+\hline
+\multicolumn{2}{|c}{\textbf{Basic event selections (reco):}} \\ \hline
+$p_{T_1} > 17$ GeV, $|\eta|< 0.9$  &        23602  &        0.322 $\pm$        0.002  &        24458  &        0.321 $\pm$        0.002  &        23124  &        0.319 $\pm$        0.002 \\
+$p_{T_2} > 8$ GeV, $|\eta|< 2.4$  &        22721  &        0.963 $\pm$        0.001  &        23467  &        0.959 $\pm$        0.001  &        22111  &        0.956 $\pm$        0.001 \\
+$p_{T_3} > 8$ GeV, $|\eta|< 2.4$  &        15003  &        0.660 $\pm$        0.003  &        15592  &        0.664 $\pm$        0.003  &        14673  &        0.664 $\pm$        0.003 \\
+$p_{T_4} > 8$ GeV, $|\eta|< 2.4$  &         9367  &        0.624 $\pm$        0.004  &         9581  &        0.614 $\pm$        0.004  &         8849  &        0.603 $\pm$        0.004 \\
+\hline
+\multicolumn{2}{|c}{\textbf{Auxiliary event selections (reco):}} \\ \hline
+         $N$($\mu$-jets) $= 2$  &         9141  &        0.976 $\pm$        0.002  &         9302  &        0.971 $\pm$        0.002  &         8562  &        0.968 $\pm$        0.002 \\
+          2$\mu$ per $\mu$-jet  &         9095  &        0.971 $\pm$        0.002  &         9231  &        0.963 $\pm$        0.002  &         8497  &        0.960 $\pm$        0.002 \\
+  Inclusive hit in BPIX3/FPIX2  &         9084  &        0.970 $\pm$        0.002  &         9204  &        0.961 $\pm$        0.002  &         8335  &        0.942 $\pm$        0.002 \\
+              $|\Delta z|<0.1$  &         9077  &        0.969 $\pm$        0.002  &         9191  &        0.959 $\pm$        0.002  &         8322  &        0.940 $\pm$        0.003 \\
+$m_{\mu\mu_1} \approx m_{\mu\mu_2}$  &         9058  &        0.967 $\pm$        0.002  &         9163  &        0.956 $\pm$        0.002  &         8295  &        0.937 $\pm$        0.003 \\
+     $\mu$-jet isolation $ <2$  &         7261  &        0.775 $\pm$        0.004  &         7399  &        0.772 $\pm$        0.004  &         6703  &        0.757 $\pm$        0.005 \\
+                     Fired HLT  &         7026  &        0.750 $\pm$        0.004  &         7121  &        0.743 $\pm$        0.004  &         6481  &        0.732 $\pm$        0.005 \\
+\hline
+
+$\alpha_{gen}$&&       0.141 $\pm$        0.001 &&        0.147 $\pm$        0.002 &&       0.134 $\pm$        0.001 \\
+$\epsilon_{full}$&&       0.096 $\pm$        0.001 &&        0.097 $\pm$        0.001 &&       0.088 $\pm$        0.001  \\  \hline  
+$\epsilon_{full}/\alpha_{gen}$&&       0.682 $\pm$        0.005 &&        0.663 $\pm$        0.005 &&       0.660 $\pm$        0.005  \\
+\hline
+\end{tabular} 
+\end{table} 
+\end{landscape}    
+cTstring, massString: 020_, 0250
+cT_double, mass_double: 0.2, 0.25
+cTstring, massString: 050_, 0250
+cT_double, mass_double: 0.5, 0.25
+cTstring, massString: 100_, 0250
+cT_double, mass_double: 1, 0.25
+makeLatex (massdouble, cT0, cT1, cT2) : 0.25, 0.2, 0.5, 1
+\begin{landscape}    
+\begin{table}[ht]         
+\renewcommand{\tabcolsep}{2pt}
+\caption{Acceptances and efficiencies (all in \%) of the event selection requirements for several representative benchmark values of $c \tau$ for fixed masses $m_{h_{1}} = 125$~GeV$/c^{2}$, $m_{n_{1}} = 10$~GeV$/c^{2}$,  $m_{n_{D}} = 1$~GeV$/c^{2}$ and $m_{\gamma_D}= 0.250 $ GeV$/c^{2}$ in MC simulation of Dark SUSY signal. \label{tab:eff_darkSUSY_mGammaD0.250}}
+\centering               
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|} \hline  
+$m_{gamma_D}=0.250$GeV & \multicolumn{2}{c|}{c$\tau$=0.20mm} & \multicolumn{2}{c|}{c$\tau$=0.50mm} & \multicolumn{2}{c|}{c$\tau$=1.00mm}  \\ \hline
+Selection  &  $N_{evts}$  &  Rel. Eff(\%)  &  $N_{evts}$  &  Rel. Eff(\%)  &  $N_{evts}$  &  Rel. Eff(\%)   \\ \hline
+All events&       77750&&       76250&&       76000& \\ \hline\multicolumn{2}{|c}{\textbf{Basic event selections (gen):}} \\ \hline
+$p_{T_1} > 17$ GeV, $|\eta|< 0.9$  &        25175  &        0.324 $\pm$        0.002  &        24513  &        0.321 $\pm$        0.002  &        24493  &        0.322 $\pm$        0.002 \\
+$p_{T_2} > 8$ GeV,  $|\eta|< 2.4$  &        24642  &        0.979 $\pm$        0.001  &        23968  &        0.978 $\pm$        0.001  &        23942  &        0.978 $\pm$        0.001 \\
+$p_{T_3} > 8$ GeV,  $|\eta|< 2.4$  &        16427  &        0.667 $\pm$        0.003  &        15866  &        0.662 $\pm$        0.003  &        15955  &        0.666 $\pm$        0.003 \\
+$p_{T_4} > 8$ GeV,  $|\eta|< 2.4$  &        10920  &        0.665 $\pm$        0.004  &        10633  &        0.670 $\pm$        0.004  &        10605  &        0.665 $\pm$        0.004 \\
+$L_{xy} < 9.8$ cm, $L_{z} < 48.5$ cm  &         9308  &        0.852 $\pm$        0.003  &         4895  &        0.460 $\pm$         -nan  &         2198  &        0.207 $\pm$        0.000 \\
+\hline
+\multicolumn{2}{|c}{\textbf{Basic event selections (reco):}} \\ \hline
+$p_{T_1} > 17$ GeV, $|\eta|< 0.9$  &        24861  &        0.320 $\pm$        0.002  &        23878  &        0.313 $\pm$        0.002  &        22488  &        0.296 $\pm$        0.002 \\
+$p_{T_2} > 8$ GeV, $|\eta|< 2.4$  &        23684  &        0.953 $\pm$        0.001  &        22350  &        0.936 $\pm$        0.002  &        20474  &        0.910 $\pm$        0.002 \\
+$p_{T_3} > 8$ GeV, $|\eta|< 2.4$  &        15681  &        0.662 $\pm$        0.003  &        14451  &        0.647 $\pm$        0.003  &        12569  &        0.614 $\pm$        0.003 \\
+$p_{T_4} > 8$ GeV, $|\eta|< 2.4$  &         9283  &        0.592 $\pm$        0.004  &         7903  &        0.547 $\pm$        0.004  &         6064  &        0.482 $\pm$        0.004 \\
+\hline
+\multicolumn{2}{|c}{\textbf{Auxiliary event selections (reco):}} \\ \hline
+         $N$($\mu$-jets) $= 2$  &         8760  &        0.944 $\pm$        0.002  &         6767  &        0.856 $\pm$        0.004  &         4696  &        0.774 $\pm$        0.005 \\
+          2$\mu$ per $\mu$-jet  &         8677  &        0.935 $\pm$        0.003  &         6706  &        0.849 $\pm$        0.004  &         4658  &        0.768 $\pm$        0.005 \\
+  Inclusive hit in BPIX3/FPIX2  &         7805  &        0.841 $\pm$        0.004  &         4145  &        0.524 $\pm$        0.006  &         1905  &        0.314 $\pm$        0.006 \\
+              $|\Delta z|<0.1$  &         7782  &        0.838 $\pm$        0.004  &         4124  &        0.522 $\pm$        0.006  &         1863  &        0.307 $\pm$        0.006 \\
+$m_{\mu\mu_1} \approx m_{\mu\mu_2}$  &         7769  &        0.837 $\pm$        0.004  &         4115  &        0.521 $\pm$        0.006  &         1858  &        0.306 $\pm$        0.006 \\
+     $\mu$-jet isolation $ <2$  &         6229  &        0.671 $\pm$        0.005  &         3283  &        0.415 $\pm$        0.006  &         1484  &        0.245 $\pm$        0.006 \\
+                     Fired HLT  &         5985  &        0.645 $\pm$        0.005  &         3098  &        0.392 $\pm$        0.005  &         1391  &        0.229 $\pm$        0.005 \\
+\hline
+
+$\alpha_{gen}$&&       0.120 $\pm$        0.001 &&        0.063 $\pm$        0.001 &&       0.028 $\pm$        0.001 \\
+$\epsilon_{full}$&&       0.077 $\pm$        0.001 &&        0.040 $\pm$        0.001 &&       0.018 $\pm$        0.000  \\  \hline  
+$\epsilon_{full}/\alpha_{gen}$&&       0.643 $\pm$        0.005 &&        0.633 $\pm$        0.007 &&       0.633 $\pm$        0.010  \\
+\hline
+\end{tabular} 
+\end{table} 
+\end{landscape}    
+cTstring, massString: 200_, 0250
+cT_double, mass_double: 2, 0.25
+cTstring, massString: 300_, 0250
+cT_double, mass_double: 3, 0.25
+cTstring, massString: 500_, 0250
+cT_double, mass_double: 5, 0.25
+makeLatex (massdouble, cT0, cT1, cT2) : 0.25, 2, 3, 5
+\begin{landscape}    
+\begin{table}[ht]         
+\renewcommand{\tabcolsep}{2pt}
+\caption{Acceptances and efficiencies (all in \%) of the event selection requirements for several representative benchmark values of $c \tau$ for fixed masses $m_{h_{1}} = 125$~GeV$/c^{2}$, $m_{n_{1}} = 10$~GeV$/c^{2}$,  $m_{n_{D}} = 1$~GeV$/c^{2}$ and $m_{\gamma_D}= 0.250 $ GeV$/c^{2}$ in MC simulation of Dark SUSY signal. \label{tab:eff_darkSUSY_mGammaD0.250}}
+\centering               
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|} \hline  
+$m_{gamma_D}=0.250$GeV & \multicolumn{2}{c|}{c$\tau$=2.00mm} & \multicolumn{2}{c|}{c$\tau$=3.00mm} & \multicolumn{2}{c|}{c$\tau$=5.00mm}  \\ \hline
+Selection  &  $N_{evts}$  &  Rel. Eff(\%)  &  $N_{evts}$  &  Rel. Eff(\%)  &  $N_{evts}$  &  Rel. Eff(\%)   \\ \hline
+All events&       74500&&       74500&&       72250& \\ \hline\multicolumn{2}{|c}{\textbf{Basic event selections (gen):}} \\ \hline
+$p_{T_1} > 17$ GeV, $|\eta|< 0.9$  &        23852  &        0.320 $\pm$        0.002  &        24090  &        0.323 $\pm$        0.002  &        23355  &        0.323 $\pm$        0.002 \\
+$p_{T_2} > 8$ GeV,  $|\eta|< 2.4$  &        23316  &        0.978 $\pm$        0.001  &        23558  &        0.978 $\pm$        0.001  &        22846  &        0.978 $\pm$        0.001 \\
+$p_{T_3} > 8$ GeV,  $|\eta|< 2.4$  &        15482  &        0.664 $\pm$        0.003  &        15694  &        0.666 $\pm$        0.003  &        15227  &        0.667 $\pm$        0.003 \\
+$p_{T_4} > 8$ GeV,  $|\eta|< 2.4$  &        10445  &        0.675 $\pm$        0.004  &        10566  &        0.673 $\pm$        0.004  &        10182  &        0.669 $\pm$        0.004 \\
+$L_{xy} < 9.8$ cm, $L_{z} < 48.5$ cm  &          698  &        0.067 $\pm$        0.002  &          372  &        0.035 $\pm$        0.003  &          117  &        0.011 $\pm$        0.000 \\
+\hline
+\multicolumn{2}{|c}{\textbf{Basic event selections (reco):}} \\ \hline
+$p_{T_1} > 17$ GeV, $|\eta|< 0.9$  &        18444  &        0.248 $\pm$        0.002  &        15944  &        0.214 $\pm$        0.002  &        11723  &        0.162 $\pm$        0.001 \\
+$p_{T_2} > 8$ GeV, $|\eta|< 2.4$  &        15909  &        0.863 $\pm$        0.003  &        13294  &        0.834 $\pm$        0.003  &         9089  &        0.775 $\pm$        0.004 \\
+$p_{T_3} > 8$ GeV, $|\eta|< 2.4$  &         8607  &        0.541 $\pm$        0.004  &         6378  &        0.480 $\pm$        0.004  &         3453  &        0.380 $\pm$        0.005 \\
+$p_{T_4} > 8$ GeV, $|\eta|< 2.4$  &         3617  &        0.420 $\pm$        0.005  &         2365  &        0.371 $\pm$        0.006  &         1121  &        0.325 $\pm$        0.008 \\
+\hline
+\multicolumn{2}{|c}{\textbf{Auxiliary event selections (reco):}} \\ \hline
+         $N$($\mu$-jets) $= 2$  &         2541  &        0.703 $\pm$        0.008  &         1599  &        0.676 $\pm$        0.010  &          737  &        0.657 $\pm$        0.014 \\
+          2$\mu$ per $\mu$-jet  &         2525  &        0.698 $\pm$        0.008  &         1585  &        0.670 $\pm$        0.010  &          733  &        0.654 $\pm$        0.014 \\
+  Inclusive hit in BPIX3/FPIX2  &          630  &        0.174 $\pm$        0.006  &          358  &        0.151 $\pm$        0.007  &          109  &        0.097 $\pm$        0.009 \\
+              $|\Delta z|<0.1$  &          615  &        0.170 $\pm$        0.006  &          353  &        0.149 $\pm$        0.007  &          102  &        0.091 $\pm$        0.009 \\
+$m_{\mu\mu_1} \approx m_{\mu\mu_2}$  &          610  &        0.169 $\pm$        0.006  &          350  &        0.148 $\pm$        0.007  &          102  &        0.091 $\pm$        0.009 \\
+     $\mu$-jet isolation $ <2$  &          496  &        0.137 $\pm$        0.006  &          280  &        0.118 $\pm$        0.007  &          084  &        0.075 $\pm$        0.008 \\
+                     Fired HLT  &          473  &        0.131 $\pm$        0.006  &          266  &        0.112 $\pm$        0.006  &          078  &        0.070 $\pm$        0.008 \\
+\hline
+
+$\alpha_{gen}$&&       0.009 $\pm$        0.000 &&        0.005 $\pm$        0.000 &&       0.002 $\pm$        0.000 \\
+$\epsilon_{full}$&&       0.006 $\pm$        0.000 &&        0.004 $\pm$        0.000 &&       0.001 $\pm$        0.000  \\  \hline  
+$\epsilon_{full}/\alpha_{gen}$&&       0.678 $\pm$        0.018 &&        0.715 $\pm$        0.023 &&       0.667 $\pm$        0.044  \\
+\hline
+\end{tabular} 
+\end{table} 
+\end{landscape}    
+cTstring, massString: 1000, 0250
+cT_double, mass_double: 10, 0.25
+cTstring, massString: 2000, 0250
+cT_double, mass_double: 20, 0.25
+Error in <TFile::cd>: Unknown directory cutFlowAnalyzerPXBL3PXFL2
+Error in <TFile::cd>: Unknown directory cutFlowAnalyzerPXBL3PXFL2
+cTstring, massString: 5000, /Ana
+cT_double, mass_double: 50, 0.25
+makeLatex (massdouble, cT0, cT1, cT2) : 0.25, 10, 20, 50
+\begin{landscape}    
+\begin{table}[ht]         
+\renewcommand{\tabcolsep}{2pt}
+\caption{Acceptances and efficiencies (all in \%) of the event selection requirements for several representative benchmark values of $c \tau$ for fixed masses $m_{h_{1}} = 125$~GeV$/c^{2}$, $m_{n_{1}} = 10$~GeV$/c^{2}$,  $m_{n_{D}} = 1$~GeV$/c^{2}$ and $m_{\gamma_D}= 0.250 $ GeV$/c^{2}$ in MC simulation of Dark SUSY signal. \label{tab:eff_darkSUSY_mGammaD0.250}}
+\centering               
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|} \hline  
+$m_{gamma_D}=0.250$GeV & \multicolumn{2}{c|}{c$\tau$=10.00mm} & \multicolumn{2}{c|}{c$\tau$=20.00mm} & \multicolumn{2}{c|}{c$\tau$=50.00mm}  \\ \hline
+Selection  &  $N_{evts}$  &  Rel. Eff(\%)  &  $N_{evts}$  &  Rel. Eff(\%)  &  $N_{evts}$  &  Rel. Eff(\%)   \\ \hline
+All events&       69700&&       70110&&     1262000& \\ \hline\multicolumn{2}{|c}{\textbf{Basic event selections (gen):}} \\ \hline
+$p_{T_1} > 17$ GeV, $|\eta|< 0.9$  &        22132  &        0.318 $\pm$        0.002  &        22424  &        0.320 $\pm$        0.002  &       405817  &        0.322 $\pm$        0.000 \\
+$p_{T_2} > 8$ GeV,  $|\eta|< 2.4$  &        21670  &        0.979 $\pm$        0.001  &        21972  &        0.980 $\pm$        0.001  &       396899  &        0.978 $\pm$        0.000 \\
+$p_{T_3} > 8$ GeV,  $|\eta|< 2.4$  &        14419  &        0.665 $\pm$        0.003  &        14720  &        0.670 $\pm$        0.003  &       264804  &        0.667 $\pm$        0.001 \\
+$p_{T_4} > 8$ GeV,  $|\eta|< 2.4$  &         9674  &        0.671 $\pm$        0.004  &         9964  &        0.677 $\pm$        0.004  &       177878  &        0.672 $\pm$        0.001 \\
+$L_{xy} < 9.8$ cm, $L_{z} < 48.5$ cm  &          024  &        0.002 $\pm$        0.001  &          011  &        0.001 $\pm$        0.001  &          023  &        0.000 $\pm$        0.000 \\
+\hline
+\multicolumn{2}{|c}{\textbf{Basic event selections (reco):}} \\ \hline
+$p_{T_1} > 17$ GeV, $|\eta|< 0.9$  &         7114  &        0.102 $\pm$        0.001  &         4157  &        0.059 $\pm$        0.001  &        34504  &        0.027 $\pm$        0.000 \\
+$p_{T_2} > 8$ GeV, $|\eta|< 2.4$  &         5004  &        0.703 $\pm$        0.005  &         2620  &        0.630 $\pm$        0.007  &        18762  &        0.544 $\pm$        0.003 \\
+$p_{T_3} > 8$ GeV, $|\eta|< 2.4$  &         1272  &        0.254 $\pm$        0.006  &          487  &        0.186 $\pm$        0.008  &         1641  &        0.087 $\pm$        0.002 \\
+$p_{T_4} > 8$ GeV, $|\eta|< 2.4$  &          378  &        0.297 $\pm$        0.013  &          108  &        0.222 $\pm$        0.019  &          362  &        0.221 $\pm$        0.010 \\
+\hline
+\multicolumn{2}{|c}{\textbf{Auxiliary event selections (reco):}} \\ \hline
+         $N$($\mu$-jets) $= 2$  &          232  &        0.614 $\pm$        0.025  &          065  &        0.602 $\pm$        0.047  &          214  &        0.591 $\pm$        0.026 \\
+          2$\mu$ per $\mu$-jet  &          232  &        0.614 $\pm$        0.025  &          065  &        0.602 $\pm$        0.047  &          213  &        0.588 $\pm$        0.026 \\
+  Inclusive hit in BPIX3/FPIX2  &          023  &        0.061 $\pm$        0.012  &          010  &        0.093 $\pm$        0.028  &          024  &        0.066 $\pm$        0.013 \\
+              $|\Delta z|<0.1$  &          021  &        0.056 $\pm$        0.012  &          010  &        0.093 $\pm$        0.028  &          024  &        0.066 $\pm$        0.013 \\
+$m_{\mu\mu_1} \approx m_{\mu\mu_2}$  &          020  &        0.053 $\pm$        0.012  &          010  &        0.093 $\pm$        0.028  &          024  &        0.066 $\pm$        0.013 \\
+     $\mu$-jet isolation $ <2$  &          015  &        0.040 $\pm$        0.010  &          007  &        0.065 $\pm$        0.024  &          017  &        0.047 $\pm$        0.011 \\
+                     Fired HLT  &          015  &        0.040 $\pm$        0.010  &          007  &        0.065 $\pm$        0.024  &          014  &        0.039 $\pm$        0.010 \\
+\hline
+
+$\alpha_{gen}$&&       0.000 $\pm$        0.000 &&        0.000 $\pm$        0.000 &&       0.000 $\pm$        0.000 \\
+$\epsilon_{full}$&&       0.000 $\pm$        0.000 &&        0.000 $\pm$        0.000 &&       0.000 $\pm$        0.000  \\  \hline  
+$\epsilon_{full}/\alpha_{gen}$&&       0.625 $\pm$        0.099 &&        0.636 $\pm$        0.145 &&       0.609 $\pm$        0.102  \\
+\hline
+\end{tabular} 
+\end{table} 
+\end{landscape}    
+cTstring, massString: 1000, /Ana
+cT_double, mass_double: 10, 0.25
+
+ *** Break *** segmentation violation

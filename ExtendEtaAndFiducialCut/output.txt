@@ -1,0 +1,880 @@
+   ------------------------------------------------------------
+  | Welcome to ROOT 6.02/05                http://root.cern.ch |
+  |                               (c) 1995-2014, The ROOT Team |
+  | Built for linuxx8664gcc                                    |
+  | From tag , 9 February 2015                                 |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
+   ------------------------------------------------------------
+
+
+Processing FakeInvestigation.C...
+Begin Fake Investigation
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+
+ Sample: /fdata/hepx/store/user/bmichlin/DarkSUSY_mH_125_mGammaD_0250_cT_000_Evt_80k_13TeV_MG452_BR224_LHE_pythia8_GEN_SIM_MCRUN2_71_V1_v1/DarkSUSY_mH_125_mGammaD_0250_cT_000_Evt_80k_PATANA_ExtendFidCutAndEta_v1/Combined/
+ Events          149500
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       93139   reff 0.623003
+ 2GenMu8                        90611   reff  0.972858
+ 3GenMu8                        52684   reff  0.581431
+ 4GenMu8                        33585   reff  0.63748
+ 4GenMu8 Lxy/Lz                 33585   reff   1
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       92578  reff  0.619251
+ 2RecMu8                        88451  reff  0.955421
+ 3RecMu8                        51604  reff  0.583419
+ 4RecMu8                        30593  reff  0.592842
+ ================ EVENT variables ================= 
+ Events with VtxOK              30593    reff  1
+ Events with 2 muonjets         30358     reff  0.992319
+ Events with 2 Dimuons          30259    reff  0.996739
+ Events with 2DimVtxOK          29957    reff  0.990019
+ Events with 2DimHitPix         29919     reff  0.998732
+ Events with 2DimDzOK           29680   reff   0.992012
+ Events with 2DimMassOK         29596  reff   0.99717
+ Events with 2DimIsoOK          23992   reff   0.81065
+ Events with 2DimHLT            22078   reff   0.920223
+ ratio reco/gen                 0.657377 +/-  0.00258966
+Fake rate (#Fakes/#Events): 0
+Filling fake stat vector: 
+cT_string, cT_double    : 000_, 0
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 149500
+numFakes                : 0
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+
+ Sample: /fdata/hepx/store/user/bmichlin/DarkSUSY_mH_125_mGammaD_0250_cT_005_Evt_80k_13TeV_MG452_BR224_LHE_pythia8_GEN_SIM_MCRUN2_71_V1_v1/DarkSUSY_mH_125_mGammaD_0250_cT_005_Evt_80k_PATANA_ExtendFidCutAndEta_v1/Combined/
+ Events          147250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       91728   reff 0.622941
+ 2GenMu8                        89187   reff  0.972299
+ 3GenMu8                        51786   reff  0.580645
+ 4GenMu8                        33095   reff  0.639072
+ 4GenMu8 Lxy/Lz                 32979   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       91041  reff  0.618275
+ 2RecMu8                        86503  reff  0.950154
+ 3RecMu8                        50408  reff  0.582731
+ 4RecMu8                        29559  reff  0.586395
+ ================ EVENT variables ================= 
+ Events with VtxOK              29559    reff  1
+ Events with 2 muonjets         29323     reff  0.992016
+ Events with 2 Dimuons          29239    reff  0.997135
+ Events with 2DimVtxOK          28872    reff  0.987448
+ Events with 2DimHitPix         28796     reff  0.997368
+ Events with 2DimDzOK           28509   reff   0.990033
+ Events with 2DimMassOK         28420  reff   0.996878
+ Events with 2DimIsoOK          23144   reff   0.814356
+ Events with 2DimHLT            21147   reff   0.913714
+ ratio reco/gen                 0.641226 +/-  0.00264118
+Fake rate (#Fakes/#Events): 6.791171477e-06
+Filling fake stat vector: 
+cT_string, cT_double    : 005_, 0.05
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 147250
+numFakes                : 1
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+
+ Sample: /fdata/hepx/store/user/bmichlin/DarkSUSY_mH_125_mGammaD_0250_cT_010_Evt_80k_13TeV_MG452_BR224_LHE_pythia8_GEN_SIM_MCRUN2_71_V1_v1/DarkSUSY_mH_125_mGammaD_0250_cT_010_Evt_80k_PATANA_ExtendFidCutAndEta_v1/Combined/
+ Events          143250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       89117   reff 0.6221082024
+ 2GenMu8                        86663   reff  0.9724631664
+ 3GenMu8                        50354   reff  0.5810322744
+ 4GenMu8                        32017   reff  0.6358382651
+ 4GenMu8 Lxy/Lz                 31194   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       88256  reff  0.6160977312
+ 2RecMu8                        83491  reff  0.9460093365
+ 3RecMu8                        48704  reff  0.5833443126
+ 4RecMu8                        28170  reff  0.5783919185
+ ================ EVENT variables ================= 
+ Events with VtxOK              28170    reff  1
+ Events with 2 muonjets         27954     reff  0.9923322684
+ Events with 2 Dimuons          27871    reff  0.9970308364
+ Events with 2DimVtxOK          27466    reff  0.9854687668
+ Events with 2DimHitPix         26967     reff  0.9818320833
+ Events with 2DimDzOK           26650   reff   0.9882448919
+ Events with 2DimMassOK         26569  reff   0.9969606004
+ Events with 2DimIsoOK          21454   reff   0.8074824043
+ Events with 2DimHLT            19535   reff   0.9105528107
+ ratio reco/gen                 0.6262422261 +/-  0.002739244241
+Fake rate (#Fakes/#Events): 9.773123909e-05
+Filling fake stat vector: 
+cT_string, cT_double    : 010_, 0.1
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 143250
+numFakes                : 14
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+
+ Sample: /fdata/hepx/store/user/bmichlin/DarkSUSY_mH_125_mGammaD_0250_cT_020_Evt_80k_13TeV_MG452_BR224_LHE_pythia8_GEN_SIM_MCRUN2_71_V1_v1/DarkSUSY_mH_125_mGammaD_0250_cT_020_Evt_80k_PATANA_ExtendFidCutAndEta_v1/Combined/
+ Events          151500
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       94356   reff 0.6228118812
+ 2GenMu8                        91717   reff  0.9720314553
+ 3GenMu8                        53346   reff  0.5816369921
+ 4GenMu8                        33945   reff  0.6363176246
+ 4GenMu8 Lxy/Lz                 29330   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       93175  reff  0.6150165017
+ 2RecMu8                        87527  reff  0.9393828817
+ 3RecMu8                        50888  reff  0.5813977401
+ 4RecMu8                        28712  reff  0.5642194623
+ ================ EVENT variables ================= 
+ Events with VtxOK              28712    reff  1
+ Events with 2 muonjets         28454     reff  0.9910142101
+ Events with 2 Dimuons          28373    reff  0.9971533001
+ Events with 2DimVtxOK          27471    reff  0.968209213
+ Events with 2DimHitPix         24876     reff  0.9055367478
+ Events with 2DimDzOK           24470   reff   0.9836790481
+ Events with 2DimMassOK         24426  reff   0.9982018799
+ Events with 2DimIsoOK          19802   reff   0.8106935233
+ Events with 2DimHLT            17920   reff   0.904959095
+ ratio reco/gen                 0.6109785203 +/-  0.0028467133
+Fake rate (#Fakes/#Events): 0.0005082508251
+Filling fake stat vector: 
+cT_string, cT_double    : 020_, 0.2
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 151500
+numFakes                : 77
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+
+ Sample: /fdata/hepx/store/user/bmichlin/DarkSUSY_mH_125_mGammaD_0250_cT_050_Evt_80k_13TeV_MG452_BR224_LHE_pythia8_GEN_SIM_MCRUN2_71_V1_v1/DarkSUSY_mH_125_mGammaD_0250_cT_050_Evt_80k_PATANA_ExtendFidCutAndEta_v1/Combined/
+ Events          151250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       94255   reff 0.6231735537
+ 2GenMu8                        91718   reff  0.973083656
+ 3GenMu8                        53289   reff  0.5810091803
+ 4GenMu8                        34022   reff  0.6384432059
+ 4GenMu8 Lxy/Lz                 16689   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       91435  reff  0.6045289256
+ 2RecMu8                        83897  reff  0.9175589216
+ 3RecMu8                        48251  reff  0.5751218756
+ 4RecMu8                        25014  reff  0.5184141261
+ ================ EVENT variables ================= 
+ Events with VtxOK              25014    reff  1
+ Events with 2 muonjets         24682     reff  0.9867274326
+ Events with 2 Dimuons          24607    reff  0.9969613484
+ Events with 2DimVtxOK          22502    reff  0.9144552363
+ Events with 2DimHitPix         14337     reff  0.637143365
+ Events with 2DimDzOK           13820   reff   0.9639394573
+ Events with 2DimMassOK         13786  reff   0.9975397974
+ Events with 2DimIsoOK          11200   reff   0.8124183955
+ Events with 2DimHLT            9985   reff   0.8915178571
+ ratio reco/gen                 0.5982982803 +/-  0.003794858313
+Fake rate (#Fakes/#Events): 0.001434710744
+Filling fake stat vector: 
+cT_string, cT_double    : 050_, 0.5
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 151250
+numFakes                : 217
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+
+ Sample: /fdata/hepx/store/user/bmichlin/DarkSUSY_mH_125_mGammaD_0250_cT_100_Evt_80k_13TeV_MG452_BR224_LHE_pythia8_GEN_SIM_MCRUN2_71_V1_v1/DarkSUSY_mH_125_mGammaD_0250_cT_100_Evt_80k_PATANA_ExtendFidCutAndEta_v1/Combined/
+ Events          148750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       92720   reff 0.6233277311
+ 2GenMu8                        90197   reff  0.9727890423
+ 3GenMu8                        52224   reff  0.5789993015
+ 4GenMu8                        33350   reff  0.6385952819
+ 4GenMu8 Lxy/Lz                 7349   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       84760  reff  0.5698151261
+ 2RecMu8                        74764  reff  0.8820670127
+ 3RecMu8                        40823  reff  0.5460248248
+ 4RecMu8                        18638  reff  0.456556353
+ ================ EVENT variables ================= 
+ Events with VtxOK              18638    reff  1
+ Events with 2 muonjets         18394     reff  0.9869084666
+ Events with 2 Dimuons          18350    reff  0.9976079156
+ Events with 2DimVtxOK          15723    reff  0.8568392371
+ Events with 2DimHitPix         6672     reff  0.4243464988
+ Events with 2DimDzOK           6176   reff   0.9256594724
+ Events with 2DimMassOK         6161  reff   0.9975712435
+ Events with 2DimIsoOK          4994   reff   0.8105826976
+ Events with 2DimHLT            4379   reff   0.8768522227
+ ratio reco/gen                 0.5958633828 +/-  0.005724312389
+Fake rate (#Fakes/#Events): 0.0009277310924
+Filling fake stat vector: 
+cT_string, cT_double    : 100_, 1
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 148750
+numFakes                : 138
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+
+ Sample: /fdata/hepx/store/user/bmichlin/DarkSUSY_mH_125_mGammaD_0250_cT_200_Evt_80k_13TeV_MG452_BR224_LHE_pythia8_GEN_SIM_MCRUN2_71_V1_v1/DarkSUSY_mH_125_mGammaD_0250_cT_200_Evt_80k_PATANA_ExtendFidCutAndEta_v1/Combined/
+ Events          147750
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       91875   reff 0.6218274112
+ 2GenMu8                        89299   reff  0.9719619048
+ 3GenMu8                        51962   reff  0.5818878151
+ 4GenMu8                        33319   reff  0.6412185828
+ 4GenMu8 Lxy/Lz                 2528   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       71907  reff  0.486680203
+ 2RecMu8                        59443  reff  0.8266649978
+ 3RecMu8                        28555  reff  0.4803761587
+ 4RecMu8                        11031  reff  0.3863071266
+ ================ EVENT variables ================= 
+ Events with VtxOK              11031    reff  1
+ Events with 2 muonjets         10784     reff  0.9776085577
+ Events with 2 Dimuons          10761    reff  0.9978672107
+ Events with 2DimVtxOK          8823    reff  0.8199052133
+ Events with 2DimHitPix         2445     reff  0.277116627
+ Events with 2DimDzOK           2097   reff   0.8576687117
+ Events with 2DimMassOK         2086  reff   0.9947544111
+ Events with 2DimIsoOK          1683   reff   0.8068072867
+ Events with 2DimHLT            1469   reff   0.8728461081
+ ratio reco/gen                 0.5810917722 +/-  0.00981280737
+Fake rate (#Fakes/#Events): 0.000399323181
+Filling fake stat vector: 
+cT_string, cT_double    : 200_, 2
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 147750
+numFakes                : 59
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+
+ Sample: /fdata/hepx/store/user/bmichlin/DarkSUSY_mH_125_mGammaD_0250_cT_300_Evt_80k_13TeV_MG452_BR224_LHE_pythia8_GEN_SIM_MCRUN2_71_V1_v1/DarkSUSY_mH_125_mGammaD_0250_cT_300_Evt_80k_PATANA_ExtendFidCutAndEta_v1/Combined/
+ Events          151250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       94308   reff 0.6235239669
+ 2GenMu8                        91646   reff  0.9717733384
+ 3GenMu8                        53379   reff  0.5824476791
+ 4GenMu8                        34103   reff  0.6388842054
+ 4GenMu8 Lxy/Lz                 1338   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       63470  reff  0.4196363636
+ 2RecMu8                        50002  reff  0.7878052623
+ 3RecMu8                        21088  reff  0.4217431303
+ 4RecMu8                        7245  reff  0.3435603187
+ ================ EVENT variables ================= 
+ Events with VtxOK              7245    reff  1
+ Events with 2 muonjets         7063     reff  0.9748792271
+ Events with 2 Dimuons          7042    reff  0.9970267592
+ Events with 2DimVtxOK          5649    reff  0.8021868787
+ Events with 2DimHitPix         1334     reff  0.2361479908
+ Events with 2DimDzOK           1141   reff   0.8553223388
+ Events with 2DimMassOK         1136  reff   0.9956178791
+ Events with 2DimIsoOK          932   reff   0.8204225352
+ Events with 2DimHLT            801   reff   0.8594420601
+ ratio reco/gen                 0.5986547085 +/-  0.01340044531
+Fake rate (#Fakes/#Events): 0.0003636363636
+Filling fake stat vector: 
+cT_string, cT_double    : 300_, 3
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 151250
+numFakes                : 55
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+
+ Sample: /fdata/hepx/store/user/bmichlin/DarkSUSY_mH_125_mGammaD_0250_cT_500_Evt_80k_13TeV_MG452_BR224_LHE_pythia8_GEN_SIM_MCRUN2_71_V1_v1/DarkSUSY_mH_125_mGammaD_0250_cT_500_Evt_80k_PATANA_ExtendFidCutAndEta_v1/Combined/
+ Events          144250
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       89851   reff 0.6228838821
+ 2GenMu8                        87362   reff  0.9722985832
+ 3GenMu8                        50715   reff  0.580515556
+ 4GenMu8                        32429   reff  0.6394360643
+ 4GenMu8 Lxy/Lz                 446   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       47125  reff  0.3266897747
+ 2RecMu8                        34161  reff  0.7249018568
+ 3RecMu8                        11433  reff  0.3346798981
+ 4RecMu8                        3558  reff  0.3112044083
+ ================ EVENT variables ================= 
+ Events with VtxOK              3558    reff  1
+ Events with 2 muonjets         3451     reff  0.9699269252
+ Events with 2 Dimuons          3440    reff  0.9968125181
+ Events with 2DimVtxOK          2700    reff  0.7848837209
+ Events with 2DimHitPix         473     reff  0.1751851852
+ Events with 2DimDzOK           369   reff   0.7801268499
+ Events with 2DimMassOK         365  reff   0.9891598916
+ Events with 2DimIsoOK          295   reff   0.8082191781
+ Events with 2DimHLT            252   reff   0.8542372881
+ ratio reco/gen                 0.5650224215 +/-  0.02347463495
+Fake rate (#Fakes/#Events): 9.012131716e-05
+Filling fake stat vector: 
+cT_string, cT_double    : 500_, 5
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 144250
+numFakes                : 13
+There is a problem matching (dimuon 0)
+There is a problem with no duplicate real_matching
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+
+ Sample: /fdata/hepx/store/user/bmichlin/DarkSUSY_mH_125_mGammaD_0250_cT_1000_Evt_80k_13TeV_MG452_BR224_LHE_pythia8_GEN_SIM_MCRUN2_71_V1_v1/DarkSUSY_mH_125_mGammaD_0250_cT_1000_Evt_80k_PATANA_ExtendFidCutAndEta_v1/Combined/
+ Events          335790
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       209222   reff 0.623073945
+ 2GenMu8                        203442   reff  0.9723738421
+ 3GenMu8                        118439   reff  0.5821757553
+ 4GenMu8                        75417   reff  0.6367581624
+ 4GenMu8 Lxy/Lz                 294   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       70809  reff  0.210872867
+ 2RecMu8                        45313  reff  0.6399327769
+ 3RecMu8                        10268  reff  0.2266016375
+ 4RecMu8                        2724  reff  0.265290222
+ ================ EVENT variables ================= 
+ Events with VtxOK              2724    reff  1
+ Events with 2 muonjets         2632     reff  0.966226138
+ Events with 2 Dimuons          2622    reff  0.9962006079
+ Events with 2DimVtxOK          2042    reff  0.7787948131
+ Events with 2DimHitPix         347     reff  0.1699314398
+ Events with 2DimDzOK           263   reff   0.757925072
+ Events with 2DimMassOK         259  reff   0.9847908745
+ Events with 2DimIsoOK          213   reff   0.8223938224
+ Events with 2DimHLT            188   reff   0.882629108
+ ratio reco/gen                 0.6394557823 +/-  0.0280034063
+Fake rate (#Fakes/#Events): 2.680246583e-05
+Filling fake stat vector: 
+cT_string, cT_double    : 1000, 10
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 335790
+numFakes                : 9
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+There is a problem matching (dimuon 0)
+
+ Sample: /fdata/hepx/store/user/bmichlin/DarkSUSY_mH_125_mGammaD_0250_cT_2000_Evt_80k_13TeV_MG452_BR224_LHE_pythia8_GEN_SIM_MCRUN2_71_V1_v1/DarkSUSY_mH_125_mGammaD_0250_cT_2000_Evt_80k_PATANA_ExtendFidCutAndEta_v1/Combined/
+ Events          369000
+ ================ GEN MUONS ========================================= 
+ 1GenMu17                       229658   reff 0.6223794038
+ 2GenMu8                        223339   reff  0.9724851736
+ 3GenMu8                        129892   reff  0.5815912134
+ 4GenMu8                        82973   reff  0.6387845287
+ 4GenMu8 Lxy/Lz                 95   reff   0
+ ================ RECO MUONS ========================================= 
+ 1RecMu17                       46890  reff  0.1270731707
+ 2RecMu8                        26318  reff  0.5612710599
+ 3RecMu8                        3933  reff  0.1494414469
+ 4RecMu8                        863  reff  0.219425375
+ ================ EVENT variables ================= 
+ Events with VtxOK              863    reff  1
+ Events with 2 muonjets         815     reff  0.9443800695
+ Events with 2 Dimuons          810    reff  0.9938650307
+ Events with 2DimVtxOK          614    reff  0.7580246914
+ Events with 2DimHitPix         117     reff  0.1905537459
+ Events with 2DimDzOK           82   reff   0.7008547009
+ Events with 2DimMassOK         80  reff   0.9756097561
+ Events with 2DimIsoOK          60   reff   0.75
+ Events with 2DimHLT            53   reff   0.8833333333
+ ratio reco/gen                 0.5578947368 +/-  0.05095386969
+Fake rate (#Fakes/#Events): 1.08401084e-05
+Filling fake stat vector: 
+cT_string, cT_double    : 2000, 20
+mass_string, mass_double: 0250, 0.25
+ev_all                  : 369000
+numFakes                : 4
+Info in <TCanvas::Print>: pdf file e_rec_alpha_gen_vs_cT_0250_GeV.pdf has been created
+
+Fake Statistics
+Mass (GeV)	cT (mm)	Num Events in Sample	Num Fakes in Sample
+0.25	0	149500	0
+0.25	0.05	147250	1
+0.25	0.1	143250	14
+0.25	0.2	151500	77
+0.25	0.5	151250	217
+0.25	1	148750	138
+0.25	2	147750	59
+0.25	3	151250	55
+0.25	5	144250	13
+0.25	10	335790	9
+0.25	20	369000	4
+
